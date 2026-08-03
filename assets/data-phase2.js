@@ -84,7 +84,10 @@ const D2U_CATEGORIES = [
     title: 'Business & Enterprise',
     kicker: 'Grow your brand',
     desc: 'Preparing adult learners for in-demand businesses — brand strategy, marketing, and the grant writing that funds community work.',
-    img: 'assets/fix/d2u-ctap-training-1.webp',
+    /* Purpose-built 16:9 crop: the corrected image is portrait (1080x1920), and
+       a plain center-crop into the card's 16:9 frame cuts the subject's head
+       off. This crop keeps the face. */
+    img: 'assets/fix/d2u-ctap-training-1-card.webp',
     programs: ['marketing', 'grants']
   },
   {
