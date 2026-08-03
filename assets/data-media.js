@@ -6,6 +6,7 @@
    ========================================================================== */
 
 const D2U_CDN = 'https://digi2u.org/wp-content/uploads/2026/05/';
+const D2U_DECK = 'assets/deck/';
 const D2U_GIT = 'https://borngifted.github.io/digi2u-review/assets/girls-in-tech/';
 const D2U_GIT_IMG = 'https://digi2u.org/wp-content/uploads/2026/07/';
 
@@ -85,13 +86,30 @@ const D2U_GALLERY = [
   { src: D2U_CDN + 'd2u-ctap-training-1.webp',       cat: 'Training',         cap: 'CTAP training intensive' },
   { src: D2U_CDN + 'd2u-training-pacific-2.webp',    cat: 'Training',         cap: 'Training at the Pacific Avenue studio' },
   { src: D2U_CDN + 'd2u-pacific-extra-01.webp',      cat: 'Training',         cap: 'A session in progress' },
-  { src: D2U_CDN + 'd2u-26training-outdoors-2.webp', cat: 'Training',         cap: 'Field production training' }
+  { src: D2U_CDN + 'd2u-26training-outdoors-2.webp', cat: 'Training',         cap: 'Field production training' },
+
+  /* Pitch-deck photography, October 2024. Higher-resolution stills of the
+     studio, the Spin-Off live showcase, and production work on location. */
+  { src: D2U_DECK + 'd2u-deck-3d-prototyping.webp', cat: '3D Design',        cap: 'Prototyping at the workstation, filament racked behind' },
+  { src: D2U_DECK + 'd2u-deck-barat-studio.webp',   cat: 'Makerspace',       cap: 'The studio floor — printers, benches, and the mural wall' },
+  { src: D2U_DECK + 'd2u-deck-barat-edit.webp',     cat: 'Media Production', cap: 'Editing and post-production station' },
+  { src: D2U_DECK + 'd2u-deck-videography.webp',    cat: 'Media Production', cap: 'On location with a Digi2U camera operator' },
+  { src: D2U_DECK + 'd2u-deck-music-mixing.webp',   cat: 'Audio & DJ',       cap: 'Mixing and mastering session' },
+  { src: D2U_DECK + 'd2u-deck-spinoff-panel.webp',  cat: 'Live Production',  cap: 'Multi-camera coverage of the Spin-Off Open Deck' },
+  { src: D2U_DECK + 'd2u-deck-spinoff-wall.webp',   cat: 'Live Production',  cap: 'The interactive video and graphic display wall' },
+  { src: D2U_DECK + 'd2u-deck-spinoff-lights.webp', cat: 'Live Production',  cap: 'Theatrical lighting and projection on the floor' },
+  { src: D2U_DECK + 'd2u-deck-gear.webp',           cat: 'Community',        cap: 'Digi2U gear' },
+  /* NOTE: this file is named "Justice_Khemfest" but shows a Best Student Film
+     trophy. Caption kept neutral — confirm the correct attribution before use. */
+  { src: D2U_DECK + 'd2u-deck-award.webp',          cat: 'Media Production', cap: 'Student film award' }
 ];
 
 /* Partner and sponsor marks already in the Digi2U media library. */
 const D2U_LOGOS = [
+  { name: '26 Blocks',             src: D2U_DECK + 'd2u-logo-26blocks.png' },
   { name: 'C. Cherry Foundation',  src: D2U_CDN + 'd2u-logo-cherry-foundation.webp' },
   { name: 'Art 4 Change',          src: D2U_CDN + 'd2u-logo-art4change.webp' },
+  { name: 'NU Digi.Tech',          src: D2U_DECK + 'd2u-logo-nu-digitech.png' },
   { name: 'NJIT',                  src: D2U_CDN + 'd2u-logo-njit.webp' },
   { name: 'Barat Foundation',      src: D2U_CDN + 'd2u-logo-barat.webp' },
   { name: 'Newark Public Library', src: D2U_CDN + 'd2u-logo-newark-public-library.webp' },

@@ -31,6 +31,33 @@ Key changes:
 - **Testimonials.** Visibly pending frames — hatched background, "Awaiting verified story" —
   expecting photo, name, program, and quote. Add entries to `D2U_STORIES` and they render.
 
+### Pitch-deck photography (October 2024)
+
+Twelve assets from `Pitch Deck 3/` optimised into `assets/deck/` — ten photographs resized to
+1600px and re-encoded as WebP (8–42 MB originals down to 94–469 KB, 2.9 MB total), plus two new
+partner marks.
+
+Placement is editorial rather than a dump: each page gets one **full-bleed band** — a single large
+photograph with a short line of original Digi2U copy — and all ten join the filterable gallery
+(now 50 images across 8 categories).
+
+| Page | Band photograph |
+|---|---|
+| Home | The studio floor — printers, benches, mural wall |
+| Mission | Audio mixing session |
+| Programs | Prototyping at the workstation |
+| Impact | Multi-camera coverage of the Spin-Off Open Deck |
+| Get Involved | Digi2U gear |
+
+Impact also gains a two-up production pair (on location / post-production) and the 26 Blocks
+brand mark beside its section heading. New logos on the wall: **26 Blocks** and **NU Digi.Tech**.
+Nu Media Corp and Sarah's Daughters were already present as identical assets and were not
+duplicated.
+
+One caption needs confirmation: `Justice_Khemfest_IMG_6380.png` shows a Best Student Film trophy,
+which does not match its filename. It is captioned neutrally as "Student film award" pending
+correct attribution.
+
 ### Wording
 
 All copy matches the live digi2u.org wording. Headlines, ledes, section kickers, values,

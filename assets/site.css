@@ -258,6 +258,60 @@ section { padding: clamp(72px, 9vw, 132px) 0; }
   background: linear-gradient(180deg, rgba(10,10,10,0), rgba(10,10,10,.8));
 }
 
+/* ---------- Full-bleed editorial band ----------
+   A breather between sections: one large photograph, one short line.
+   Elementor equivalent: a full-width Container with a background image,
+   background overlay, and min-height. */
+.band {
+  position: relative; overflow: hidden;
+  min-height: clamp(380px, 52vh, 620px);
+  display: flex; align-items: flex-end;
+  padding: 0 0 clamp(34px, 5vw, 62px);
+  background: var(--d2u-black);
+}
+.band-bg { position: absolute; inset: 0; z-index: 0; }
+.band-bg img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.band-bg::after {
+  content: ''; position: absolute; inset: 0;
+  background:
+    linear-gradient(180deg, rgba(10,10,10,.30) 0%, rgba(10,10,10,.10) 38%, rgba(10,10,10,.90) 100%),
+    linear-gradient(90deg, rgba(10,10,10,.72) 0%, rgba(10,10,10,.30) 46%, rgba(10,10,10,0) 78%);
+}
+.band .wrap { position: relative; z-index: 1; width: 100%; }
+.band .kicker { color: #fff; }
+.band .kicker::before { background: var(--d2u-red); }
+.band h2 {
+  color: #fff; max-width: 20ch;
+  font-size: clamp(1.7rem, 3.6vw, 3rem); letter-spacing: -.03em; line-height: 1.05;
+}
+.band p {
+  color: rgba(255,255,255,.78); max-width: 56ch; margin: 16px 0 0;
+  font-size: clamp(.96rem, 1.4vw, 1.12rem); line-height: 1.6;
+}
+.band-credit {
+  position: absolute; z-index: 2; right: var(--gut); bottom: clamp(34px, 5vw, 62px);
+  font-size: .66rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
+  color: rgba(255,255,255,.5);
+}
+@media (max-width: 760px) { .band-credit { display: none; } }
+
+/* Two-up editorial pair */
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: var(--d2u-line-soft); }
+.pair figure { margin: 0; background: var(--d2u-light); position: relative; overflow: hidden; }
+.pair img { width: 100%; height: 100%; object-fit: cover; display: block; aspect-ratio: 4 / 3; transition: transform .6s ease; }
+.pair figure:hover img { transform: scale(1.04); }
+.pair figcaption {
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 2;
+  padding: 38px 22px 18px; color: #fff; font-size: .82rem; font-weight: 600; line-height: 1.45;
+  background: linear-gradient(180deg, rgba(10,10,10,0), rgba(10,10,10,.82));
+}
+@media (max-width: 640px) { .pair { grid-template-columns: 1fr; } }
+
+/* Inline brand mark beside a heading */
+.mark-head { display: flex; align-items: center; gap: 18px; margin-bottom: 18px; }
+.mark-head img { width: 62px; height: 62px; object-fit: contain; flex: none; border-radius: 3px; background: #fff; padding: 6px; }
+.sec-dark .mark-head img { background: #fff; }
+
 /* ---------- Activity gallery ---------- */
 .gal { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; background: var(--d2u-line-soft); }
 .gal-item {
@@ -335,11 +389,13 @@ section { padding: clamp(72px, 9vw, 132px) 0; }
 .charter-body { font-size: clamp(1rem, 1.5vw, 1.18rem); line-height: 1.65; color: var(--d2u-gray); max-width: 66ch; margin: 0; }
 .sec-dark .charter-body { color: rgba(255,255,255,.68); }
 
-/* ---------- Logo wall ---------- */
-.logos { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; background: var(--d2u-line-soft); }
+/* ---------- Logo wall ----------
+   minmax(0,1fr) rather than 1fr: a bare 1fr is minmax(auto,1fr), so the widest
+   logo's min-content width forces every track wider than the container. */
+.logos { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2px; background: var(--d2u-line-soft); }
 .logo-cell {
   background: #fff; aspect-ratio: 5 / 3; display: grid; place-items: center;
-  padding: 26px; transition: background .25s ease;
+  padding: clamp(14px, 3vw, 26px); min-width: 0; transition: background .25s ease;
 }
 .logo-cell:hover { background: var(--d2u-off-white); }
 .logo-cell img {
@@ -348,7 +404,7 @@ section { padding: clamp(72px, 9vw, 132px) 0; }
   transition: filter .3s ease, opacity .3s ease;
 }
 .logo-cell:hover img { filter: none; opacity: 1; }
-@media (max-width: 800px) { .logos { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 800px) { .logos { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 
 /* ==========================================================================
    PHASE 2 — narrative sections
