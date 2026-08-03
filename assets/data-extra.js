@@ -1,18 +1,23 @@
 /* Digi2U 2026 — partners, sponsors, media, events, roles, testimonials.
    All copy carried over verbatim from the live digi2u.org pages. */
 
+/* Descriptive facts about the organisation. Outcome figures live in
+   D2U_IMPACT (data-phase2.js) and are not duplicated here — the two must never
+   disagree. Digi2U supplied 51 graduates / 8,200 teaching hours / 35 streamed
+   events, which supersede the older 5,000-training-hours and 40+-events
+   figures still on the live WordPress site. */
 const D2U_STATS = [
-  { n: '2,000+', label: 'Community Hours' },
-  { n: '12',     label: 'Core Programs' },
-  { n: '3',      label: 'Certifications' },
-  { n: '4',      label: 'Cities Served' }
+  { n: '12', label: 'Learning Pathways' },
+  { n: '3',  label: 'Certifications' },
+  { n: '4',  label: 'Cities Served' },
+  { n: '51', label: 'Graduates' }
 ];
 
 const D2U_MEDIA_STATS = [
   { n: '3',      label: 'Documentaries' },
-  { n: '40+',    label: 'Streamed Events' },
+  { n: '35',     label: 'Streamed Events' },
   { n: '1,000+', label: 'Mobile Lab Hours' },
-  { n: '5,000',  label: 'Training Hours' }
+  { n: '8,200',  label: 'Teaching Hours' }
 ];
 
 /* Theory of change — the spine funders look for. Built from existing site content. */

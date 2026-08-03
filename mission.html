@@ -29,11 +29,12 @@
   </div>
 </nav>
 
-<header class="hero">
+<header class="vhero">
+  <div class="vhero-bg" id="missionHero"></div>
   <div class="wrap">
     <div class="hero-eyebrow"><span class="dot"></span> About Digi2U · 501(c)(3) Nonprofit</div>
-    <h1 class="display">Bridging the<br>digital <span class="rule-red">divide.</span></h1>
-    <p class="lede">Digi2U is dedicated to providing hands-on training in technology, media, and creative industries to empower individuals and communities. Through innovative programs, we equip students with the skills, tools, and resources needed to succeed in the digital age.</p>
+    <h1 class="display">Access is<br>the <span class="rule-red">mission.</span></h1>
+    <p class="lede">We're measured not by who we turn away, but by who we bring in and how far they go. Digi2U runs hands-on training in technology, media, and the creative industries — and it's built for working adults from the ground up, not adapted for them after the fact.</p>
     <div class="btn-row">
       <a class="btn btn-primary" href="#team">Meet The Team</a>
       <a class="btn btn-ghost" href="programs.html">Explore Programs</a>
@@ -46,8 +47,8 @@
   <div class="wrap">
     <div class="sec-head">
       <p class="kicker">Mission &amp; Vision</p>
-      <h2 class="h-section">Empowering communities through innovation.</h2>
-      <p class="lede">Digi2U, a nonprofit 501(c)(3) tax-exempt organization, prepares people for well-paid technology jobs and in-demand businesses through innovative training in STEAM — Science, Technology, Engineering, Arts, and Math.</p>
+      <h2 class="h-section">You already have momentum.</h2>
+      <p class="lede">Everyone who walks in here arrives with something — a trade, a hustle, years of work, a good eye. We build on that. Digi2U is a 501(c)(3) preparing people for well-paid technology jobs and in-demand businesses through training in STEAM: Science, Technology, Engineering, Arts, and Math.</p>
     </div>
     <div class="grid grid-2">
       <div class="tile is-static reveal">
@@ -61,6 +62,7 @@
         <p class="tile-desc">A world where all individuals, regardless of background, have access to the resources needed to thrive in a technology-driven society.</p>
       </div>
     </div>
+    <div class="gal" id="missionGallery" style="margin-top:2px"></div>
   </div>
 </section>
 
@@ -100,7 +102,10 @@
         <div class="btn-row"><a class="btn btn-dark" href="get-involved.html#donate">Fund The Next Phase</a></div>
       </div>
       <div>
-        <div class="grid grid-2" id="cities"></div>
+        <div class="vblock" id="directionVideo" data-video="" data-poster="">
+          <div class="vblock-cap">An adult learner modelling a design in the Digi2U studio</div>
+        </div>
+        <div class="grid grid-2" id="cities" style="margin-top:2px"></div>
         <div class="transparency" style="margin-top:2px">
           <div><strong>Flagship</strong>Studio Way — NJ &amp; ATL</div>
           <div><strong>Reach</strong>Mobile media labs</div>
@@ -127,8 +132,8 @@
   <div class="wrap">
     <div class="sec-head">
       <p class="kicker">Team Leadership</p>
-      <h2 class="h-section">A passionate team driving the mission.</h2>
-      <p class="lede">Industry professionals, educators, and creatives committed to empowering individuals through technology, education, and digital media. Tap any team member to read their full bio, experience, and expertise.</p>
+      <h2 class="h-section">The people you'll<br>actually be working with.</h2>
+      <p class="lede">Industry professionals, educators, and creatives — most of whom will be in the room with you. Tap anyone to read their full bio, experience, and expertise.</p>
     </div>
     <div class="grid grid-4" id="team-grid"></div>
   </div>
@@ -173,8 +178,23 @@
 
 <script src="assets/data-core.js"></script>
 <script src="assets/data-extra.js"></script>
+<script src="assets/data-media.js"></script>
 <script src="assets/render.js"></script>
 <script>
+  var mh = document.getElementById('missionHero');
+  mh.setAttribute('data-poster', D2U_CDN + 'd2u-newark-3d-1.webp');
+  mh.setAttribute('data-label', 'Digi2U 3D program in Newark');
+
+  var dv = document.getElementById('directionVideo');
+  dv.setAttribute('data-video',  D2U_VIDEOS.design.src);
+  dv.setAttribute('data-poster', D2U_VIDEOS.design.poster);
+  dv.setAttribute('data-label',  D2U_VIDEOS.design.label);
+
+  var missionPhotos = D2U_GALLERY.filter(function (p) {
+    return ['Training', 'Makerspace', '3D Design'].indexOf(p.cat) > -1;
+  });
+  D2URender.gallery('missionGallery', missionPhotos, { limit: 8 });
+
   D2URender.theory('theory', D2U_THEORY);
   D2URender.numbered('pillars', D2U_PILLARS);
   D2URender.numbered('values', D2U_VALUES);
@@ -188,6 +208,7 @@
   var teamById = {};
   D2U_TEAM.forEach(function (p) { teamById[p.id] = p; });
   D2U.register('person', teamById);
+  D2U.register('photo', missionPhotos);
 </script>
 </body>
 </html>

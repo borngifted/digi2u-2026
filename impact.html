@@ -29,19 +29,42 @@
   </div>
 </nav>
 
-<header class="hero">
+<header class="vhero">
+  <div class="vhero-bg" id="impactHero"></div>
+  <div class="vhero-badge"><span class="pulse"></span> Digi2U studio · Jersey City, NJ</div>
   <div class="wrap">
     <div class="hero-eyebrow"><span class="dot"></span> Films · Events · Partners · Field Trips</div>
-    <h1 class="display">Capturing<br><span class="rule-red">stories.</span></h1>
-    <p class="lede">Documentaries, live productions, podcasts, and community programming — produced by the Digi2U media team alongside student crews. This is where the training turns into work that leaves the building.</p>
+    <h1 class="display">The work<br>leaves the <span class="rule-red">building.</span></h1>
+    <p class="lede">Documentaries, live productions, podcasts, and community nights — made by the Digi2U media team alongside student crews who learned on the job. If you train here, your name ends up on something that shipped.</p>
     <div class="btn-row">
       <a class="btn btn-primary" href="#films">Watch The Films</a>
-      <a class="btn btn-ghost" href="#partners">Community Partners</a>
+      <a class="btn btn-ghost" href="#gallery">See The Gallery</a>
     </div>
   </div>
 </header>
 
-<div class="wrap"><div class="stats" id="mediaStats"></div></div>
+<!-- ===== IMPACT DASHBOARD ===== -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="chapter"><span class="num">01</span> By The Numbers</div>
+      <h2 class="h-section">The need, and our answer to it.</h2>
+      <p class="lede">Two different things, kept deliberately apart. On the left is independent national workforce research. On the right is only what Digi2U has done.</p>
+    </div>
+    <div class="dash">
+      <div class="dash-side dash-side--need">
+        <div class="dash-head"><span class="dash-chip">National Data</span><h3>The Need</h3></div>
+        <p class="dash-note">Independent workforce research. Not Digi2U figures.</p>
+        <div class="dash-grid" id="dashNeed"></div>
+      </div>
+      <div class="dash-side dash-side--ours">
+        <div class="dash-head"><span class="dash-chip">Digi2U</span><h3>Our Impact</h3></div>
+        <p class="dash-note">Our own numbers only. Cards marked <em>Tracking</em> stay empty until the data is real.</p>
+        <div class="dash-grid" id="dashOurs"></div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- ===== DOCUMENTARIES ===== -->
 <section id="films">
@@ -67,6 +90,31 @@
       </div>
       <div class="numbered" id="mediaKinds"></div>
     </div>
+  </div>
+</section>
+
+<!-- ===== ACTIVITY GALLERY ===== -->
+<section class="sec-light" id="gallery">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">The Gallery</p>
+      <h2 class="h-section">Every session,<br>every community night.</h2>
+      <p class="lede">Photographed across our Newark, Jersey City, and Atlanta programs — 3D builds, painting classes, DJ sessions, live shows, and the community events our students produced end to end. Filter by program, tap any frame to open it.</p>
+    </div>
+    <div class="gal-filters" id="galFilters"></div>
+    <div class="gal" id="fullGallery"></div>
+  </div>
+</section>
+
+<!-- ===== PARTNER LOGOS ===== -->
+<section class="sec-tight">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">In Partnership With</p>
+      <h2 class="h-section">We don't do this alone.</h2>
+      <p class="lede">Foundations, universities, libraries, and businesses who open doors, share space, and fund the work.</p>
+    </div>
+    <div class="logos" id="logoWall"></div>
   </div>
 </section>
 
@@ -113,10 +161,8 @@
       <p class="kicker">Voices Of Impact</p>
       <h2 class="h-section">Stories from our community.</h2>
     </div>
-    <div class="note">
-      <strong>Testimonials pending verified copy</strong>
-      Five testimonial slots are reserved here for students, volunteers, and partners. They are deliberately empty rather than filled with placeholder quotes attributed to real people. Send verified testimony to <a href="mailto:support@digi2u.org">support@digi2u.org</a> and it will publish here.
-    </div>
+    <div class="stories" id="stories"></div>
+    <p class="dash-note" style="margin-top:24px;max-width:70ch">Each frame expects a photo, a name, the program completed, and the graduate's own words. Send verified testimony to <a href="mailto:support@digi2u.org">support@digi2u.org</a> and it publishes here automatically.</p>
     <div class="btn-row"><a class="btn btn-dark" href="get-involved.html#contact">Share Your Story</a></div>
   </div>
 </section>
@@ -160,9 +206,21 @@
 
 <script src="assets/data-core.js"></script>
 <script src="assets/data-extra.js"></script>
+<script src="assets/data-media.js"></script>
+<script src="assets/data-phase2.js"></script>
 <script src="assets/render.js"></script>
 <script>
-  D2URender.stats('mediaStats', D2U_MEDIA_STATS);
+  D2URender.need('dashNeed', D2U_INDUSTRY);
+  D2URender.metrics('dashOurs', D2U_IMPACT);
+  D2URender.stories('stories', D2U_STORIES, 3);
+  var ih = document.getElementById('impactHero');
+  ih.setAttribute('data-video',  D2U_VIDEOS.studio.src);
+  ih.setAttribute('data-poster', D2U_VIDEOS.studio.poster);
+  ih.setAttribute('data-label',  D2U_VIDEOS.studio.label);
+
+  D2URender.gallery('fullGallery', D2U_GALLERY, { feature: true, filters: 'galFilters' });
+  D2URender.logos('logoWall', D2U_LOGOS);
+
   D2URender.tiles('docGrid', D2U_DOCS, 'doc', { cta: 'More Info' });
   D2URender.tiles('partnerGrid', D2U_PARTNERS, 'partner', { cta: 'View Collaboration' });
   D2URender.events('eventGrid', D2U_EVENTS);
@@ -185,6 +243,7 @@
   D2U.register('doc', D2U_DOCS);
   D2U.register('partner', D2U_PARTNERS);
   D2U.register('event', D2U_EVENTS);
+  D2U.register('photo', D2U_GALLERY);
 </script>
 </body>
 </html>

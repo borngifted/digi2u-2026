@@ -7,6 +7,46 @@ with every piece of detail content preserved and moved into lightboxes.
 
 ---
 
+## Phase 2 — narrative redesign
+
+The homepage now runs as a story rather than a list:
+
+`01 The Opportunity → 02 How Digi2U Responds → 03 Learning Pathways → 04 Inside A Session →
+05 Impact → 06 Stories → 07 Our Story → 08 Community → 09 Your Support`
+
+Key changes:
+
+- **Video heroes.** Cut from Digi2U's own studio footage, tone-mapped from HLG/BT.2020 10-bit
+  HEVC to Rec.709 H.264, audio stripped, 1280×720, 0.9–3 MB. The two clips previously hosted on
+  GitHub Pages are phone-shot **portrait** (720×1280, 540×960) and crop badly in a wide hero, so
+  they are kept in `D2U_VIDEOS_PORTRAIT` for vertical use only.
+- **Impact Dashboard.** Two halves that never mix: *The Need* (national workforce data, every
+  figure carrying a named source) and *Our Impact* (Digi2U's own numbers). On dark sections the
+  national data deliberately recedes so Digi2U's figures carry the emphasis.
+- **Program categories.** The twelve tracks and three certifications are grouped into four
+  editable pathways in `D2U_CATEGORIES`. Renaming a category or moving a program between
+  categories touches one array and nothing else.
+- **Giving impact cards.** What a gift does, not how much is wanted. `amount` is null until
+  Digi2U confirms figures; the card simply omits the price line.
+- **Testimonials.** Visibly pending frames — hatched background, "Awaiting verified story" —
+  expecting photo, name, program, and quote. Add entries to `D2U_STORIES` and they render.
+
+### Data honesty in Phase 2
+
+Industry statistics and Digi2U's achievements are structurally separated: `D2U_INDUSTRY` and
+`D2U_IMPACT` are different arrays rendered by different functions into differently-styled,
+separately-labelled containers. No industry figure can appear as a Digi2U result by accident.
+
+Sources used:
+
+- [National Skills Coalition & Federal Reserve Bank of Atlanta, *Closing the Digital Skill Divide*, 2023](https://nationalskillscoalition.org/resource/publications/closing-the-digital-skill-divide/) — 92% of jobs require digital skills; 1 in 3 workers lack them; +23% / ~$8,000 pay premium.
+- [U.S. Bureau of Labor Statistics, Occupational Outlook Handbook](https://www.bls.gov/ooh/computer-and-information-technology/) — 317,700 projected annual openings in computer and IT occupations, 2024–2034.
+
+Digi2U's own figures — **51 graduates, 8,200 teaching hours, 35 streamed events** — were supplied
+by Digi2U and supersede the older *5,000 training hours* and *40+ streamed events* still shown on
+the live WordPress site. `D2U_STATS` and `D2U_MEDIA_STATS` were updated to match so the demo never
+contradicts itself.
+
 ## What this is
 
 The current Digi2U site spreads its content across roughly twenty pages — including twelve separate

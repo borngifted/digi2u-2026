@@ -29,11 +29,12 @@
   </div>
 </nav>
 
-<header class="hero">
+<header class="vhero">
+  <div class="vhero-bg" id="programsHero"></div>
   <div class="wrap">
     <div class="hero-eyebrow"><span class="dot"></span> 12 Tracks + 3 Certifications</div>
-    <h1 class="display">Real tools.<br>Real <span class="rule-red">portfolios.</span></h1>
-    <p class="lede">Hands-on training in technology, media, and creative industries — pairing instruction with real-life projects so adult learners leave with marketable skills, finished products, and portfolios. Tap any program for the full course description.</p>
+    <h1 class="display">Carve your<br><span class="rule-red">path.</span></h1>
+    <p class="lede">Twelve tracks, three certifications, one starting point: whatever you already know how to do. Every program pairs instruction with real projects, so you finish holding something — a printed prototype, a mastered track, a finished film, a license. Tap any program for the full course description.</p>
     <div class="btn-row">
       <a class="btn btn-primary" href="#programs">View All Programs</a>
       <a class="btn btn-ghost" href="#certs">Certifications</a>
@@ -48,10 +49,16 @@
   <div class="wrap">
     <div class="sec-head">
       <p class="kicker">Our Programs</p>
-      <h2 class="h-section">Twelve tracks.<br>One goal: marketable skills.</h2>
-      <p class="lede">Every track ends in something you can show an employer — a printed prototype, a mastered track, a finished film, a licensed drone flight. Tap any card to read what you'll learn and how to enroll.</p>
+      <h2 class="h-section">Twelve tracks.<br>Pick where you start.</h2>
+      <p class="lede">No prerequisites, no entrance test. Tap any card to read what you'll learn, what you'll walk out with, and how to enroll.</p>
     </div>
     <div class="grid grid-3" id="programGrid"></div>
+
+    <div class="sec-head" style="margin:clamp(56px,7vw,96px) 0 24px">
+      <p class="kicker">Inside The Programs</p>
+      <h2 class="h-section">Sessions in progress.</h2>
+    </div>
+    <div class="gal" id="programGallery"></div>
   </div>
 </section>
 
@@ -127,8 +134,15 @@
 
 <script src="assets/data-core.js"></script>
 <script src="assets/data-extra.js"></script>
+<script src="assets/data-media.js"></script>
 <script src="assets/render.js"></script>
 <script>
+  var ph = document.getElementById('programsHero');
+  ph.setAttribute('data-poster', D2U_GIT_IMG + 'girls-in-tech-3d-lab-wide.jpg');
+  ph.setAttribute('data-label', 'A Digi2U cohort at work in the studio');
+
+  D2URender.gallery('programGallery', D2U_GALLERY, { limit: 8, feature: true });
+
   D2URender.stats('statBar', D2U_STATS);
   D2URender.theory('theory', D2U_THEORY);
   D2URender.cards('programGrid', D2U_PROGRAMS, 'program');
@@ -140,6 +154,7 @@
   Object.keys(D2U_PROGRAMS).forEach(function (k) { all[k] = D2U_PROGRAMS[k]; });
   Object.keys(D2U_CERTS).forEach(function (k) { all[k] = D2U_CERTS[k]; });
   D2U.register('program', all);
+  D2U.register('photo', D2U_GALLERY);
 </script>
 </body>
 </html>

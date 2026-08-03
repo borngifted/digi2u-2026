@@ -29,11 +29,12 @@
   </div>
 </nav>
 
-<header class="hero">
+<header class="vhero">
+  <div class="vhero-bg" id="giHero"></div>
   <div class="wrap">
     <div class="hero-eyebrow"><span class="dot"></span> Donate · Sponsor · Volunteer · Teach · Partner</div>
     <h1 class="display">Show up.<br>Skill up.<br><span class="rule-red">Lift others.</span></h1>
-    <p class="lede">Every route into Digi2U puts tools and training in the hands of adults ready to build what's next. Give once, give monthly, sponsor a program, or give your time.</p>
+    <p class="lede">However you come in — as a learner, a donor, a sponsor, a volunteer, or an instructor — you're part of how the next person gets through the door. Pick your way in.</p>
     <div class="btn-row">
       <a class="btn btn-primary" href="#donate">Donate Now</a>
       <a class="btn btn-ghost" href="#roles">Volunteer / Teach</a>
@@ -69,6 +70,18 @@
   </div>
 </section>
 
+<!-- ===== WHAT A GIFT DOES ===== -->
+<section class="sec-dark sec-tight">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Your Support</p>
+      <h2 class="h-section">What a gift actually does.</h2>
+      <p class="lede">Not a fundraising target — a list of what your money turns into.</p>
+    </div>
+    <div class="giving" id="giving"></div>
+  </div>
+</section>
+
 <!-- ===== SPONSORSHIP TIERS ===== -->
 <section class="sec-light" id="sponsor">
   <div class="wrap">
@@ -78,8 +91,12 @@
       <p class="lede">Custom packages also available. Contact our team to design a sponsorship that fits your goals. Tap a tier for full benefit details.</p>
     </div>
     <div class="tiers" id="tierGrid"></div>
+    <div style="margin-top:48px">
+      <p class="kicker">Partners &amp; Sponsors Standing With Us</p>
+      <div class="logos" id="giLogos"></div>
+    </div>
     <div style="margin-top:40px">
-      <p class="kicker kicker--plain">Current Corporate Sponsors</p>
+      <p class="kicker kicker--plain">Corporate Sponsors</p>
       <div class="grid grid-2" id="sponsorGrid"></div>
     </div>
   </div>
@@ -176,8 +193,16 @@
 
 <script src="assets/data-core.js"></script>
 <script src="assets/data-extra.js"></script>
+<script src="assets/data-media.js"></script>
+<script src="assets/data-phase2.js"></script>
 <script src="assets/render.js"></script>
 <script>
+  D2URender.giving('giving', D2U_GIVING);
+  var gh = document.getElementById('giHero');
+  gh.setAttribute('data-poster', D2U_CDN + 'd2u-cherry-xmas-3.webp');
+  gh.setAttribute('data-label', 'Digi2U students at a Newark community event');
+
+  D2URender.logos('giLogos', D2U_LOGOS);
   D2URender.tiers('tierGrid', D2U_TIERS);
   D2URender.tiles('roleGrid', D2U_ROLES, 'role', { cta: 'Role Details' });
   D2URender.numbered('partnerWays', [

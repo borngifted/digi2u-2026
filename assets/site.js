@@ -23,6 +23,59 @@
     });
   }
 
+  /* ---------- Video backgrounds ----------
+     The hero clips are 8–13 MB. Autoplaying that on a phone or a metered
+     connection is hostile, so the poster image is always painted first and the
+     video only upgrades in when the connection and viewport can carry it.
+     Elementor equivalent: Section → Background → Video, with a Background
+     Fallback image set and "Play on mobile" left off. */
+  function videoIsWelcome() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return false;
+    if (window.innerWidth < 900) return false;
+    var c = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    if (c) {
+      if (c.saveData) return false;
+      if (/^(slow-2g|2g|3g)$/.test(c.effectiveType || '')) return false;
+    }
+    return true;
+  }
+
+  /* Keyed on data-poster: a still image is mandatory, the video is optional.
+     A host with only a poster is a photographic hero and stays that way. */
+  document.querySelectorAll('[data-poster]').forEach(function (host) {
+    var src = host.getAttribute('data-video');
+    var poster = host.getAttribute('data-poster');
+    var label = host.getAttribute('data-label') || '';
+    if (!poster) return;
+
+    var img = document.createElement('img');
+    img.src = poster;
+    img.alt = label;
+    host.appendChild(img);
+
+    if (!src || !videoIsWelcome()) return;
+
+    var v = document.createElement('video');
+    v.muted = true; v.loop = true; v.autoplay = true;
+    v.playsInline = true; v.setAttribute('playsinline', '');
+    v.setAttribute('aria-hidden', 'true');
+    v.preload = 'auto';
+    v.poster = poster;
+    v.src = src;
+    v.style.opacity = '0';
+    v.style.transition = 'opacity .8s ease';
+
+    v.addEventListener('canplay', function () {
+      var p = v.play();
+      if (p && p.catch) p.catch(function () { /* autoplay blocked — poster stands in */ });
+      v.style.opacity = '1';
+      img.style.display = 'none';
+    }, { once: true });
+
+    v.addEventListener('error', function () { v.remove(); });
+    host.appendChild(v);
+  });
+
   /* ---------- Reveal on scroll ---------- */
   var revealables = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window && revealables.length) {
@@ -175,6 +228,11 @@
       '</div>';
     },
 
+    photo: function (d) {
+      return '<img class="lb-photo" src="' + esc(d.src) + '" alt="' + esc(d.cap) + '">' +
+        '<div class="lb-photo-cap"><b>' + esc(d.cat) + '</b><span>' + esc(d.cap) + '</span></div>';
+    },
+
     /* Static HTML pulled from a <template> already in the page. */
     node: function (_d, id) {
       var tpl = document.getElementById(id);
@@ -194,6 +252,7 @@
     if (type !== 'node' && !data) return;
 
     lastFocus = trigger || document.activeElement;
+    panel.className = 'lb-panel' + (type === 'photo' ? ' photo' : '');
     panel.innerHTML =
       '<button class="lb-close" type="button" aria-label="Close">' +
         '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">' +

@@ -144,8 +144,213 @@
     host.innerHTML = row + row;
   }
 
+  /* Activity gallery. opts.limit caps the tile count; opts.feature makes the
+     first tile 2×2; opts.filters renders category chips. */
+  function gallery(targetId, items, opts) {
+    var host = el(targetId);
+    if (!host) return;
+    opts = opts || {};
+
+    function tiles(list) {
+      return list.map(function (p) {
+        var i = items.indexOf(p);
+        return '<button class="gal-item' + (opts.feature && p === list[0] ? ' wide' : '') + '" type="button" data-lb="photo:' + i + '">' +
+          '<img src="' + esc(p.src) + '" alt="' + esc(p.cap) + '" loading="lazy">' +
+          '<span class="gal-cap"><span class="gal-cat">' + esc(p.cat) + '</span>' + esc(p.cap) + '</span>' +
+        '</button>';
+      }).join('');
+    }
+
+    var shown = opts.limit ? items.slice(0, opts.limit) : items;
+    host.innerHTML = tiles(shown);
+
+    if (!opts.filters) return;
+    var bar = el(opts.filters);
+    if (!bar) return;
+    var cats = ['All'];
+    items.forEach(function (p) { if (cats.indexOf(p.cat) < 0) cats.push(p.cat); });
+    bar.innerHTML = cats.map(function (c, i) {
+      return '<button class="gal-filter" type="button" aria-pressed="' + (i === 0) + '" data-cat="' + esc(c) + '">' + esc(c) + '</button>';
+    }).join('');
+    bar.addEventListener('click', function (e) {
+      var b = e.target.closest('.gal-filter');
+      if (!b) return;
+      bar.querySelectorAll('.gal-filter').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+      var c = b.getAttribute('data-cat');
+      var list = c === 'All' ? items : items.filter(function (p) { return p.cat === c; });
+      host.innerHTML = tiles(opts.limit ? list.slice(0, opts.limit) : list);
+    });
+  }
+
+  /* Day-in-the-life strip. */
+  function moments(targetId, arr) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = arr.map(function (m) {
+      return '<div class="moment reveal">' +
+        '<div class="moment-img"><img src="' + esc(m.img) + '" alt="' + esc(m.title) + '" loading="lazy"></div>' +
+        '<div class="moment-body">' +
+          '<div class="moment-when">' + esc(m.when) + '</div>' +
+          '<h3>' + esc(m.title) + '</h3>' +
+          '<p>' + esc(m.desc) + '</p>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  /* Partner / sponsor logo wall. */
+  function logos(targetId, arr) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = arr.map(function (l) {
+      return '<div class="logo-cell reveal"><img src="' + esc(l.src) + '" alt="' + esc(l.name) + '" loading="lazy"></div>';
+    }).join('');
+  }
+
+  /* Charter block. */
+  function charter(targetId, c) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML =
+      '<div class="charter reveal">' +
+        '<p class="charter-lead">' + esc(c.lead) + '</p>' +
+        '<p class="charter-body">' + esc(c.body) + '</p>' +
+      '</div>';
+  }
+
+  /* ---- Phase 2 ---- */
+
+  function stagger(i) { return ' data-d="' + ((i % 7) + 1) + '"'; }
+
+  /* THE NEED — national workforce data. Every cell carries its source. */
+  function need(targetId, arr) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = arr.map(function (s, i) {
+      var src = s.href
+        ? '<a href="' + esc(s.href) + '" target="_blank" rel="noopener">' + esc(s.source) + '</a>'
+        : esc(s.source);
+      return '<div class="need-cell reveal"' + stagger(i) + '>' +
+        '<div class="need-n">' + esc(s.n) + '</div>' +
+        '<div class="need-label">' + esc(s.label) + '</div>' +
+        '<div class="need-src">Source: ' + src + '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  /* OUR IMPACT — Digi2U figures only. Pending cards render visibly empty. */
+  function metrics(targetId, arr) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = arr.map(function (m, i) {
+      if (m.pending) {
+        return '<div class="metric pending reveal"' + stagger(i) + '>' +
+          '<div class="metric-n">—</div>' +
+          '<div class="metric-l">' + esc(m.label) + '</div>' +
+          '<div class="metric-tag">Tracking</div>' +
+        '</div>';
+      }
+      return '<div class="metric reveal"' + stagger(i) + '>' +
+        '<div class="metric-n">' + esc(m.n) + '</div>' +
+        '<div class="metric-l">' + esc(m.label) + '</div>' +
+        (m.note ? '<div class="metric-note">' + esc(m.note) + '</div>' : '') +
+      '</div>';
+    }).join('');
+  }
+
+  /* Program categories. Each child program opens its existing popup. */
+  function categories(targetId, cats, lookup) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = cats.map(function (c, i) {
+      var items = c.programs.map(function (k) {
+        var p = lookup[k];
+        if (!p) return '';
+        var isCert = /certification/i.test(p.tag || '');
+        return '<li><button type="button" data-lb="program:' + esc(k) + '">' +
+          esc(p.title) +
+          (isCert ? '<span class="badge">Cert</span>' : '') +
+        '</button></li>';
+      }).join('');
+      return '<div class="cat reveal"' + stagger(i) + '>' +
+        '<div class="cat-media">' +
+          '<span class="cat-count">' + c.programs.length + ' Tracks</span>' +
+          (c.img ? '<img src="' + esc(c.img) + '" alt="' + esc(c.title) + '" loading="lazy">' : '') +
+        '</div>' +
+        '<div class="cat-body">' +
+          '<div class="cat-kicker">' + esc(c.kicker) + '</div>' +
+          '<h3>' + esc(c.title) + '</h3>' +
+          '<p class="cat-desc">' + esc(c.desc) + '</p>' +
+          '<ul class="cat-list">' + items + '</ul>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  /* Donation impact cards. */
+  function giving(targetId, arr) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = arr.map(function (g, i) {
+      return '<div class="give reveal"' + stagger(i) + '>' +
+        '<div class="give-icon">' + esc(g.icon) + '</div>' +
+        '<h3>' + esc(g.title) + '</h3>' +
+        '<p>' + esc(g.desc) + '</p>' +
+        (g.amount ? '<div class="give-amt">' + esc(g.amount) + '</div>' : '') +
+      '</div>';
+    }).join('');
+  }
+
+  /* Testimonials. Renders real entries, or clearly-pending slots. */
+  function stories(targetId, arr, slots) {
+    var host = el(targetId);
+    if (!host) return;
+    if (arr && arr.length) {
+      host.innerHTML = arr.map(function (s, i) {
+        return '<div class="story reveal"' + stagger(i) + '>' +
+          '<p class="story-quote">' + esc(s.quote) + '</p>' +
+          '<div class="story-who">' +
+            '<img class="story-img" src="' + esc(s.img) + '" alt="' + esc(s.name) + '" loading="lazy">' +
+            '<div><div class="story-name">' + esc(s.name) + '</div>' +
+            '<div class="story-prog">' + esc(s.program) + '</div></div>' +
+          '</div>' +
+        '</div>';
+      }).join('');
+      return;
+    }
+    var out = '';
+    for (var i = 0; i < (slots || 3); i++) {
+      out += '<div class="story pending reveal"' + stagger(i) + '>' +
+        '<div class="story-slot">Awaiting verified story</div>' +
+        '<p class="story-quote">A graduate’s own words go here — what they came in knowing, what they left with, and what changed.</p>' +
+        '<div class="story-who">' +
+          '<div class="story-img"></div>' +
+          '<div><div class="story-name">Name</div>' +
+          '<div class="story-prog">Program completed</div></div>' +
+        '</div>' +
+      '</div>';
+    }
+    host.innerHTML = out;
+  }
+
+  /* Our Story pillars. */
+  function pillars(targetId, arr) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = arr.map(function (p, i) {
+      return '<div class="story-pillar reveal"' + stagger(i) + '>' +
+        '<div class="tile-icon">' + esc(p.icon) + '</div>' +
+        '<h3>' + esc(p.title) + '</h3>' +
+        '<p>' + esc(p.desc) + '</p>' +
+      '</div>';
+    }).join('');
+  }
+
   window.D2URender = {
     cards: cards, people: people, tiles: tiles, events: events,
-    tiers: tiers, stats: stats, numbered: numbered, theory: theory, marquee: marquee
+    tiers: tiers, stats: stats, numbered: numbered, theory: theory, marquee: marquee,
+    gallery: gallery, moments: moments, logos: logos, charter: charter,
+    need: need, metrics: metrics, categories: categories, giving: giving,
+    stories: stories, pillars: pillars
   };
 })();
