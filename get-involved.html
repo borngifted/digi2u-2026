@@ -48,8 +48,8 @@
     <div class="split">
       <div>
         <p class="kicker">Give</p>
-        <h2 class="h-section">Ready to put skills<br>into the hands of adults<br>ready to build what's next?</h2>
-        <p class="lede">Give once. Give monthly. Give stock. Every gift funds curriculum, tools, space, and the people who make it all work — and somebody walks out with a portfolio and a credential who had neither when they walked in.</p>
+        <h2 class="h-section">Somebody is going to<br>walk in on Monday.<br><span class="rule-red">You decide what's<br>waiting for them.</span></h2>
+        <p class="lede">Give once, give monthly, or give stock. Whatever you send buys the thing a learner actually touches — a machine, a seat, an exam fee, an hour of somebody who knows how to do the job. You are not funding a plan. You are funding a room that is already open.</p>
         <div class="btn-row">
           <a class="btn btn-primary" href="mailto:support@digi2u.org?subject=Donation%20to%20Digi2U">Donate Now</a>
           <a class="btn btn-ghost" href="#sponsor">Corporate Sponsorship</a>
@@ -75,8 +75,8 @@
   <div class="wrap">
     <div class="sec-head">
       <p class="kicker">Your Support</p>
-      <h2 class="h-section">Every dollar funds<br>the work.</h2>
-      <p class="lede">Curriculum, equipment, and the people who make it all work.</p>
+      <h2 class="h-section">Here is exactly<br>what you are buying.</h2>
+      <p class="lede">No overhead abstractions. Four things, and you can see all of them in the photographs on this site.</p>
     </div>
     <div class="giving" id="giving"></div>
   </div>
@@ -88,7 +88,7 @@
     <div class="sec-head">
       <p class="kicker">Sponsorship Tiers</p>
       <h2 class="h-section">Three ways to show up big.</h2>
-      <p class="lede">Custom packages also available. Contact our team to design a sponsorship that fits your goals. Tap a tier for full benefit details.</p>
+      <p class="lede">If your company wants its name on something that is actually working, this is the shortest route to it. Custom packages available — tell us your goals and we will build the sponsorship around them. Tap a tier for full benefits.</p>
     </div>
     <div class="tiers" id="tierGrid"></div>
     <div style="margin-top:48px">
@@ -133,9 +133,14 @@
     <div class="sec-head">
       <p class="kicker">Partnership Inquiries</p>
       <h2 class="h-section">Build the future<br>with us.</h2>
-      <p class="lede">Schools, foundations, government, businesses — if your work touches the communities we serve, let's collaborate. We respond to partnership inquiries within one business day.</p>
+      <p class="lede">Schools, foundations, government, businesses — if your work touches these communities, you already share our constituency. Let's stop duplicating each other. We answer partnership inquiries within one business day.</p>
     </div>
     <div class="numbered" id="partnerWays"></div>
+    <div style="margin-top:64px">
+      <p class="kicker">For Grantmakers</p>
+      <h2 class="h-section" style="margin-bottom:26px">Everything you screen for,<br>on one screen.</h2>
+      <div class="fund" id="funder"></div>
+    </div>
   </div>
 </section>
 
@@ -208,9 +213,11 @@
 <script src="assets/data-extra.js"></script>
 <script src="assets/data-media.js"></script>
 <script src="assets/data-phase2.js"></script>
+<script src="assets/data-sites.js"></script>
 <script src="assets/render.js"></script>
 <script>
   D2URender.giving('giving', D2U_GIVING);
+  D2URender.funder('funder', D2U_FUNDER);
   var gh = document.getElementById('giHero');
   gh.setAttribute('data-poster', D2U_CDN + 'd2u-cherry-xmas-3.webp');
   gh.setAttribute('data-label', 'Digi2U students at a Newark community event');

@@ -371,8 +371,21 @@
       '</div>';
   }
 
+  /* Funder eligibility panel. */
+  function funder(targetId, arr) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = arr.map(function (r, i) {
+      return '<div class="fund-row reveal"' + stagger(i) + '>' +
+        '<div class="fund-k">' + esc(r.k) + '</div>' +
+        '<div class="fund-v">' + esc(r.v) + '</div>' +
+        '<div class="fund-note">' + esc(r.note) + '</div>' +
+      '</div>';
+    }).join('');
+  }
+
   window.D2URender = {
-    sites: sites, founder: founder,
+    sites: sites, founder: founder, funder: funder,
     cards: cards, people: people, tiles: tiles, events: events,
     tiers: tiers, stats: stats, numbered: numbered, theory: theory, marquee: marquee,
     gallery: gallery, moments: moments, logos: logos, charter: charter,

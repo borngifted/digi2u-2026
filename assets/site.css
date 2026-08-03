@@ -393,6 +393,14 @@ section { padding: clamp(72px, 9vw, 132px) 0; }
 .founder-who span { font-size: .84rem; color: var(--d2u-red); font-weight: 600; }
 @media (max-width: 720px) { .founder { grid-template-columns: 1fr; } .founder-img { max-width: 240px; } }
 
+/* ---------- Funder panel ---------- */
+.fund { display: flex; flex-direction: column; gap: 1px; background: rgba(255,255,255,.14); border-top: 3px solid var(--d2u-red); }
+.fund-row { background: var(--d2u-black); display: grid; grid-template-columns: 190px 260px 1fr; gap: 20px; padding: 20px 22px; align-items: baseline; }
+.fund-k { font-size: .68rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--d2u-gray); }
+.fund-v { font-family: var(--font-display); font-weight: 800; font-size: 1.06rem; color: #fff; letter-spacing: -.01em; }
+.fund-note { font-size: .87rem; color: rgba(255,255,255,.6); line-height: 1.5; }
+@media (max-width: 860px) { .fund-row { grid-template-columns: 1fr; gap: 6px; } }
+
 /* ---------- Activity gallery ---------- */
 .gal { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; background: var(--d2u-line-soft); }
 .gal-item {

@@ -115,3 +115,28 @@ const D2U_PARTNERS_EXTRA = [
   'Morris Canal Community Development Corporation',
   'Vocation Ventures'
 ];
+
+/* ==========================================================================
+   FOR FUNDERS — what a grantmaker screens for, in one place.
+   Every item is verifiable and already documented elsewhere on this site.
+   ========================================================================== */
+const D2U_FUNDER = [
+  { k: 'Tax status',      v: '501(c)(3) tax-exempt',        note: 'EIN 88-3213984 · all gifts tax-deductible' },
+  { k: 'Eligibility',     v: 'HUBZone + Opportunity Zone',  note: 'Georgia HUBZones and New Jersey areas of hyper-gentrification' },
+  { k: 'Communities',     v: '14.6% – 24% poverty',         note: 'Clayton County GA, Jersey City tract 47, Newark' },
+  { k: 'Track record',    v: '51 graduates · 8,200 hours',  note: 'Four cohorts across media, 3D, and live production' },
+  { k: 'Capacity',        v: '4 sites + mobile units',      note: 'Two 18 ft. trailers reaching communities without a fixed site' },
+  { k: 'Governance',      v: 'Board + Steering Committee',  note: 'Conflict-of-interest policy and bylaws on file' }
+];
+
+/* Donor-facing reasons, written to the reader. */
+const D2U_WHY_GIVE = [
+  { icon: '01', title: 'Your money buys tools, not overhead theater',
+    desc: 'Printers, cameras, consoles, exam fees, instructor hours. The things a learner touches. You can see every one of them in the photographs on this site.' },
+  { icon: '02', title: 'You are funding a place, not a pilot',
+    desc: 'Four sites and a mobile unit already running. Nothing here is a proposal waiting on your check to exist — it exists, and your gift makes it reach further.' },
+  { icon: '03', title: 'The people you fund come back',
+    desc: 'Graduates return as mentors and instructors. A gift made once keeps working, because the person it trained ends up teaching the next one.' },
+  { icon: '04', title: 'You will know what happened',
+    desc: 'We publish only our own numbers, we mark the ones we are still building reporting for, and we do not dress up national statistics as our results.' }
+];

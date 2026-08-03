@@ -228,10 +228,25 @@
   <div class="wrap">
     <div class="sec-head">
       <div class="chapter"><span class="num">09</span> Join The Mission</div>
-      <h2 class="h-section">Ready to put skills into the hands of adults ready to build what's next?</h2>
-      <p class="lede">Give once. Give monthly. Give stock. Every gift funds curriculum, tools, space, and the people who make it all work — and somebody walks out with a portfolio and a credential who had neither when they walked in.</p>
+      <h2 class="h-section">You can put a printer,<br>a camera, or a credential<br>in somebody's hands<br><span class="rule-red">this week.</span></h2>
+      <p class="lede">Not next quarter, and not after a study. The rooms are open, the instructors are hired, and the waiting list is real. What your gift decides is how many seats are in them.</p>
     </div>
     <div class="giving" id="giving"></div>
+
+    <div style="margin-top:64px">
+      <p class="kicker">Why Give Here</p>
+      <div class="giving" id="whyGive"></div>
+    </div>
+
+    <div style="margin-top:64px">
+      <p class="kicker">For Grantmakers</p>
+      <h2 class="h-section" style="margin-bottom:26px">Everything you screen for,<br>on one screen.</h2>
+      <div class="fund" id="funder"></div>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="get-involved.html#contact">Request Our Full Packet</a>
+        <a class="btn btn-ghost" href="mission.html">See Where We Work</a>
+      </div>
+    </div>
     <div class="btn-row">
       <a class="btn btn-primary" href="get-involved.html#donate">Donate Now</a>
       <a class="btn btn-ghost" href="get-involved.html#contact">Contact Us</a>
@@ -267,6 +282,7 @@
 <script src="assets/data-extra.js"></script>
 <script src="assets/data-media.js"></script>
 <script src="assets/data-phase2.js"></script>
+<script src="assets/data-sites.js"></script>
 <script src="assets/render.js"></script>
 <script>
   var hv = document.getElementById('heroVideo');
@@ -301,6 +317,8 @@
   D2URender.gallery('homeGallery', D2U_GALLERY, { limit: 8, feature: true });
   D2URender.logos('logoWall', D2U_LOGOS);
   D2URender.giving('giving', D2U_GIVING);
+  D2URender.giving('whyGive', D2U_WHY_GIVE);
+  D2URender.funder('funder', D2U_FUNDER);
   document.getElementById('storyLead').innerHTML = D2U_STORY.lead;
   document.getElementById('storyBody').textContent = D2U_STORY.body;
 </script>
