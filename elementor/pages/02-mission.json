@@ -1,0 +1,3241 @@
+{
+ "version": "0.4",
+ "title": "Digi2U — Mission",
+ "type": "page",
+ "content": [
+  {
+   "id": "922ab00",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "140",
+     "right": "24",
+     "bottom": "80",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "98",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "72",
+     "right": "20",
+     "bottom": "72",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_image": {
+     "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-newark-3d-1.webp",
+     "id": "",
+     "size": ""
+    },
+    "background_position": "center center",
+    "background_size": "cover",
+    "background_overlay_background": "gradient",
+    "background_overlay_color": "rgba(10,10,10,0.75)",
+    "background_overlay_color_b": "rgba(10,10,10,0.25)",
+    "background_overlay_gradient_angle": {
+     "unit": "deg",
+     "size": 90
+    },
+    "min_height": {
+     "unit": "px",
+     "size": 560,
+     "sizes": []
+    },
+    "flex_justify_content": "flex-end"
+   },
+   "elements": [
+    {
+     "id": "8e7d400",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "About Digi2U · 501(c)(3) Nonprofit",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "54d7400",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Bridging the<br>digital divide.",
+      "header_size": "h1",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 76,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 55,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 44,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "20",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "3529440",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Digi2U is dedicated to providing hands-on training in technology, media, and creative industries to empower individuals and communities. Through innovative programs, we equip students with the skills, tools, and resources needed to succeed in the digital age — fostering growth, creativity, and career advancement.</p>",
+      "text_color": "rgba(255,255,255,0.82)",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 19,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "4838700",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 14,
+       "column": "14",
+       "row": "14"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "cd4cf00",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Meet The Team",
+        "link": {
+         "url": "#team",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "align": "left",
+        "background_color": "#FF0000",
+        "button_text_color": "#FFFFFF",
+        "border_border": "",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(10,10,10,0.10)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "15",
+         "right": "30",
+         "bottom": "15",
+         "left": "30",
+         "isLinked": false
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "700"
+       },
+       "elements": []
+      },
+      {
+       "id": "7ae5300",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Explore Programs",
+        "link": {
+         "url": "/programs",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "align": "left",
+        "background_color": "rgba(0,0,0,0)",
+        "button_text_color": "#0A0A0A",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(10,10,10,0.10)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "15",
+         "right": "30",
+         "bottom": "15",
+         "left": "30",
+         "isLinked": false
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "700"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a845100",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "110",
+     "right": "24",
+     "bottom": "110",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "76",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "72",
+     "right": "20",
+     "bottom": "72",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "5dcff00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Mission & Vision",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "ecac300",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Empowering communities through innovation.",
+      "header_size": "h2",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 46,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 33,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "18",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "5bf3740",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Digi2U, a nonprofit 501(c)(3) tax-exempt organization, prepares people for well-paid technology jobs and in-demand businesses through innovative training in STEAM — Science, Technology, Engineering, Arts, and Math.</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 19,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0c03600",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "96c0500",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 2,
+       "column": "2",
+       "row": "2"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "f3d9d00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "9367e00",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "padding": {
+           "unit": "px",
+           "top": "30",
+           "right": "28",
+           "bottom": "34",
+           "left": "28",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "64b2e00",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Our Mission",
+            "header_size": "h3",
+            "title_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 22,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 16,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 13,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "10",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "a06c600",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>To equip our communities with the tools, training, and opportunities to succeed.</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "1120900",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "b4b0100",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "padding": {
+           "unit": "px",
+           "top": "30",
+           "right": "28",
+           "bottom": "34",
+           "left": "28",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "a97d600",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Our Vision",
+            "header_size": "h3",
+            "title_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 22,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 16,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 13,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "10",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "9da4e40",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>A world where all individuals, regardless of background, have access to the resources needed to thrive in a technology-driven society.</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "c9b1700",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "110",
+     "right": "24",
+     "bottom": "110",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "76",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "72",
+     "right": "20",
+     "bottom": "72",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#FAFAF8"
+   },
+   "elements": [
+    {
+     "id": "104ad00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Theory Of Change",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "9b3d900",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Access. Training.<br>Opportunity.",
+      "header_size": "h2",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 46,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 33,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "18",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "3b19500",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Every Digi2U program follows the same route — expanding access to technology, pairing instruction with real-life projects, and leaving adult learners with marketable skills, portfolios, and real career paths.</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 19,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "c02a100",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "a2a2300",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 2,
+       "column": "2",
+       "row": "2"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "6c29d40",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 20
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "ad72f00",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "padding": {
+           "unit": "px",
+           "top": "28",
+           "right": "24",
+           "bottom": "34",
+           "left": "24",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "02cbd00",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "01",
+            "header_size": "div",
+            "title_color": "#FF0000",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 10,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 8,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "14",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "2a2a939",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Access",
+            "header_size": "h3",
+            "title_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "10",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "9e79b00",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Expanding access to technology and opportunity through makerspaces, mobile media labs, and the Studio Way flagship campus.</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c46a400",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 20
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "693f000",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "padding": {
+           "unit": "px",
+           "top": "28",
+           "right": "24",
+           "bottom": "34",
+           "left": "24",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "7f13340",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "02",
+            "header_size": "div",
+            "title_color": "#FF0000",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 10,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 8,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "14",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "2d08280",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Training",
+            "header_size": "h3",
+            "title_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "10",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "98ac000",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Hands-on training in technology, media, and creative industries — twelve tracks in Science, Technology, Engineering, Arts, and Math.</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "80c0400",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 20
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "2ed3040",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "padding": {
+           "unit": "px",
+           "top": "28",
+           "right": "24",
+           "bottom": "34",
+           "left": "24",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "01d6000",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "03",
+            "header_size": "div",
+            "title_color": "#FF0000",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 10,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 8,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "14",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "fc21000",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Certification",
+            "header_size": "h3",
+            "title_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "10",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "6810000",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Nationally recognized certifications that employers look for — OSHA 30, ServSafe, and FAA Part 107.</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "e55e440",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 20
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "f5ea200",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "padding": {
+           "unit": "px",
+           "top": "28",
+           "right": "24",
+           "bottom": "34",
+           "left": "24",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "5313b00",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "04",
+            "header_size": "div",
+            "title_color": "#FF0000",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 10,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 8,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "14",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "7f04f00",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Career",
+            "header_size": "h3",
+            "title_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "10",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "363d340",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Adult learners leave with marketable skills, finished products, and portfolios — and real career paths.</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "f9ddf00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 20
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "9c40100",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "padding": {
+           "unit": "px",
+           "top": "28",
+           "right": "24",
+           "bottom": "34",
+           "left": "24",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "ca72a00",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "05",
+            "header_size": "div",
+            "title_color": "#FF0000",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 10,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 8,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "14",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "df91240",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Pay It Forward",
+            "header_size": "h3",
+            "title_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "10",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "41c7500",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Mentorship, apprenticeship, volunteerism, sponsorship — everyone who's helped is asked to help next.</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "8d80400",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "110",
+     "right": "24",
+     "bottom": "110",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "76",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "72",
+     "right": "20",
+     "bottom": "72",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#0A0A0A"
+   },
+   "elements": [
+    {
+     "id": "90afb00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "How We Show Up",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "4270f00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Four values everyone signs.",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 46,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 33,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "18",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "5339300",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>These aren’t slogans — they’re the criteria we hire, mentor, and promote against.</p>",
+      "text_color": "rgba(255,255,255,0.66)",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 19,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "fbfc700",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0c2a400",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 2,
+       "column": "2",
+       "row": "2"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "370f100",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "87f7740",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "padding": {
+           "unit": "px",
+           "top": "24",
+           "right": "22",
+           "bottom": "28",
+           "left": "22",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "d49eb00",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "01",
+            "header_size": "div",
+            "title_color": "#FF0000",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 30,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 22,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 17,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "12",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "0133f00",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Community First",
+            "header_size": "h3",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 19,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 11,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "8",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "f640300",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>We build with the communities we serve, not for them. Local voices shape every program.</p>",
+            "text_color": "rgba(255,255,255,0.6)",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "684cd40",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "6a332c0",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "padding": {
+           "unit": "px",
+           "top": "24",
+           "right": "22",
+           "bottom": "28",
+           "left": "22",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "01b7600",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "02",
+            "header_size": "div",
+            "title_color": "#FF0000",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 30,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 22,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 17,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "12",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "da56e39",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Hands On Always",
+            "header_size": "h3",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 19,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 11,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "8",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "01b7c80",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Real tools. Real projects. Real outcomes. Theory matters — but doing the work is how skills stick.</p>",
+            "text_color": "rgba(255,255,255,0.6)",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "c951480",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "d100b40",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "padding": {
+           "unit": "px",
+           "top": "24",
+           "right": "22",
+           "bottom": "28",
+           "left": "22",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "d734c00",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "03",
+            "header_size": "div",
+            "title_color": "#FF0000",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 30,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 22,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 17,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "12",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "33f8c40",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Pay It Forward",
+            "header_size": "h3",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 19,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 11,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "8",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "84a6700",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Mentorship, apprenticeship, volunteerism, sponsorship — everyone who's helped is asked to help next.</p>",
+            "text_color": "rgba(255,255,255,0.6)",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "2b8eac0",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "421fe40",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "padding": {
+           "unit": "px",
+           "top": "24",
+           "right": "22",
+           "bottom": "28",
+           "left": "22",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "6c27a00",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "04",
+            "header_size": "div",
+            "title_color": "#FF0000",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 30,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 22,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 17,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "12",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "dfa2240",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Excellence Without Ego",
+            "header_size": "h3",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 19,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 11,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "8",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "7704600",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>High standards, low drama. We push for great work and treat each other with respect along the way.</p>",
+            "text_color": "rgba(255,255,255,0.6)",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "3ebcd00",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "110",
+     "right": "24",
+     "bottom": "110",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "76",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "72",
+     "right": "20",
+     "bottom": "72",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "d31e400",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Team Leadership",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "9b64400",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "A passionate team<br>driving the mission.",
+      "header_size": "h2",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 46,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 33,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "18",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "3532400",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>A passionate team dedicated to innovation and community impact — industry professionals, educators, and creatives committed to empowering individuals through technology, education, and digital media. Tap any team member to read their full bio, experience, and expertise.</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 19,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "75e8400",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "a13f100",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 2,
+       "column": "2",
+       "row": "2"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "a119a00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "7766400",
+         "elType": "widget",
+         "widgetType": "image-box",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2025/01/Pam-261x300.png",
+           "id": "",
+           "source": "library"
+          },
+          "image_size": "full",
+          "title_text": "Pamela Timpson",
+          "description_text": "Community Development",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 22,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "26ac200",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "7e0c400",
+         "elType": "widget",
+         "widgetType": "image-box",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2025/01/IMG_1010-300x300.jpg",
+           "id": "",
+           "source": "library"
+          },
+          "image_size": "full",
+          "title_text": "Jesse Cerami",
+          "description_text": "Professional Development",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 22,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "a90ca00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "e6ba400",
+         "elType": "widget",
+         "widgetType": "image-box",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2025/02/IMG_773F357C9B3F-1-215x300.jpeg",
+           "id": "",
+           "source": "library"
+          },
+          "image_size": "full",
+          "title_text": "Dr. Queen Wright",
+          "description_text": "Grants & Funding",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 22,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "9323200",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "7cd0400",
+         "elType": "widget",
+         "widgetType": "image-box",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2025/02/IMG_2BD32005009E-1-224x300.jpeg",
+           "id": "",
+           "source": "library"
+          },
+          "image_size": "full",
+          "title_text": "April Marrero",
+          "description_text": "Grant Admin",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 22,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "19b7a40",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "182e400",
+         "elType": "widget",
+         "widgetType": "image-box",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2025/01/Jamaal-288x300.png",
+           "id": "",
+           "source": "library"
+          },
+          "image_size": "full",
+          "title_text": "Jamaal Carlos",
+          "description_text": "Marketing",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 22,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "bf2bd00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "e334400",
+         "elType": "widget",
+         "widgetType": "image-box",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2025/01/Qawn-300x300.png",
+           "id": "",
+           "source": "library"
+          },
+          "image_size": "full",
+          "title_text": "Tyqawn Headen",
+          "description_text": "Web Development",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 22,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "9f0a900",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "28c2440",
+         "elType": "widget",
+         "widgetType": "image-box",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2025/01/IMG_1011-300x300.jpg",
+           "id": "",
+           "source": "library"
+          },
+          "image_size": "full",
+          "title_text": "Christopher Soko",
+          "description_text": "Video Production & Design",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 22,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "4f62500",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "2371f80",
+         "elType": "widget",
+         "widgetType": "image-box",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2025/01/IMG_1014-300x300.jpg",
+           "id": "",
+           "source": "library"
+          },
+          "image_size": "full",
+          "title_text": "Shetima Garuba",
+          "description_text": "Video & Audio Production",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 22,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "page_settings": {}
+}

@@ -1,0 +1,657 @@
+{
+ "version": "0.4",
+ "title": "Digi2U — Film & Television Production",
+ "type": "popup",
+ "content": [
+  {
+   "id": "dee4000",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "background_color": "#FFFFFF",
+    "padding": {
+     "unit": "px",
+     "top": "44",
+     "right": "44",
+     "bottom": "48",
+     "left": "44",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "22",
+     "bottom": "32",
+     "left": "22",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "ce23540",
+     "elType": "widget",
+     "widgetType": "image",
+     "settings": {
+      "image": {
+       "url": "https://digi2u.org/wp-content/uploads/elementor/thumbs/behind-the-scenes-or-making-of-film--r19h5wow04053i7cc37gr31pw602gk31vcusv7kc9k.jpg",
+       "id": "",
+       "alt": "Film & Television Production",
+       "source": "library"
+      },
+      "image_size": "full",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "80a5c00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Production",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "c715c00",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Tell Stories Through Film, TV & Digital Media</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 14,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "8",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "e4c5c00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Film & Television Production",
+      "header_size": "h2",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 34,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 20,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "28b5c40",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Train in cinematography, directing, screenwriting, and video editing to create compelling film and TV projects. Work with professional cameras, lighting setups, and post-production software to develop storytelling techniques for digital media.</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 17,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "22",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "f9aea00",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 2,
+       "column": "2",
+       "row": "2"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "446ba00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "288ef00",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FAFAF8",
+          "padding": {
+           "unit": "px",
+           "top": "16",
+           "right": "20",
+           "bottom": "16",
+           "left": "20",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "4f1f700",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Roles</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 11,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "4",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "e485b00",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>DP / Director / Editor</p>",
+            "text_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "ac96200",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "8fd4b40",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FAFAF8",
+          "padding": {
+           "unit": "px",
+           "top": "16",
+           "right": "20",
+           "bottom": "16",
+           "left": "20",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "71ff300",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Tools</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 11,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "4",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "6a4a700",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Pro Cameras + NLE</p>",
+            "text_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "441d200",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "a029a40",
+     "elType": "widget",
+     "widgetType": "divider",
+     "settings": {
+      "color": "rgba(10,10,10,0.10)",
+      "weight": {
+       "unit": "px",
+       "size": 1,
+       "sizes": []
+      },
+      "gap": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "b9b5d80",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What you’ll learn",
+      "header_size": "h3",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 20,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 14,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "14",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "8a40000",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<ul class=\"d2u-list\"><li><strong>Cinematography</strong><br>Camera operation, lenses, exposure, and lighting for narrative and doc.</li><li><strong>Directing</strong><br>Working with performers and crew, blocking, and shot design.</li><li><strong>Screenwriting</strong><br>Story structure, scene work, and production-ready scripts.</li><li><strong>Editing & Post</strong><br>Premiere Pro / DaVinci workflows, color, sound, and delivery.</li><li><strong>On-Set Experience</strong><br>Hands-on time on real Digi2U productions and client shoots.</li></ul>"
+     },
+     "elements": []
+    },
+    {
+     "id": "79c5000",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 14,
+       "column": "14",
+       "row": "14"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "5d43000",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Apply / Inquire",
+        "link": {
+         "url": "/contact",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "align": "left",
+        "background_color": "#FF0000",
+        "button_text_color": "#FFFFFF",
+        "border_border": "",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(10,10,10,0.10)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "15",
+         "right": "30",
+         "bottom": "15",
+         "left": "30",
+         "isLinked": false
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "700"
+       },
+       "elements": []
+      },
+      {
+       "id": "1f8a000",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Support This Program",
+        "link": {
+         "url": "/donate",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "align": "left",
+        "background_color": "rgba(0,0,0,0)",
+        "button_text_color": "#0A0A0A",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(10,10,10,0.10)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "15",
+         "right": "30",
+         "bottom": "15",
+         "left": "30",
+         "isLinked": false
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "700"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "page_settings": {
+  "width": {
+   "unit": "px",
+   "size": 940,
+   "sizes": []
+  },
+  "a11y_navigation": "yes",
+  "prevent_scroll": "yes",
+  "close_button": "yes",
+  "overlay_background": "classic",
+  "overlay_color": "rgba(10,10,10,0.72)",
+  "entrance_animation": "fadeInUp",
+  "triggers": {},
+  "timing": {}
+ }
+}

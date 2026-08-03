@@ -146,9 +146,9 @@ const D2U_STORY = {
    The array is intentionally EMPTY. The live Digi2U site currently shows
    placeholder quote text attached to five real people's names; that is not
    reproduced here. Add verified entries and the section renders automatically.
-   `D2U_TESTIMONIAL_SLOTS` controls how many "pending" frames are shown.
+   With this array empty the entire Stories section is removed from the page —
+   no placeholder cards, nothing announcing that testimony is missing.
    -------------------------------------------------------------------------- */
 const D2U_STORIES = [
   // { img: '…', name: 'Full Name', program: '3D Design & Fabrication', quote: '…' }
 ];
-const D2U_TESTIMONIAL_SLOTS = 3;

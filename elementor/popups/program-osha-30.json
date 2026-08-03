@@ -1,0 +1,657 @@
+{
+ "version": "0.4",
+ "title": "Digi2U — OSHA 30 Construction Certification",
+ "type": "popup",
+ "content": [
+  {
+   "id": "0033b00",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "background_color": "#FFFFFF",
+    "padding": {
+     "unit": "px",
+     "top": "44",
+     "right": "44",
+     "bottom": "48",
+     "left": "44",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "22",
+     "bottom": "32",
+     "left": "22",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "6f80400",
+     "elType": "widget",
+     "widgetType": "image",
+     "settings": {
+      "image": {
+       "url": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=1400&q=80",
+       "id": "",
+       "alt": "OSHA 30 Construction Certification",
+       "source": "library"
+      },
+      "image_size": "full",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0d1e440",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Certification",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "669df00",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Workplace Safety & Hazard Prevention</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 14,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "8",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "7062300",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "OSHA 30 Construction Certification",
+      "header_size": "h2",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 34,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 20,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "e471700",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Students conduct workplace safety assessments, identifying potential hazards in simulated or real construction environments. They document findings in a hazard report outlining preventive measures, risk controls, and OSHA compliance recommendations to enhance job-site safety.</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 17,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "22",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0b33500",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 2,
+       "column": "2",
+       "row": "2"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "9854d00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "5632e00",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FAFAF8",
+          "padding": {
+           "unit": "px",
+           "top": "16",
+           "right": "20",
+           "bottom": "16",
+           "left": "20",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "746fb00",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Credential</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 11,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "4",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "bb30f40",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>OSHA 30</p>",
+            "text_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "937f900",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "8237100",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FAFAF8",
+          "padding": {
+           "unit": "px",
+           "top": "16",
+           "right": "20",
+           "bottom": "16",
+           "left": "20",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "73ec600",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Industry</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 11,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "4",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "a0e7e40",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Construction</p>",
+            "text_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "473c100",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0175d00",
+     "elType": "widget",
+     "widgetType": "divider",
+     "settings": {
+      "color": "rgba(10,10,10,0.10)",
+      "weight": {
+       "unit": "px",
+       "size": 1,
+       "sizes": []
+      },
+      "gap": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "648c940",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What you’ll learn",
+      "header_size": "h3",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 20,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 14,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "14",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1cf6000",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<ul class=\"d2u-list\"><li><strong>Hazard Recognition</strong><br>Identify and document common construction-site hazards.</li><li><strong>Risk Controls</strong><br>Apply OSHA-aligned controls and preventive measures.</li><li><strong>Safety Reporting</strong><br>Build a clear, professional safety report.</li><li><strong>Compliance</strong><br>Understand the regulatory framework and worker rights.</li><li><strong>Career Path</strong><br>Open doors in construction, manufacturing, and trades.</li></ul>"
+     },
+     "elements": []
+    },
+    {
+     "id": "dc73040",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 14,
+       "column": "14",
+       "row": "14"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "48c1000",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Apply / Inquire",
+        "link": {
+         "url": "/contact",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "align": "left",
+        "background_color": "#FF0000",
+        "button_text_color": "#FFFFFF",
+        "border_border": "",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(10,10,10,0.10)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "15",
+         "right": "30",
+         "bottom": "15",
+         "left": "30",
+         "isLinked": false
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "700"
+       },
+       "elements": []
+      },
+      {
+       "id": "c830000",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Support This Program",
+        "link": {
+         "url": "/donate",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "align": "left",
+        "background_color": "rgba(0,0,0,0)",
+        "button_text_color": "#0A0A0A",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(10,10,10,0.10)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "15",
+         "right": "30",
+         "bottom": "15",
+         "left": "30",
+         "isLinked": false
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "700"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "page_settings": {
+  "width": {
+   "unit": "px",
+   "size": 940,
+   "sizes": []
+  },
+  "a11y_navigation": "yes",
+  "prevent_scroll": "yes",
+  "close_button": "yes",
+  "overlay_background": "classic",
+  "overlay_color": "rgba(10,10,10,0.72)",
+  "entrance_animation": "fadeInUp",
+  "triggers": {},
+  "timing": {}
+ }
+}

@@ -1,0 +1,657 @@
+{
+ "version": "0.4",
+ "title": "Digi2U — ServSafe Food Safety Training & Certification",
+ "type": "popup",
+ "content": [
+  {
+   "id": "4d0fd00",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "background_color": "#FFFFFF",
+    "padding": {
+     "unit": "px",
+     "top": "44",
+     "right": "44",
+     "bottom": "48",
+     "left": "44",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "22",
+     "bottom": "32",
+     "left": "22",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "f5a4f40",
+     "elType": "widget",
+     "widgetType": "image",
+     "settings": {
+      "image": {
+       "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1400&q=80",
+       "id": "",
+       "alt": "ServSafe Food Safety Training & Certification",
+       "source": "library"
+      },
+      "image_size": "full",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "9196e00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Certification",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "3580600",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Master Safe Food Handling & Sanitation</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 14,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "8",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "24ebe00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "ServSafe Food Safety Training & Certification",
+      "header_size": "h2",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 34,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 20,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "d6b1600",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Learn safe food handling, sanitation standards, allergen awareness, and regulatory compliance &mdash; the industry-standard credential for food-service careers, plus everything your team needs to pass inspections and protect customers.</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 17,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "22",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "f08ce00",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 2,
+       "column": "2",
+       "row": "2"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "e20fe00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "a86de00",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FAFAF8",
+          "padding": {
+           "unit": "px",
+           "top": "16",
+           "right": "20",
+           "bottom": "16",
+           "left": "20",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "b4c8e00",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Credential</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 11,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "4",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "6dca600",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>ServSafe</p>",
+            "text_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "5705600",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "e0b4600",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FAFAF8",
+          "padding": {
+           "unit": "px",
+           "top": "16",
+           "right": "20",
+           "bottom": "16",
+           "left": "20",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "710b600",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Industry</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 11,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "4",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "d91ae00",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>Food Service</p>",
+            "text_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "983e600",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "13d1e40",
+     "elType": "widget",
+     "widgetType": "divider",
+     "settings": {
+      "color": "rgba(10,10,10,0.10)",
+      "weight": {
+       "unit": "px",
+       "size": 1,
+       "sizes": []
+      },
+      "gap": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "bbd9100",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "What you’ll learn",
+      "header_size": "h3",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 20,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 14,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "14",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "7e4ed00",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<ul class=\"d2u-list\"><li><strong>Safe Handling</strong><br>Time, temperature, and cross-contamination control.</li><li><strong>Sanitation</strong><br>Cleaning, sanitizing, and pest management standards.</li><li><strong>Allergens</strong><br>Identify and prevent allergen incidents.</li><li><strong>Compliance</strong><br>Meet local, state, and federal food-safety rules.</li><li><strong>Career Path</strong><br>Restaurants, catering, hospitality, and institutional food service.</li></ul>"
+     },
+     "elements": []
+    },
+    {
+     "id": "78fe100",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 14,
+       "column": "14",
+       "row": "14"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "aaf1900",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Apply / Inquire",
+        "link": {
+         "url": "/contact",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "align": "left",
+        "background_color": "#FF0000",
+        "button_text_color": "#FFFFFF",
+        "border_border": "",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(10,10,10,0.10)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "15",
+         "right": "30",
+         "bottom": "15",
+         "left": "30",
+         "isLinked": false
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "700"
+       },
+       "elements": []
+      },
+      {
+       "id": "c2bd500",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Support This Program",
+        "link": {
+         "url": "/donate",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "align": "left",
+        "background_color": "rgba(0,0,0,0)",
+        "button_text_color": "#0A0A0A",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(10,10,10,0.10)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "15",
+         "right": "30",
+         "bottom": "15",
+         "left": "30",
+         "isLinked": false
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "700"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "page_settings": {
+  "width": {
+   "unit": "px",
+   "size": 940,
+   "sizes": []
+  },
+  "a11y_navigation": "yes",
+  "prevent_scroll": "yes",
+  "close_button": "yes",
+  "overlay_background": "classic",
+  "overlay_color": "rgba(10,10,10,0.72)",
+  "entrance_animation": "fadeInUp",
+  "triggers": {},
+  "timing": {}
+ }
+}

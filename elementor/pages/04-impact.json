@@ -1,0 +1,6171 @@
+{
+ "version": "0.4",
+ "title": "Digi2U — Impact",
+ "type": "page",
+ "content": [
+  {
+   "id": "f4b1c00",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "140",
+     "right": "24",
+     "bottom": "80",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "98",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "72",
+     "right": "20",
+     "bottom": "72",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_image": {
+     "url": "https://borngifted.github.io/digi2u-2026/assets/video/studio-wide.jpg",
+     "id": "",
+     "size": ""
+    },
+    "background_position": "center center",
+    "background_size": "cover",
+    "background_overlay_background": "gradient",
+    "background_overlay_color": "rgba(10,10,10,0.75)",
+    "background_overlay_color_b": "rgba(10,10,10,0.25)",
+    "background_overlay_gradient_angle": {
+     "unit": "deg",
+     "size": 90
+    },
+    "min_height": {
+     "unit": "px",
+     "size": 560,
+     "sizes": []
+    },
+    "flex_justify_content": "flex-end"
+   },
+   "elements": [
+    {
+     "id": "6eb9b00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Films · Events · Partners · Field Trips",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "d8b2f40",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Capturing stories.<br>Creativity.",
+      "header_size": "h1",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 76,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 55,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 44,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "20",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "828ce80",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Discover a collection of powerful stories, creative productions, and digital innovations from Digi2U. From documentaries and podcasts to live streams and behind-the-scenes content, our media platform showcases the voices, experiences, and impact of our community-driven initiatives.</p>",
+      "text_color": "rgba(255,255,255,0.82)",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 19,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "4391900",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "110",
+     "right": "24",
+     "bottom": "110",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "76",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "72",
+     "right": "20",
+     "bottom": "72",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "d831c00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "By The Numbers",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "b5b1c40",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "The impact we’ve<br>delivered to date.",
+      "header_size": "h2",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 46,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 33,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "18",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1e6b700",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Two different things, kept deliberately apart. On the left is independent national workforce research. On the right is only what Digi2U has done.</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 19,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "4fe1b00",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "956ed00",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 40,
+       "column": "40",
+       "row": "40"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "6644500",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "e6baf00",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "The Need",
+          "header_size": "h3",
+          "title_color": "#0A0A0A",
+          "typography_typography": "custom",
+          "typography_font_family": "Archivo",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 24,
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "px",
+           "size": 17,
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "px",
+           "size": 14,
+           "sizes": []
+          },
+          "typography_font_weight": "800",
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.04
+          },
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": -1.4
+          },
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "14",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "4731600",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_wrap": "wrap",
+          "flex_gap": {
+           "unit": "px",
+           "size": 2,
+           "column": "2",
+           "row": "2"
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "8d58778",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+             "unit": "%",
+             "size": 25
+            },
+            "width_tablet": {
+             "unit": "%",
+             "size": 48
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 100
+            },
+            "flex_grow": 0,
+            "flex_shrink": 0
+           },
+           "elements": [
+            {
+             "id": "a01df00",
+             "elType": "container",
+             "isInner": true,
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "padding": {
+               "unit": "px",
+               "top": "30",
+               "right": "26",
+               "bottom": "30",
+               "left": "26",
+               "isLinked": false
+              }
+             },
+             "elements": [
+              {
+               "id": "d2bb300",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "92%",
+                "header_size": "div",
+                "title_color": "#0A0A0A",
+                "typography_typography": "custom",
+                "typography_font_family": "Archivo",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 38,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 27,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 22,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.04
+                },
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": -1.4
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "12",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "e256700",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>of jobs now require digital skills</p>",
+                "text_color": "#1A1A1A",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 15,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "14",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "54f0b00",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Source: National Skills Coalition & Federal Reserve Bank of Atlanta, 2023</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 11,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "0",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "1016e00",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+             "unit": "%",
+             "size": 25
+            },
+            "width_tablet": {
+             "unit": "%",
+             "size": 48
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 100
+            },
+            "flex_grow": 0,
+            "flex_shrink": 0
+           },
+           "elements": [
+            {
+             "id": "793a200",
+             "elType": "container",
+             "isInner": true,
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "padding": {
+               "unit": "px",
+               "top": "30",
+               "right": "26",
+               "bottom": "30",
+               "left": "26",
+               "isLinked": false
+              }
+             },
+             "elements": [
+              {
+               "id": "ebe2340",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "1 in 3",
+                "header_size": "div",
+                "title_color": "#0A0A0A",
+                "typography_typography": "custom",
+                "typography_font_family": "Archivo",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 38,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 27,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 22,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.04
+                },
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": -1.4
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "12",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "932b200",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>workers lack the foundational digital skills those jobs require</p>",
+                "text_color": "#1A1A1A",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 15,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "14",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "8d1fa00",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Source: National Skills Coalition, 2023</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 11,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "0",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "1200600",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+             "unit": "%",
+             "size": 25
+            },
+            "width_tablet": {
+             "unit": "%",
+             "size": 48
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 100
+            },
+            "flex_grow": 0,
+            "flex_shrink": 0
+           },
+           "elements": [
+            {
+             "id": "bfd0540",
+             "elType": "container",
+             "isInner": true,
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "padding": {
+               "unit": "px",
+               "top": "30",
+               "right": "26",
+               "bottom": "30",
+               "left": "26",
+               "isLinked": false
+              }
+             },
+             "elements": [
+              {
+               "id": "1382a40",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "317,700",
+                "header_size": "div",
+                "title_color": "#0A0A0A",
+                "typography_typography": "custom",
+                "typography_font_family": "Archivo",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 38,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 27,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 22,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.04
+                },
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": -1.4
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "12",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "f49ad78",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>projected annual openings in computer and IT occupations, 2024–2034</p>",
+                "text_color": "#1A1A1A",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 15,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "14",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "8099c60",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Source: U.S. Bureau of Labor Statistics</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 11,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "0",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "076be00",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+             "unit": "%",
+             "size": 25
+            },
+            "width_tablet": {
+             "unit": "%",
+             "size": 48
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 100
+            },
+            "flex_grow": 0,
+            "flex_shrink": 0
+           },
+           "elements": [
+            {
+             "id": "0832c40",
+             "elType": "container",
+             "isInner": true,
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "background_background": "classic",
+              "background_color": "#FFFFFF",
+              "padding": {
+               "unit": "px",
+               "top": "30",
+               "right": "26",
+               "bottom": "30",
+               "left": "26",
+               "isLinked": false
+              }
+             },
+             "elements": [
+              {
+               "id": "1d4ec00",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "+$8,000",
+                "header_size": "div",
+                "title_color": "#0A0A0A",
+                "typography_typography": "custom",
+                "typography_font_family": "Archivo",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 38,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 27,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 22,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.04
+                },
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": -1.4
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "12",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "f90ac00",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>average annual pay gain for jobs needing at least one digital skill — about 23% more</p>",
+                "text_color": "#1A1A1A",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 15,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "14",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "d016c00",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Source: National Skills Coalition, 2023</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 11,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "0",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "3b79100",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "9b48e40",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Our Impact",
+          "header_size": "h3",
+          "title_color": "#0A0A0A",
+          "typography_typography": "custom",
+          "typography_font_family": "Archivo",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 24,
+           "sizes": []
+          },
+          "typography_font_size_tablet": {
+           "unit": "px",
+           "size": 17,
+           "sizes": []
+          },
+          "typography_font_size_mobile": {
+           "unit": "px",
+           "size": 14,
+           "sizes": []
+          },
+          "typography_font_weight": "800",
+          "typography_line_height": {
+           "unit": "em",
+           "size": 1.04
+          },
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": -1.4
+          },
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "14",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "03e2240",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_wrap": "wrap",
+          "flex_gap": {
+           "unit": "px",
+           "size": 2,
+           "column": "2",
+           "row": "2"
+          },
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "8b52000",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+             "unit": "%",
+             "size": 50
+            },
+            "width_tablet": {
+             "unit": "%",
+             "size": 100
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 100
+            },
+            "flex_grow": 0,
+            "flex_shrink": 0
+           },
+           "elements": [
+            {
+             "id": "e3de000",
+             "elType": "container",
+             "isInner": true,
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "background_background": "classic",
+              "background_color": "#0A0A0A",
+              "padding": {
+               "unit": "px",
+               "top": "24",
+               "right": "22",
+               "bottom": "24",
+               "left": "22",
+               "isLinked": false
+              }
+             },
+             "elements": [
+              {
+               "id": "ab84100",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "51",
+                "header_size": "div",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Archivo",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 34,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 24,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 20,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.04
+                },
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": -1.4
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "10",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "a41dd00",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Graduates</p>",
+                "text_color": "rgba(255,255,255,0.85)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 13,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "8",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "d614940",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Adults who completed a full program track</p>",
+                "text_color": "rgba(255,255,255,0.45)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 12,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "0",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "4ded000",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+             "unit": "%",
+             "size": 50
+            },
+            "width_tablet": {
+             "unit": "%",
+             "size": 100
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 100
+            },
+            "flex_grow": 0,
+            "flex_shrink": 0
+           },
+           "elements": [
+            {
+             "id": "3462040",
+             "elType": "container",
+             "isInner": true,
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "background_background": "classic",
+              "background_color": "#0A0A0A",
+              "padding": {
+               "unit": "px",
+               "top": "24",
+               "right": "22",
+               "bottom": "24",
+               "left": "22",
+               "isLinked": false
+              }
+             },
+             "elements": [
+              {
+               "id": "a989000",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "8,200",
+                "header_size": "div",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Archivo",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 34,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 24,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 20,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.04
+                },
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": -1.4
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "10",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "ed58000",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Teaching Hours</p>",
+                "text_color": "rgba(255,255,255,0.85)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 13,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "8",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "de7b000",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Delivered by Digi2U instructors</p>",
+                "text_color": "rgba(255,255,255,0.45)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 12,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "0",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "63ec040",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+             "unit": "%",
+             "size": 50
+            },
+            "width_tablet": {
+             "unit": "%",
+             "size": 100
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 100
+            },
+            "flex_grow": 0,
+            "flex_shrink": 0
+           },
+           "elements": [
+            {
+             "id": "4569200",
+             "elType": "container",
+             "isInner": true,
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "background_background": "classic",
+              "background_color": "#0A0A0A",
+              "padding": {
+               "unit": "px",
+               "top": "24",
+               "right": "22",
+               "bottom": "24",
+               "left": "22",
+               "isLinked": false
+              }
+             },
+             "elements": [
+              {
+               "id": "42f6b00",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "35",
+                "header_size": "div",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Archivo",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 34,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 24,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 20,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.04
+                },
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": -1.4
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "10",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "ccabf00",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Streamed Events</p>",
+                "text_color": "rgba(255,255,255,0.85)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 13,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "8",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "2858340",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Produced with student crews</p>",
+                "text_color": "rgba(255,255,255,0.45)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 12,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "0",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "8cb8b00",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+             "unit": "%",
+             "size": 50
+            },
+            "width_tablet": {
+             "unit": "%",
+             "size": 100
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 100
+            },
+            "flex_grow": 0,
+            "flex_shrink": 0
+           },
+           "elements": [
+            {
+             "id": "737f200",
+             "elType": "container",
+             "isInner": true,
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "background_background": "classic",
+              "background_color": "#0A0A0A",
+              "border_border": "dashed",
+              "border_width": {
+               "unit": "px",
+               "top": "1",
+               "right": "1",
+               "bottom": "1",
+               "left": "1",
+               "isLinked": false
+              },
+              "border_color": "rgba(255,255,255,0.18)",
+              "padding": {
+               "unit": "px",
+               "top": "24",
+               "right": "22",
+               "bottom": "24",
+               "left": "22",
+               "isLinked": false
+              }
+             },
+             "elements": [
+              {
+               "id": "5585a00",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "—",
+                "header_size": "div",
+                "title_color": "rgba(255,255,255,0.22)",
+                "typography_typography": "custom",
+                "typography_font_family": "Archivo",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 30,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 22,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 17,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.04
+                },
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": -1.4
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "10",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "e0a8200",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Certifications Earned</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 13,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "8",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "a158a00",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Tracking</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 11,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "0",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "5045f00",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+             "unit": "%",
+             "size": 50
+            },
+            "width_tablet": {
+             "unit": "%",
+             "size": 100
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 100
+            },
+            "flex_grow": 0,
+            "flex_shrink": 0
+           },
+           "elements": [
+            {
+             "id": "862ed00",
+             "elType": "container",
+             "isInner": true,
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "background_background": "classic",
+              "background_color": "#0A0A0A",
+              "border_border": "dashed",
+              "border_width": {
+               "unit": "px",
+               "top": "1",
+               "right": "1",
+               "bottom": "1",
+               "left": "1",
+               "isLinked": false
+              },
+              "border_color": "rgba(255,255,255,0.18)",
+              "padding": {
+               "unit": "px",
+               "top": "24",
+               "right": "22",
+               "bottom": "24",
+               "left": "22",
+               "isLinked": false
+              }
+             },
+             "elements": [
+              {
+               "id": "a8e3a00",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "—",
+                "header_size": "div",
+                "title_color": "rgba(255,255,255,0.22)",
+                "typography_typography": "custom",
+                "typography_font_family": "Archivo",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 30,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 22,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 17,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.04
+                },
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": -1.4
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "10",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "03ae200",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Job Placements</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 13,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "8",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "5ee6a40",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Tracking</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 11,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "0",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "1cea340",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+             "unit": "%",
+             "size": 50
+            },
+            "width_tablet": {
+             "unit": "%",
+             "size": 100
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 100
+            },
+            "flex_grow": 0,
+            "flex_shrink": 0
+           },
+           "elements": [
+            {
+             "id": "f2efd00",
+             "elType": "container",
+             "isInner": true,
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "background_background": "classic",
+              "background_color": "#0A0A0A",
+              "border_border": "dashed",
+              "border_width": {
+               "unit": "px",
+               "top": "1",
+               "right": "1",
+               "bottom": "1",
+               "left": "1",
+               "isLinked": false
+              },
+              "border_color": "rgba(255,255,255,0.18)",
+              "padding": {
+               "unit": "px",
+               "top": "24",
+               "right": "22",
+               "bottom": "24",
+               "left": "22",
+               "isLinked": false
+              }
+             },
+             "elements": [
+              {
+               "id": "4551900",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "—",
+                "header_size": "div",
+                "title_color": "rgba(255,255,255,0.22)",
+                "typography_typography": "custom",
+                "typography_font_family": "Archivo",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 30,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 22,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 17,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.04
+                },
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": -1.4
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "10",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "bd9d500",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Businesses Started</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 13,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "8",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "8a5e100",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Tracking</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 11,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "0",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "e393200",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+             "unit": "%",
+             "size": 50
+            },
+            "width_tablet": {
+             "unit": "%",
+             "size": 100
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 100
+            },
+            "flex_grow": 0,
+            "flex_shrink": 0
+           },
+           "elements": [
+            {
+             "id": "eac0d00",
+             "elType": "container",
+             "isInner": true,
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "background_background": "classic",
+              "background_color": "#0A0A0A",
+              "border_border": "dashed",
+              "border_width": {
+               "unit": "px",
+               "top": "1",
+               "right": "1",
+               "bottom": "1",
+               "left": "1",
+               "isLinked": false
+              },
+              "border_color": "rgba(255,255,255,0.18)",
+              "padding": {
+               "unit": "px",
+               "top": "24",
+               "right": "22",
+               "bottom": "24",
+               "left": "22",
+               "isLinked": false
+              }
+             },
+             "elements": [
+              {
+               "id": "617e900",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "—",
+                "header_size": "div",
+                "title_color": "rgba(255,255,255,0.22)",
+                "typography_typography": "custom",
+                "typography_font_family": "Archivo",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 30,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 22,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 17,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.04
+                },
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": -1.4
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "10",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "72c6500",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Community Partners</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 13,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "8",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "2ad3100",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Tracking</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 11,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "0",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "id": "7967a00",
+           "elType": "container",
+           "isInner": true,
+           "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "width": {
+             "unit": "%",
+             "size": 50
+            },
+            "width_tablet": {
+             "unit": "%",
+             "size": 100
+            },
+            "width_mobile": {
+             "unit": "%",
+             "size": 100
+            },
+            "flex_grow": 0,
+            "flex_shrink": 0
+           },
+           "elements": [
+            {
+             "id": "7b2b000",
+             "elType": "container",
+             "isInner": true,
+             "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "background_background": "classic",
+              "background_color": "#0A0A0A",
+              "border_border": "dashed",
+              "border_width": {
+               "unit": "px",
+               "top": "1",
+               "right": "1",
+               "bottom": "1",
+               "left": "1",
+               "isLinked": false
+              },
+              "border_color": "rgba(255,255,255,0.18)",
+              "padding": {
+               "unit": "px",
+               "top": "24",
+               "right": "22",
+               "bottom": "24",
+               "left": "22",
+               "isLinked": false
+              }
+             },
+             "elements": [
+              {
+               "id": "937b940",
+               "elType": "widget",
+               "widgetType": "heading",
+               "settings": {
+                "title": "—",
+                "header_size": "div",
+                "title_color": "rgba(255,255,255,0.22)",
+                "typography_typography": "custom",
+                "typography_font_family": "Archivo",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 30,
+                 "sizes": []
+                },
+                "typography_font_size_tablet": {
+                 "unit": "px",
+                 "size": 22,
+                 "sizes": []
+                },
+                "typography_font_size_mobile": {
+                 "unit": "px",
+                 "size": 17,
+                 "sizes": []
+                },
+                "typography_font_weight": "800",
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.04
+                },
+                "typography_letter_spacing": {
+                 "unit": "px",
+                 "size": -1.4
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "10",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "eab9000",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Volunteer Hours</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 13,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "8",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              },
+              {
+               "id": "4ec8000",
+               "elType": "widget",
+               "widgetType": "text-editor",
+               "settings": {
+                "editor": "<p>Tracking</p>",
+                "text_color": "#6E6E73",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                 "unit": "px",
+                 "size": 11,
+                 "sizes": []
+                },
+                "typography_line_height": {
+                 "unit": "em",
+                 "size": 1.62
+                },
+                "_margin": {
+                 "unit": "px",
+                 "top": "0",
+                 "right": "0",
+                 "bottom": "0",
+                 "left": "0",
+                 "isLinked": false
+                }
+               },
+               "elements": []
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ad1ec00",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "110",
+     "right": "24",
+     "bottom": "110",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "76",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "72",
+     "right": "20",
+     "bottom": "72",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "7edd500",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Documentaries · Produced by 26 Blocks",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "529e100",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Three feature films.<br>Critical stories.",
+      "header_size": "h2",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 46,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 33,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "18",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "b62fd00",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Long-form documentaries on gentrification, community advocacy, and resilience — produced through Digi2U’s partnership with 26 Blocks, with student crews working alongside the production team.</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 19,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "03be900",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "9d852c0",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 2,
+       "column": "2",
+       "row": "2"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "19bb900",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "0806500",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          },
+          "title_text": "The People’s Ward F",
+          "description_text": "From the streets to the council chamber — following Frank \"Educational\" Gilmore’s transformation into tireless advocate for his community.",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 20,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "7abf540",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "3713100",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          },
+          "title_text": "Sarah’s Daughters Dare to Care",
+          "description_text": "A tribute to domestic violence survivors, told by survivors and the grass-roots organization that empowered them.",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 20,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "8711c80",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 33.33
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "a200d00",
+         "elType": "widget",
+         "widgetType": "icon-box",
+         "settings": {
+          "selected_icon": {
+           "value": "",
+           "library": ""
+          },
+          "title_text": "26 Blocks Docuseries",
+          "description_text": "A twenty-year docuseries scrutinizing gentrification of Jersey City through the experiences of community construction groups.",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 20,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a21eb40",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "120",
+     "right": "24",
+     "bottom": "60",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "84",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "72",
+     "right": "20",
+     "bottom": "72",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_image": {
+     "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-deck-spinoff-panel.webp",
+     "id": "",
+     "size": ""
+    },
+    "background_position": "center center",
+    "background_size": "cover",
+    "background_overlay_background": "gradient",
+    "background_overlay_color": "rgba(10,10,10,0.75)",
+    "background_overlay_color_b": "rgba(10,10,10,0.25)",
+    "background_overlay_gradient_angle": {
+     "unit": "deg",
+     "size": 90
+    },
+    "min_height": {
+     "unit": "px",
+     "size": 460,
+     "sizes": []
+    },
+    "flex_justify_content": "flex-end"
+   },
+   "elements": [
+    {
+     "id": "949ac00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Live Production",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "ec66c40",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Students run the room.",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 44,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 32,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 26,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "14",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "8f7c700",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Sound mixing, multi-camera recording, streaming and live switching, theatrical lighting, and stage rigging — setup, operation, and breakdown, under instructor supervision.</p>",
+      "text_color": "rgba(255,255,255,0.78)",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "e4be000",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "110",
+     "right": "24",
+     "bottom": "110",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "76",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "72",
+     "right": "20",
+     "bottom": "72",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#FAFAF8"
+   },
+   "elements": [
+    {
+     "id": "99eda80",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "The Gallery",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "e363800",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Behind the scenes.<br>Inside our productions.",
+      "header_size": "h2",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 46,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 33,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "18",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "2260840",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Photographed across our Newark, Jersey City, and Atlanta programs — 3D builds, art classes, audio sessions, live productions, and community events.</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 19,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "2353300",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "e6c7000",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 2,
+       "column": "2",
+       "row": "2"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "90d0240",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "830e738",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-3d-lab-wide.jpg",
+           "id": "",
+           "alt": "The cohort at work in the Digi2U studio",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "eb9a500",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "095b300",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-3d-instructor-help.jpg",
+           "id": "",
+           "alt": "Hands-on instruction, one seat at a time",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "3517100",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "e476700",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-3d-mentor-session-01.jpg",
+           "id": "",
+           "alt": "3D design mentor session",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "01b4d00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "fc90b40",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-3d-mentor-session-02.jpg",
+           "id": "",
+           "alt": "Exploring 3D models together",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "b15f939",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "d877a00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-3d-tinkercad-01.jpg",
+           "id": "",
+           "alt": "Modeling in Tinkercad",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "560ab00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "5db2240",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-3d-tinkercad-02.jpg",
+           "id": "",
+           "alt": "A digital design session",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "042ff40",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "03d4500",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-3d-sketching-01-rotated.jpg",
+           "id": "",
+           "alt": "Sketching a design before it gets built",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "1cc5e79",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "31c9100",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-3d-sketching-02.jpg",
+           "id": "",
+           "alt": "Design planning",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "3634780",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "d57ed00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-3d-vase-model-01.jpg",
+           "id": "",
+           "alt": "Modeling a 3D vase",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "e0ea200",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "6a61900",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-3d-vase-model-02.jpg",
+           "id": "",
+           "alt": "Refining the model",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "d972a00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "656d500",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-art-painting-01-rotated.jpg",
+           "id": "",
+           "alt": "Painting class",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "4291200",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "5dee100",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-art-painting-02-rotated.jpg",
+           "id": "",
+           "alt": "At their easels",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "4f8da00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "e73fd00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-art-painting-03-rotated.jpg",
+           "id": "",
+           "alt": "Color mixing",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "c610200",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "c78e800",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-art-crafts.jpg",
+           "id": "",
+           "alt": "A hands-on craft build",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "fea0a00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "62af800",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-audio-dj-01-rotated.jpg",
+           "id": "",
+           "alt": "DJ and audio production",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "1b27200",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "7dbc800",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-audio-dj-02-rotated.jpg",
+           "id": "",
+           "alt": "A mixing session",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "3b6ba00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "f845800",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/07/girls-in-tech-audio-dj-03-rotated.jpg",
+           "id": "",
+           "alt": "Hands on the decks",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "d796238",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "e29a800",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-3d-justice-1.webp",
+           "id": "",
+           "alt": "3D fabrication training",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "7ec1200",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "8ecb800",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-3d-justice-3.webp",
+           "id": "",
+           "alt": "Prototyping session",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "8ffda00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "cda8800",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-3d-justice-09.webp",
+           "id": "",
+           "alt": "Build day",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "55c0200",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "e7c1840",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-3d-jellybox-build.webp",
+           "id": "",
+           "alt": "Building a JellyBox printer from the frame up",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "cc90a40",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "bba0380",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-newark-3d-1.webp",
+           "id": "",
+           "alt": "3D program in Newark",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "0390d00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "044ae00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-newark-3d-6.webp",
+           "id": "",
+           "alt": "Newark cohort at the printers",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "840b900",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "e424640",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/fix/d2u-3d-morris-canal-2.webp",
+           "id": "",
+           "alt": "Morris Canal community session",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "1ecf500",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "91f9900",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-spinoff-newark-2.webp",
+           "id": "",
+           "alt": "The Spin-Off Open Deck — live showcase",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "28a8100",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "9125500",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-spinoff-newark-07.webp",
+           "id": "",
+           "alt": "Students running the show",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "e471d00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "0b46100",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-spinoff-newark-3.webp",
+           "id": "",
+           "alt": "Multi-camera production, student crew",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "d1d8900",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "85b7d00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/fix/d2u-audio-mixing-1.webp",
+           "id": "",
+           "alt": "In the booth — headphones on, mic live",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "b518500",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "d0a6900",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/fix/d2u-audio-mixing-3.webp",
+           "id": "",
+           "alt": "At the broadcast desk",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "63bd100",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "f6ce500",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-cherry-xmas-3.webp",
+           "id": "",
+           "alt": "Newark Christmas Wonderland, with the C. Cherry Foundation",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "7262d00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "d23b100",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-cherry-xmas-5.webp",
+           "id": "",
+           "alt": "Families at the Christmas community event",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "af75900",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "e208c00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-cherry-xmas-08.webp",
+           "id": "",
+           "alt": "Students built and ran the whole room",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "e6f1500",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "683cc40",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-haunted-51-2.webp",
+           "id": "",
+           "alt": "Haunted 51 — a police precinct turned haunted house",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "bb22100",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "7d9a700",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-haunted-51-07.webp",
+           "id": "",
+           "alt": "Set design, lighting, and effects by students",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "6e63d40",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "28e4b40",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-njit-makerspace-1.webp",
+           "id": "",
+           "alt": "In the NJIT makerspace",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "631c480",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "503ba00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-njit-makerspace-3.webp",
+           "id": "",
+           "alt": "Shop time",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "80fdac0",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "1426240",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/fix/d2u-ctap-training-1.webp",
+           "id": "",
+           "alt": "CTAP training intensive",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "3e6d400",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "0b38500",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-training-pacific-2.webp",
+           "id": "",
+           "alt": "Training at the Pacific Avenue studio",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "5e07400",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "cf5d100",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-pacific-extra-01.webp",
+           "id": "",
+           "alt": "A session in progress",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "be99400",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "0582c00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-26training-outdoors-2.webp",
+           "id": "",
+           "alt": "Field production training",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "58c3400",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "af2ec00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-deck-3d-prototyping.webp",
+           "id": "",
+           "alt": "Prototyping at the workstation, filament racked behind",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "c8a5400",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "556ac00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-deck-barat-studio.webp",
+           "id": "",
+           "alt": "The studio floor — printers, benches, and the mural wall",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "47df400",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "64f6c00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-deck-barat-edit.webp",
+           "id": "",
+           "alt": "Editing and post-production station",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "1f91400",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "ab92c00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-deck-videography.webp",
+           "id": "",
+           "alt": "On location with a Digi2U camera operator",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "325b440",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "43fec00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-deck-music-mixing.webp",
+           "id": "",
+           "alt": "Mixing and mastering session",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "d796f78",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "11fac00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-deck-spinoff-panel.webp",
+           "id": "",
+           "alt": "Multi-camera coverage of the Spin-Off Open Deck",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "b7b3600",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "8e46c40",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-deck-spinoff-wall.webp",
+           "id": "",
+           "alt": "The interactive video and graphic display wall",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "1ea2e40",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "bbdc700",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-deck-spinoff-lights.webp",
+           "id": "",
+           "alt": "Theatrical lighting and projection on the floor",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "04d6178",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "c6feb40",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-deck-gear.webp",
+           "id": "",
+           "alt": "Digi2U gear",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "f754000",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "8d4da00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-deck-award.webp",
+           "id": "",
+           "alt": "Student film award",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a00ac39",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "110",
+     "right": "24",
+     "bottom": "110",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "76",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "72",
+     "right": "20",
+     "bottom": "72",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "48e9000",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "In Partnership With",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0938000",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Partnering to create<br>lasting impact.",
+      "header_size": "h2",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 46,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 33,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 27,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "18",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "fcdb000",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Empowering communities through collaboration. Foundations, universities, libraries, and businesses that move the work forward.</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 19,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "6342040",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "004ec00",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 2,
+       "column": "2",
+       "row": "2"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "820cf00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "7856b80",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-logo-26blocks.png",
+           "id": "",
+           "alt": "26 Blocks",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "f0a5300",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "f8ff580",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-cherry-foundation.webp",
+           "id": "",
+           "alt": "C. Cherry Foundation",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "eaf8700",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "e18b800",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-art4change.webp",
+           "id": "",
+           "alt": "Art 4 Change",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "5deac00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "8968800",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-logo-nu-digitech.png",
+           "id": "",
+           "alt": "NU Digi.Tech",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "0376c00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "5881800",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-njit.webp",
+           "id": "",
+           "alt": "NJIT",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "2812c00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "2426800",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-barat.webp",
+           "id": "",
+           "alt": "Barat Foundation",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "467ec00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "1f67840",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-newark-public-library.webp",
+           "id": "",
+           "alt": "Newark Public Library",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "227ac00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "014e300",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-nu-media.webp",
+           "id": "",
+           "alt": "Nu Media",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "94c6c00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "80ed700",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-wise-engineering.webp",
+           "id": "",
+           "alt": "Wise Engineering",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "6722c00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "dd3bb00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-betterbutter.webp",
+           "id": "",
+           "alt": "Better Butter",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "page_settings": {}
+}

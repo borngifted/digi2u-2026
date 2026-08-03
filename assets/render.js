@@ -301,36 +301,28 @@
     }).join('');
   }
 
-  /* Testimonials. Renders real entries, or clearly-pending slots. */
-  function stories(targetId, arr, slots) {
+  /* Testimonials. Renders real entries only — no placeholder cards.
+     With D2U_STORIES empty the whole section is removed from the page, so
+     nothing advertises that testimony is missing. Add entries and the section
+     reappears automatically. */
+  function stories(targetId, arr) {
     var host = el(targetId);
     if (!host) return;
-    if (arr && arr.length) {
-      host.innerHTML = arr.map(function (s, i) {
-        return '<div class="story reveal"' + stagger(i) + '>' +
-          '<p class="story-quote">' + esc(s.quote) + '</p>' +
-          '<div class="story-who">' +
-            '<img class="story-img" src="' + esc(s.img) + '" alt="' + esc(s.name) + '" loading="lazy">' +
-            '<div><div class="story-name">' + esc(s.name) + '</div>' +
-            '<div class="story-prog">' + esc(s.program) + '</div></div>' +
-          '</div>' +
-        '</div>';
-      }).join('');
+    if (!arr || !arr.length) {
+      var sec = host.closest('section');
+      if (sec) sec.remove(); else host.remove();
       return;
     }
-    var out = '';
-    for (var i = 0; i < (slots || 3); i++) {
-      out += '<div class="story pending reveal"' + stagger(i) + '>' +
-        '<div class="story-slot">Awaiting verified story</div>' +
-        '<p class="story-quote">A graduate’s own words go here — what they came in knowing, what they left with, and what changed.</p>' +
+    host.innerHTML = arr.map(function (s, i) {
+      return '<div class="story reveal"' + stagger(i) + '>' +
+        '<p class="story-quote">' + esc(s.quote) + '</p>' +
         '<div class="story-who">' +
-          '<div class="story-img"></div>' +
-          '<div><div class="story-name">Name</div>' +
-          '<div class="story-prog">Program completed</div></div>' +
+          '<img class="story-img" src="' + esc(s.img) + '" alt="' + esc(s.name) + '" loading="lazy">' +
+          '<div><div class="story-name">' + esc(s.name) + '</div>' +
+          '<div class="story-prog">' + esc(s.program) + '</div></div>' +
         '</div>' +
       '</div>';
-    }
-    host.innerHTML = out;
+    }).join('');
   }
 
   /* Our Story pillars. */

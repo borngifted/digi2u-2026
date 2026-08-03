@@ -28,8 +28,10 @@ Key changes:
   categories touches one array and nothing else.
 - **Giving impact cards.** What a gift does, not how much is wanted. `amount` is null until
   Digi2U confirms figures; the card simply omits the price line.
-- **Testimonials.** Visibly pending frames — hatched background, "Awaiting verified story" —
-  expecting photo, name, program, and quote. Add entries to `D2U_STORIES` and they render.
+- **Testimonials.** No placeholder cards. With `D2U_STORIES` empty the Stories section removes
+  itself from the page entirely — nothing advertises that testimony is missing, and the chapter
+  numbers renumber themselves so there is no gap in the sequence. Add entries with
+  `{ img, name, program, quote }` and the section reappears.
 
 ### Pitch-deck photography (October 2024)
 
@@ -206,6 +208,16 @@ Checked in Chrome against a local server:
 - Focus is trapped while a lightbox is open; Esc and backdrop close it; body scroll locks.
 - No console errors from site code.
 - No horizontal overflow at 390px; nav collapses to a hamburger; grids stack to one column.
+
+## Elementor Pro template kit
+
+`elementor/` holds 28 importable templates generated from the same data files the demo runs on —
+5 pages and 23 popups (15 program/certification, 8 team bios). Regenerate with
+`node build-elementor.js`. Import instructions, the Global Kit values, the Custom CSS the HTML
+widgets need, and the one manual wiring step are in `elementor/README.md`.
+
+Validated structurally: 1,163 elements, zero duplicate IDs, only real Elementor widget types, and
+all 85 unique asset URLs verified reachable.
 
 ## Known limitation
 

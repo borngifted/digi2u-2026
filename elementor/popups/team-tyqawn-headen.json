@@ -1,0 +1,336 @@
+{
+ "version": "0.4",
+ "title": "Digi2U Team — Tyqawn Headen",
+ "type": "popup",
+ "content": [
+  {
+   "id": "b26c800",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "background_background": "classic",
+    "background_color": "#FFFFFF",
+    "padding": {
+     "unit": "px",
+     "top": "44",
+     "right": "44",
+     "bottom": "48",
+     "left": "44",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "28",
+     "right": "22",
+     "bottom": "32",
+     "left": "22",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "550c900",
+     "elType": "widget",
+     "widgetType": "image",
+     "settings": {
+      "image": {
+       "url": "https://digi2u.org/wp-content/uploads/2025/01/Qawn-300x300.png",
+       "id": "",
+       "alt": "Tyqawn Headen",
+       "source": "library"
+      },
+      "image_size": "full",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "6a3c500",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Web Development",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "7c11100",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Tyqawn Headen",
+      "header_size": "h2",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 32,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 23,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 19,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "8",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "6626d00",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Tech & VFX Specialist | Levl Studio | Founder of Work Official LLC</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 15,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "18",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "31e9940",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Tyqawn Headen is a visionary Tech and VFX Specialist with a passion for merging technology and creativity to shape compelling visual experiences. As a leader in the entertainment and digital media industries, he consistently pushes the boundaries of storytelling through innovative solutions, cutting-edge technology, and collaborative leadership.</p>",
+      "text_color": "#6E6E73",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 17,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "24",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "e38f078",
+     "elType": "widget",
+     "widgetType": "divider",
+     "settings": {
+      "color": "rgba(10,10,10,0.10)",
+      "weight": {
+       "unit": "px",
+       "size": 1,
+       "sizes": []
+      },
+      "gap": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "c532300",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Experience",
+      "header_size": "h3",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 20,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 14,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "14",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "6101700",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<div class=\"d2u-exp\"><div class=\"d2u-exp-item\"><h4>Tech & VFX Specialist · Levl Studio</h4><div class=\"d2u-when\">2023 – Present</div><p>Tyqawn plays a pivotal role at Levl Studio, leveraging advanced VFX workflows to enhance film, television, and digital platforms. His contributions are central to the Conspirators TV show on ALLBLK.</p></div><div class=\"d2u-exp-item\"><h4>Founder · Work Official LLC</h4><div class=\"d2u-when\">2015 – Present</div><p>Tyqawn founded Work Official LLC, a forward-thinking media agency dedicated to empowering individuals and businesses in their transition to the digital era through creative services and brand development.</p></div><div class=\"d2u-exp-item\"><h4>Digital Education Advocate · Digi2u.org</h4><div class=\"d2u-when\">2023 – Present</div><p>As an active contributor to Digi2u.org, Tyqawn helps bridge the gap between technology and underserved communities.</p></div></div>"
+     },
+     "elements": []
+    },
+    {
+     "id": "5dbfb40",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Expertise",
+      "header_size": "h3",
+      "title_color": "#0A0A0A",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 20,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 14,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "14",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "8b7aa80",
+     "elType": "widget",
+     "widgetType": "html",
+     "settings": {
+      "html": "<ul class=\"d2u-chips\"><li>Visual Effects (VFX): Advanced production, compositing, and virtual set creation</li><li>Technology Integration: Building autonomous VFX systems and smart workflows</li><li>AI-Powered Platforms: Content and monetization strategies for digital platforms</li><li>Media Production: Film, television, and commercial production oversight</li><li>Leadership & Consulting: Digital transformation strategy and advisory</li></ul>"
+     },
+     "elements": []
+    }
+   ]
+  }
+ ],
+ "page_settings": {
+  "width": {
+   "unit": "px",
+   "size": 940,
+   "sizes": []
+  },
+  "a11y_navigation": "yes",
+  "prevent_scroll": "yes",
+  "close_button": "yes",
+  "overlay_background": "classic",
+  "overlay_color": "rgba(10,10,10,0.72)",
+  "entrance_animation": "fadeInUp",
+  "triggers": {},
+  "timing": {}
+ }
+}

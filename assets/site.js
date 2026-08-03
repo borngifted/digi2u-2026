@@ -76,6 +76,17 @@
     host.appendChild(v);
   });
 
+  /* ---------- Chapter numbering ----------
+     Renumber in DOM order rather than trusting the hard-coded markup: a section
+     can remove itself (Stories does, when there is no verified testimony), and
+     a gap in the sequence reads as a mistake. Runs after the renderers. */
+  var chapterNums = document.querySelectorAll('.chapter .num');
+  if (chapterNums.length) {
+    chapterNums.forEach(function (el, i) {
+      el.textContent = String(i + 1).padStart(2, '0');
+    });
+  }
+
   /* ---------- Reveal on scroll ---------- */
   var revealables = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window && revealables.length) {
