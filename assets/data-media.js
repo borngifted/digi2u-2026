@@ -100,24 +100,22 @@ const D2U_LOGOS = [
   { name: 'Better Butter',         src: D2U_CDN + 'd2u-logo-betterbutter.webp' }
 ];
 
-/* Candid "what a session actually looks like" moments for the day-in-the-life strip. */
+/* Day-in-the-life strip. Copy assembled from the live digi2u.org wording. */
 const D2U_MOMENTS = [
-  { img: D2U_GIT_IMG + 'girls-in-tech-3d-sketching-01-rotated.jpg', when: 'First',  title: 'You sketch it',   desc: 'Before anything gets printed or filmed, you draw it. Every track starts on paper with an instructor next to you.' },
-  { img: D2U_GIT_IMG + 'girls-in-tech-3d-tinkercad-01.jpg',         when: 'Then',   title: 'You model it',    desc: 'You learn the same software the industry uses — and you learn it by making something you actually want to make.' },
-  { img: D2U_CDN + 'd2u-3d-jellybox-build.webp',                    when: 'Next',   title: 'You build it',    desc: 'Hands on real equipment. In the 3D track you build the printer itself, then print on the machine you assembled.' },
-  { img: D2U_CDN + 'd2u-spinoff-newark-07.webp',                    when: 'Finally', title: 'You run it',   desc: 'You work a live show, a real shoot, a community event. Not a simulation — an audience.' }
+  { img: D2U_GIT_IMG + 'girls-in-tech-3d-sketching-01-rotated.jpg', when: '01', title: 'Hands-on training',
+    desc: 'Hands-on training in technology, media, and creative industries — taught by industry professionals, educators, and creatives.' },
+  { img: D2U_GIT_IMG + 'girls-in-tech-3d-tinkercad-01.jpg',         when: '02', title: 'Real-life projects',
+    desc: 'Pairing instruction with real-life projects, so what is learned in the classroom is applied in a professional, real-world setting.' },
+  { img: D2U_CDN + 'd2u-3d-jellybox-build.webp',                    when: '03', title: 'Finished products',
+    desc: 'Adult learners leave with marketable skills, finished products, and portfolios — real tools, real projects, real outcomes.' },
+  { img: D2U_CDN + 'd2u-spinoff-newark-07.webp',                    when: '04', title: 'Real career paths',
+    desc: 'From 3D fabrication to live event staging, every program leaves adult learners with skills, portfolios, and real career paths.' }
 ];
 
-/* Voice reference: ASU / ASU Online — "Access is our mission", "Your momentum
-   matters", and the charter's "measured not by whom we exclude, but by whom we
-   include and how they succeed." Adults are the norm here, not the exception.
-   Copy below is new writing in that register, not lifted from the live site. */
+/* Retained for reference only — not rendered on any page. The site uses the
+   live digi2u.org wording throughout. */
 const D2U_CHARTER = {
-  lead: 'Access is the mission.',
-  body: 'Digi2U is measured not by who we turn away, but by who we bring in and how far they go. You do not need a degree, a portfolio, or prior experience to start here. You need to show up.',
-  points: [
-    { title: 'You already have momentum', desc: 'Everyone arrives with something — a trade, a hustle, years of work, a good eye. We build on that instead of asking you to start from zero.' },
-    { title: 'Adults are the norm here',  desc: 'This is not a program for kids that adults are allowed into. It is built for working people, parents, and career changers from the ground up.' },
-    { title: 'You leave with proof',      desc: 'A portfolio, a printed prototype, a finished film, a credential employers screen for. Something you can put in front of someone.' }
-  ]
+  lead: 'Access. Training. Opportunity.',
+  body: 'Digi2U is working to empower communities through hands-on training in technology, media, and the creative industries.',
+  points: []
 };

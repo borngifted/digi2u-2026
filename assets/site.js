@@ -133,7 +133,7 @@
           '<h2>' + esc(d.title) + '</h2>' +
           '<p>' + esc(d.desc || d.short) + '</p>' +
           metaBlock(d.meta) +
-          (d.bullets && d.bullets.length ? '<div class="lb-sub">What you will build</div>' + bulletList(d.bullets) : '') +
+          (d.bullets && d.bullets.length ? '<div class="lb-sub">What you\u2019ll learn</div>' + bulletList(d.bullets) : '') +
           ctaApply +
         '</div>';
     },
@@ -201,7 +201,7 @@
         '<h2>' + esc(d.title) + '</h2>' +
         '<p>' + esc(d.desc) + '</p>' +
         metaBlock(d.meta) +
-        '<div class="lb-sub">What you will actually do</div>' +
+        '<div class="lb-sub">What you\u2019ll actually do</div>' +
         bulletList(window.D2U_ROLE_DUTIES || []) +
         '<div class="lb-foot"><a class="btn btn-primary" href="#apply" data-lb-close>Apply For This Role</a></div>' +
       '</div>';

@@ -66,32 +66,32 @@ const D2U_CATEGORIES = [
   {
     id: 'design-fabrication',
     title: 'Design & Fabrication',
-    kicker: 'Make physical things',
-    desc: 'Model it on screen, then hold it in your hand. Printing, prototyping, visual design, and garment construction.',
+    kicker: 'Bring creative ideas to life',
+    desc: 'Design software, prototyping, and production processes used in industries like manufacturing, engineering, and product design.',
     img: 'https://digi2u.org/wp-content/uploads/2026/05/d2u-3d-jellybox-build.webp',
     programs: ['3d-design', 'art-design', 'fashion']
   },
   {
     id: 'media-production',
     title: 'Media & Production',
-    kicker: 'Tell the story, run the room',
-    desc: 'Cameras, consoles, microphones, and rigging. The tracks that put your name in the credits of something that shipped.',
+    kicker: 'Tell stories through media',
+    desc: 'Hands-on training in technology, media, and creative industries — cameras, consoles, microphones, and live event staging.',
     img: 'https://digi2u.org/wp-content/uploads/2026/05/d2u-spinoff-newark-07.webp',
     programs: ['film-tv', 'podcast', 'photography', 'audio', 'staging']
   },
   {
     id: 'business-enterprise',
     title: 'Business & Enterprise',
-    kicker: 'Build the thing that pays you',
-    desc: 'For people who want to run it, not just work it — brand strategy, marketing, and the grant writing that funds the work.',
+    kicker: 'Grow your brand',
+    desc: 'Preparing adult learners for in-demand businesses — brand strategy, marketing, and the grant writing that funds community work.',
     img: 'https://digi2u.org/wp-content/uploads/2026/05/d2u-ctap-training-1.webp',
     programs: ['marketing', 'grants']
   },
   {
     id: 'credentials-careers',
     title: 'Credentials & Careers',
-    kicker: 'Credentials employers screen for',
-    desc: 'Licensed drone flight, workplace safety, food safety, and community health — the credentials that get a résumé past the filter.',
+    kicker: 'Industry credentials. Real job readiness.',
+    desc: 'Earn nationally recognized certifications that employers look for — OSHA 30, ServSafe, and FAA Part 107, delivered hands-on by Digi2U instructors.',
     img: 'https://digi2u.org/wp-content/uploads/2026/05/d2u-njit-makerspace-1.webp',
     programs: ['drone', 'wellness', 'faa-drone', 'osha-30', 'food-safety']
   }
@@ -105,19 +105,19 @@ const D2U_CATEGORIES = [
 const D2U_GIVING = [
   {
     icon: '01', title: 'Sponsor a learner', amount: null,
-    desc: 'Carries one adult through a full track — instruction, materials, studio time, and the portfolio they leave with.'
+    desc: 'Puts skills into the hands of adults ready to build what\'s next — curriculum, tools, space, and the people who make it all work.'
   },
   {
     icon: '02', title: 'Support certifications', amount: null,
-    desc: 'Covers exam fees and test prep for OSHA 30, ServSafe, or FAA Part 107 — the credential that makes a résumé screenable.'
+    desc: 'Helps adult learners earn nationally recognized certifications that employers look for — OSHA 30, ServSafe, and FAA Part 107.'
   },
   {
     icon: '03', title: 'Fund classroom technology', amount: null,
-    desc: 'Printers, cameras, consoles, and workstations. Our learners train on real equipment because that is what employers use.'
+    desc: 'Every dollar funds curriculum, equipment, and the people who make it all work — the tools that make hands-on training possible.'
   },
   {
     icon: '04', title: 'Expand community access', amount: null,
-    desc: 'Keeps the mobile media labs on the road, reaching neighborhoods without a fixed Digi2U site.'
+    desc: 'Expands access to technology, education, and creative opportunities across NJ, ATL, Newark, and Houston.'
   }
 ];
 
@@ -126,13 +126,13 @@ const D2U_GIVING = [
    Digi2U supplies the real founding account.
    -------------------------------------------------------------------------- */
 const D2U_STORY = {
-  lead: 'We started in a room with a broken 3D printer and a few people who wanted to know how it worked.',
-  body: 'Digi2U grew out of a simple observation: the equipment that opens doors — printers, cameras, consoles, software — sits behind a paywall, a campus gate, or a job you can\'t get without already having the skill. So we put the equipment in the neighborhood and opened the door.',
+  lead: 'Empowering communities through innovation.',
+  body: 'Digi2U is dedicated to providing hands-on training in technology, media, and creative industries to empower individuals and communities. Through innovative programs, we equip students with the skills, tools, and resources needed to succeed in the digital age — fostering growth, creativity, and career advancement.',
   pillars: [
     { icon: 'M', title: 'Mission',   desc: 'To equip our communities with the tools, training, and opportunities to succeed.' },
     { icon: 'V', title: 'Vision',    desc: 'A world where all individuals, regardless of background, have access to the resources needed to thrive in a technology-driven society.' },
-    { icon: 'C', title: 'Community', desc: 'We build with the communities we serve, not for them. Local voices shape every program, and graduates come back as mentors.' },
-    { icon: 'P', title: 'Purpose',   desc: 'Not to hand out classes, but to move people into careers and businesses they own — and to keep the door open behind them.' }
+    { icon: 'C', title: 'Community', desc: 'We build with the communities we serve, not for them. Local voices shape every program.' },
+    { icon: 'P', title: 'Purpose',   desc: 'To unlock well-paid tech jobs and in-demand businesses for adult learners, creatives, and entrepreneurs.' }
   ],
   founder: null   // ← Replace with { name, role, img, quote, story } when supplied.
 };

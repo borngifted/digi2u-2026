@@ -31,6 +31,18 @@ Key changes:
 - **Testimonials.** Visibly pending frames — hatched background, "Awaiting verified story" —
   expecting photo, name, program, and quote. Add entries to `D2U_STORIES` and they render.
 
+### Wording
+
+All copy matches the live digi2u.org wording. Headlines, ledes, section kickers, values,
+and calls to action are taken from the existing site — "STEAM skills. Real-world careers.",
+"Learn by doing. Earn by building.", "Twelve tracks. One goal: marketable skills.",
+"Bridging the digital divide.", "Empowering communities through innovation.",
+"Ready to put skills into the hands of adults ready to build what's next?", and so on.
+
+Sections that have no counterpart on the live site (the industry-data block, the impact
+dashboard, the giving cards, the pathway categories) are written from existing Digi2U phrasing
+rather than invented voice.
+
 ### Data honesty in Phase 2
 
 Industry statistics and Digi2U's achievements are structurally separated: `D2U_INDUSTRY` and

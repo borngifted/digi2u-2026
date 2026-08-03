@@ -22,25 +22,25 @@ const D2U_MEDIA_STATS = [
 
 /* Theory of change — the spine funders look for. Built from existing site content. */
 const D2U_THEORY = [
-  { step: '01', title: 'Access',       desc: 'Mobile media labs, makerspaces, and a flagship campus put professional tools within reach of adults who have never had them.' },
-  { step: '02', title: 'Training',     desc: 'Twelve hands-on STEAM tracks. Real tools, real projects, real deliverables — not lectures.' },
-  { step: '03', title: 'Certification',desc: 'Three nationally recognized credentials — OSHA 30, ServSafe, FAA Part 107 — that employers screen for by name.' },
-  { step: '04', title: 'Career',       desc: 'Learners leave with marketable skills, a finished portfolio, and a route into paid work or their own business.' },
-  { step: '05', title: 'Pay It Forward',desc: 'Graduates return as mentors, instructors, and crew. The pipeline refills itself.' }
+  { step: '01', title: 'Access',       desc: 'Expanding access to technology and opportunity through makerspaces, mobile media labs, and the Studio Way flagship campus.' },
+  { step: '02', title: 'Training',     desc: 'Hands-on training in technology, media, and creative industries — twelve tracks in Science, Technology, Engineering, Arts, and Math.' },
+  { step: '03', title: 'Certification',desc: 'Nationally recognized certifications that employers look for — OSHA 30, ServSafe, and FAA Part 107.' },
+  { step: '04', title: 'Career',       desc: 'Adult learners leave with marketable skills, finished products, and portfolios — and real career paths.' },
+  { step: '05', title: 'Pay It Forward',desc: 'Mentorship, apprenticeship, volunteerism, sponsorship — everyone who\'s helped is asked to help next.' }
 ];
 
 const D2U_PILLARS = [
-  { n: '01', title: 'Mentorship',   desc: 'Industry professionals working directly alongside learners.' },
-  { n: '02', title: 'Apprenticeship',desc: 'Paid, hands-on experience on live productions and builds.' },
-  { n: '03', title: 'Volunteerism', desc: 'Community members giving hours to keep programs running.' },
-  { n: '04', title: 'Sponsorship',  desc: 'Companies and foundations funding curriculum, tools, and space.' }
+  { n: '01', title: 'Mentorship',   desc: 'Industry professionals, educators, and creatives working directly alongside adult learners.' },
+  { n: '02', title: 'Apprenticeship',desc: 'Hands-on experience on live productions and builds, applying classroom knowledge in a real-world setting.' },
+  { n: '03', title: 'Volunteerism', desc: 'Community members donating hours to support events, workshops, and training sessions.' },
+  { n: '04', title: 'Sponsorship',  desc: 'Companies and foundations whose generosity fuels our programs, training intensives, and community work.' }
 ];
 
 const D2U_VALUES = [
-  { n: '01', title: 'Community First',  desc: 'We build with the communities we serve, not for them. Local voices shape every program.' },
-  { n: '02', title: 'Hands On Always',  desc: 'Real tools. Real projects. Real outcomes. Theory matters — but doing the work is how skills stick.' },
-  { n: '03', title: 'Pay It Forward',   desc: 'Mentorship is the multiplier. Everyone who learns here is expected to teach someone next.' },
-  { n: '04', title: 'Open Door',        desc: 'Access regardless of background, credential, or starting point. That is the whole point.' }
+  { n: '01', title: 'Community First',        desc: 'We build with the communities we serve, not for them. Local voices shape every program.' },
+  { n: '02', title: 'Hands On Always',        desc: 'Real tools. Real projects. Real outcomes. Theory matters — but doing the work is how skills stick.' },
+  { n: '03', title: 'Pay It Forward',         desc: 'Mentorship, apprenticeship, volunteerism, sponsorship — everyone who\'s helped is asked to help next.' },
+  { n: '04', title: 'Excellence Without Ego', desc: 'High standards, low drama. We push for great work and treat each other with respect along the way.' }
 ];
 
 const D2U_CITIES = [
@@ -104,7 +104,7 @@ const D2U_DOCS = {
     status: 'Release Summer 2025',
     credit: 'Produced by 26 Blocks',
     desc: 'From the streets to the council chamber — following Frank "Educational" Gilmore’s transformation into tireless advocate for his community.',
-    body: 'A feature-length documentary tracing one man’s route from the corner to elected office, and what it costs to stay accountable to the block that raised you. Produced through Digi2U’s partnership with 26 Blocks, with student crews working alongside the production team.'
+    body: 'A long-form documentary on community advocacy and resilience, produced through Digi2U’s partnership with 26 Blocks, with student crews working alongside the production team.'
   },
   'sarahs-daughters': {
     icon: 'SD',
@@ -112,7 +112,7 @@ const D2U_DOCS = {
     status: 'Now on Tubi',
     credit: 'Produced by 26 Blocks',
     desc: 'A tribute to domestic violence survivors, told by survivors and the grass-roots organization that empowered them.',
-    body: 'Survivors tell their own stories alongside the grass-roots organization that helped them rebuild. Available to stream now on Tubi.'
+    body: 'A tribute to domestic violence survivors, told by survivors and the grass-roots organization that empowered them. Available to stream now on Tubi.'
   },
   '26-blocks': {
     icon: '26',
