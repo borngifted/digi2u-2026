@@ -11,8 +11,8 @@ with every piece of detail content preserved and moved into lightboxes.
 
 The homepage now runs as a story rather than a list:
 
-`01 The Opportunity → 02 How Digi2U Responds → 03 Learning Pathways → 04 Inside A Session →
-05 Impact → 06 Stories → 07 Our Story → 08 Community → 09 Your Support`
+`01 The Opportunity → 02 Our Mission → 03 Featured Programs → 04 Hands On Always →
+05 Impact → 06 Voices Of Impact → 07 Mission & Vision → 08 Community → 09 Join The Mission`
 
 Key changes:
 
@@ -90,9 +90,10 @@ from content that already exists on digi2u.org — no invented data.
 
 ## Data honesty
 
-Impact metrics carry over from the live site unchanged: 2,000+ community hours, 12 programs,
-3 certifications, 4 cities, 3 documentaries, 40+ streamed events, 1,000+ mobile lab hours,
-5,000 training hours.
+Digi2U's outcome figures are the ones Digi2U supplied — 51 graduates, 8,200 teaching hours,
+35 streamed events — and they supersede the older *5,000 training hours* and *40+ streamed events*
+still shown on the live WordPress site. Descriptive facts (12 pathways, 3 certifications,
+4 cities, 3 documentaries, 1,000+ mobile lab hours) carry over unchanged.
 
 Two deliberate departures from the live site:
 
