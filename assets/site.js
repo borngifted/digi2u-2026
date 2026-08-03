@@ -76,6 +76,39 @@
     host.appendChild(v);
   });
 
+  /* ---------- Click-to-play portrait video ----------
+     This clip is 13 MB. It loads only when someone asks for it — poster frame
+     until then, so the section costs nothing to scroll past.
+     Elementor equivalent: the Video widget with "Lightbox" on and a custom
+     image overlay. */
+  document.querySelectorAll('.vportrait[data-src]').forEach(function (host) {
+    var poster = host.getAttribute('data-poster');
+    var src = host.getAttribute('data-src');
+    var btn = host.querySelector('.vportrait-play');
+
+    if (poster) {
+      var img = document.createElement('img');
+      img.src = poster;
+      img.alt = host.getAttribute('data-label') || '';
+      host.insertBefore(img, host.firstChild);
+    }
+    if (!btn || !src) return;
+
+    btn.addEventListener('click', function () {
+      var v = document.createElement('video');
+      v.src = src;
+      v.controls = true;
+      v.playsInline = true;
+      v.setAttribute('playsinline', '');
+      v.preload = 'auto';
+      if (poster) v.poster = poster;
+      host.insertBefore(v, host.firstChild);
+      host.classList.add('playing');
+      var p = v.play();
+      if (p && p.catch) p.catch(function () { /* user can hit the native control */ });
+    }, { once: true });
+  });
+
   /* ---------- Chapter numbering ----------
      Renumber in DOM order rather than trusting the hard-coded markup: a section
      can remove itself (Stories does, when there is no verified testimony), and

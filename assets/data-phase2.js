@@ -66,24 +66,24 @@ const D2U_CATEGORIES = [
   {
     id: 'design-fabrication',
     title: 'Design & Fabrication',
-    kicker: 'Bring creative ideas to life',
-    desc: 'Design software, prototyping, and production processes used in industries like manufacturing, engineering, and product design.',
+    kicker: 'Make something that exists',
+    desc: 'Model it on a screen, then hold it in your hand. Printing, prototyping, visual design, and garment construction — the same processes manufacturing and product design run on.',
     img: 'https://digi2u.org/wp-content/uploads/2026/05/d2u-3d-jellybox-build.webp',
     programs: ['3d-design', 'art-design', 'fashion']
   },
   {
     id: 'media-production',
     title: 'Media & Production',
-    kicker: 'Tell stories through media',
-    desc: 'Hands-on training in technology, media, and creative industries — cameras, consoles, microphones, and live event staging.',
+    kicker: 'Get your name in the credits',
+    desc: 'Cameras, consoles, microphones, rigging. The tracks that put you on a real crew, on a real shoot, with an audience waiting.',
     img: 'https://digi2u.org/wp-content/uploads/2026/05/d2u-spinoff-newark-07.webp',
     programs: ['film-tv', 'podcast', 'photography', 'audio', 'staging']
   },
   {
     id: 'business-enterprise',
     title: 'Business & Enterprise',
-    kicker: 'Grow your brand',
-    desc: 'Preparing adult learners for in-demand businesses — brand strategy, marketing, and the grant writing that funds community work.',
+    kicker: 'Own the thing you build',
+    desc: 'For people who would rather run it than work it — brand strategy, marketing, and the grant writing that keeps community work funded.',
     /* Purpose-built 16:9 crop: the corrected image is portrait (1080x1920), and
        a plain center-crop into the card's 16:9 frame cuts the subject's head
        off. This crop keeps the face. */
@@ -93,8 +93,8 @@ const D2U_CATEGORIES = [
   {
     id: 'credentials-careers',
     title: 'Credentials & Careers',
-    kicker: 'Industry credentials. Real job readiness.',
-    desc: 'Earn nationally recognized certifications that employers look for — OSHA 30, ServSafe, and FAA Part 107, delivered hands-on by Digi2U instructors.',
+    kicker: 'The line that gets you hired',
+    desc: 'OSHA 30, ServSafe, FAA Part 107 — nationally recognized credentials employers screen for by name, taught hands-on and prepped until you pass.',
     img: 'https://digi2u.org/wp-content/uploads/2026/05/d2u-njit-makerspace-1.webp',
     programs: ['drone', 'wellness', 'faa-drone', 'osha-30', 'food-safety']
   }
@@ -108,19 +108,19 @@ const D2U_CATEGORIES = [
 const D2U_GIVING = [
   {
     icon: '01', title: 'Sponsor a learner', amount: null,
-    desc: 'Puts skills into the hands of adults ready to build what\'s next — curriculum, tools, space, and the people who make it all work.'
+    desc: 'One adult, one full track, start to portfolio. Curriculum, materials, studio time, and the instructor hours that make it stick.'
   },
   {
     icon: '02', title: 'Support certifications', amount: null,
-    desc: 'Helps adult learners earn nationally recognized certifications that employers look for — OSHA 30, ServSafe, and FAA Part 107.'
+    desc: 'Exam fees and test prep for OSHA 30, ServSafe, or FAA Part 107 — the one line on a résumé that gets it read instead of filtered.'
   },
   {
     icon: '03', title: 'Fund classroom technology', amount: null,
-    desc: 'Every dollar funds curriculum, equipment, and the people who make it all work — the tools that make hands-on training possible.'
+    desc: 'Printers, cameras, consoles, workstations. Our learners train on real equipment because nobody gets hired for practicing on a simulator.'
   },
   {
     icon: '04', title: 'Expand community access', amount: null,
-    desc: 'Expands access to technology, education, and creative opportunities across NJ, ATL, Newark, and Houston.'
+    desc: 'Keeps the mobile media labs on the road, reaching the blocks that do not have a Digi2U building on them yet.'
   }
 ];
 
@@ -129,13 +129,13 @@ const D2U_GIVING = [
    Digi2U supplies the real founding account.
    -------------------------------------------------------------------------- */
 const D2U_STORY = {
-  lead: 'Empowering communities through innovation.',
-  body: 'Digi2U is dedicated to providing hands-on training in technology, media, and creative industries to empower individuals and communities. Through innovative programs, we equip students with the skills, tools, and resources needed to succeed in the digital age — fostering growth, creativity, and career advancement.',
+  lead: 'Access was never about ability.<br>It was about who gets a key.',
+  body: 'The equipment that turns a skill into a living — the printers, the cameras, the consoles, the software — sits behind a paywall, a campus gate, or a job you cannot get without already having the skill. Digi2U put that equipment in the neighborhood and opened the door. No degree, no portfolio, no entrance test. Adults walk in, and they walk out holding something they made.',
   pillars: [
     { icon: 'M', title: 'Mission',   desc: 'To equip our communities with the tools, training, and opportunities to succeed.' },
     { icon: 'V', title: 'Vision',    desc: 'A world where all individuals, regardless of background, have access to the resources needed to thrive in a technology-driven society.' },
-    { icon: 'C', title: 'Community', desc: 'We build with the communities we serve, not for them. Local voices shape every program.' },
-    { icon: 'P', title: 'Purpose',   desc: 'To unlock well-paid tech jobs and in-demand businesses for adult learners, creatives, and entrepreneurs.' }
+    { icon: 'C', title: 'Community', desc: 'We build with the communities we serve, not for them. Local voices shape every program — and graduates come back to teach the next cohort.' },
+    { icon: 'P', title: 'Purpose',   desc: 'So a community stops being the subject of somebody else\'s story and starts telling its own.' }
   ],
   founder: null   // ← Replace with { name, role, img, quote, story } when supplied.
 };

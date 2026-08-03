@@ -431,14 +431,14 @@ function homePage() {
     section({ bgImage: D.D2U_VIDEOS.mentorship.poster, minHeight: 640, padTop: 140, padBottom: 90 }, [
       kicker('501(c)(3) · Newark · Jersey City · Atlanta · Houston'),
       heading('STEAM skills.<br>Real-world careers.', { tag: 'h1', size: 82, color: C.white, mb: 22 }),
-      text('Digi2U prepares adults for well-paid technology jobs and in-demand businesses through innovative, hands-on STEAM training — Science, Technology, Engineering, Arts, and Math — that excites, inspires, and delivers marketable skills.',
+      text('The equipment that opens doors — the printers, the cameras, the consoles — has always been behind one. Digi2U opens it. Hands-on STEAM training built for working adults, where you learn by making something real and walk out still holding it.',
         { color: 'rgba(255,255,255,0.82)', size: 20 }),
       buttonRow([button('Donate Now', '/donate', 'primary'), button('Explore Programs', '#programs', 'ghost')])
     ]),
 
     /* 01 opportunity */
     section({}, secHead('The Opportunity', 'Bridging the<br>digital divide.',
-      'Digi2U is dedicated to providing hands-on training in technology, media, and creative industries to empower individuals and communities. The national workforce picture below is why that work matters.')
+      'Ninety-two percent of jobs now ask for digital skills. A third of the workforce has never been handed the chance to build them. That is not a talent gap — it is a door, and in our communities it has been closed a long time.')
       .concat([
         needCells(),
         spacer(20),
@@ -448,7 +448,7 @@ function homePage() {
 
     /* 02 mission */
     section({ bg: C.black }, secHead('Our Mission', 'Learn by doing.<br>Earn by building.',
-      'Digi2U prepares adults for well-paid technology jobs and in-demand businesses through hands-on STEAM training with real-life application. We collaborate with local organizations, schools, government, and businesses to expand access to technology and opportunity.', true)
+      'We do not hand out certificates for sitting through slides. In the 3D track you assemble the printer, then print on the machine you built. On a live production night you are not watching the crew — you are the crew. The work is the teacher.', true)
       .concat([
         grid(4, 2, D.D2U_PILLARS.map(function (p) {
           return inner({ content_width: 'full', flex_direction: 'column', padding: pad(24, 22, 26, 22) }, [
@@ -462,17 +462,30 @@ function homePage() {
 
     /* 03 programs */
     section({ bg: C.offWhite }, secHead('Featured Programs', 'Twelve tracks.<br>One goal: marketable skills.',
-      'From 3D fabrication to live event staging — every program leaves adult learners with skills, portfolios, and real career paths. Tap any program to read the full course description, what you’ll learn, and how to enroll.')
+      'Twelve ways in. Whatever you already know how to do — a trade, a hustle, an eye for color, a good ear — one of these builds on it. Tap any program to read the full course description, what you’ll learn, and how to enroll.')
       .concat([categoryCards(allPrograms)])),
 
     /* 04 hands on */
     section({}, secHead('Hands On Always', 'Real tools. Real projects.<br>Real outcomes.',
-      'Theory matters — but doing the work is how skills stick. Instruction is paired with real-life projects so adult learners leave with marketable skills, finished products, and portfolios.')
+      'Theory matters. But nobody ever learned to run a four-camera shoot from a slide deck. Every track ends in something that exists — a printed prototype, a mastered track, a finished film, a licensed flight.')
       .concat([
         grid(4, 2, D.D2U_MOMENTS.map(function (m) {
           return imageBox(m.img, m.title, m.desc);
         }))
       ])),
+
+    /* why this matters — the throughline */
+    section({ bg: C.black }, [
+      kicker('Why This Matters'),
+      heading('The neighborhood is being rewritten. Ours is learning to write.', { size: 42, color: C.white, mb: 22 }),
+      text('Digi2U trains adults in Newark and Jersey City — the same blocks that <em>26 Blocks</em> is spending twenty years documenting.',
+        { color: C.white, size: 22, mb: 18 }),
+      text('That documentary series is about gentrification: who gets pushed out, who gets to stay, and who gets to decide. Digi2U provides the technical expertise, the infrastructure, and the training in media production and documentary filmmaking that makes the work possible — through makerspaces in Jersey City, Newark, and Atlanta.',
+        { color: 'rgba(255,255,255,0.72)', size: 18, mb: 16 }),
+      text('<strong>So the people whose neighborhoods are being rewritten are the ones learning to hold the camera.</strong> That is not a nice coincidence. It is the whole argument: skills are how a community stops being the subject of somebody else\u2019s story and starts telling its own.',
+        { color: 'rgba(255,255,255,0.72)', size: 18 }),
+      buttonRow([button('See The Films', '/impact', 'primary'), button('Train With Us', '/programs', 'ghost')])
+    ]),
 
     /* band */
     section({ bgImage: 'assets/deck/d2u-deck-barat-studio.webp', minHeight: 460, padTop: 120, padBottom: 60 }, [
@@ -484,7 +497,7 @@ function homePage() {
 
     /* 05 impact dashboard */
     section({ bg: C.black }, secHead('Impact', 'The impact we’ve<br>delivered to date.',
-      'Two different things, kept deliberately apart. On the left is the national workforce picture. On the right is only what Digi2U has done.', true)
+      'Two different things, kept deliberately apart — because a nonprofit that blurs them is telling you something. On the left is the national picture. On the right is only what Digi2U has actually done.', true)
       .concat([
         grid(2, 40, [
           [
@@ -517,7 +530,7 @@ function homePage() {
 
     /* 08 community */
     section({ bg: C.offWhite }, secHead('Community', 'Community first.<br>Always.',
-      'Empowering communities through collaboration. We work hand-in-hand with grassroots foundations, cultural organizations, and community institutions across Newark, Jersey City, and Atlanta.')
+      'Students turned a police precinct into a haunted house. They turned a community center gym into a Christmas Wonderland for Newark families — tree assembly, sound, lighting, video walls, the whole room. Not as a class exercise. As the crew.')
       .concat([
         grid(4, 2, D.D2U_GALLERY.slice(0, 8).map(function (g) { return image(g.src, g.cap); })),
         spacer(46),
@@ -527,7 +540,7 @@ function homePage() {
 
     /* 09 giving */
     section({ bg: C.black }, secHead('Join The Mission', 'Ready to put skills into the hands of adults ready to build what’s next?',
-      'Give once. Give monthly. Give stock. Every gift funds curriculum, tools, space, and the people who make it all work.', true)
+      'Give once. Give monthly. Give stock. Every gift funds curriculum, tools, space, and the people who make it all work — and somebody walks out with a portfolio and a credential who had neither when they walked in.', true)
       .concat([
         grid(4, 2, D.D2U_GIVING.map(function (g) {
           return inner({ content_width: 'full', flex_direction: 'column', padding: pad(28, 24, 32, 24) }, [

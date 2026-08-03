@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "e65a000",
+   "id": "7fad700",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -64,7 +64,7 @@
    },
    "elements": [
     {
-     "id": "3d8e280",
+     "id": "2156f00",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -96,7 +96,7 @@
      "elements": []
     },
     {
-     "id": "75ba080",
+     "id": "4f27300",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -141,7 +141,7 @@
      "elements": []
     },
     {
-     "id": "fea86c0",
+     "id": "c452700",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -170,7 +170,7 @@
      "elements": []
     },
     {
-     "id": "bd53000",
+     "id": "c30e300",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -194,7 +194,7 @@
      },
      "elements": [
       {
-       "id": "46a1000",
+       "id": "553cb00",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -245,7 +245,7 @@
        "elements": []
       },
       {
-       "id": "2090000",
+       "id": "e879f00",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -300,7 +300,7 @@
    ]
   },
   {
-   "id": "2c2fa00",
+   "id": "19f5100",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -339,7 +339,7 @@
    },
    "elements": [
     {
-     "id": "8055040",
+     "id": "d4fbb00",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -371,7 +371,7 @@
      "elements": []
     },
     {
-     "id": "a36db00",
+     "id": "7eccf40",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -416,7 +416,7 @@
      "elements": []
     },
     {
-     "id": "2156f00",
+     "id": "279ee80",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -445,7 +445,7 @@
      "elements": []
     },
     {
-     "id": "4f27300",
+     "id": "b95bc00",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -458,7 +458,7 @@
      "elements": []
     },
     {
-     "id": "7244200",
+     "id": "5cc9d00",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -482,7 +482,7 @@
      },
      "elements": [
       {
-       "id": "3c87f00",
+       "id": "f112a00",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -505,7 +505,7 @@
        },
        "elements": [
         {
-         "id": "c30e300",
+         "id": "b084f00",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -524,7 +524,7 @@
          },
          "elements": [
           {
-           "id": "c452700",
+           "id": "6093c40",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -569,7 +569,7 @@
            "elements": []
           },
           {
-           "id": "553cb00",
+           "id": "bca5700",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -614,11 +614,11 @@
            "elements": []
           },
           {
-           "id": "e879f00",
+           "id": "5a93b00",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Puts skills into the hands of adults ready to build what's next — curriculum, tools, space, and the people who make it all work.</p>",
+            "editor": "<p>One adult, one full track, start to portfolio. Curriculum, materials, studio time, and the instructor hours that make it stick.</p>",
             "text_color": "#6E6E73",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -647,7 +647,7 @@
        ]
       },
       {
-       "id": "d104340",
+       "id": "11b1240",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -670,7 +670,7 @@
        },
        "elements": [
         {
-         "id": "279ee80",
+         "id": "3c87f00",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -689,7 +689,7 @@
          },
          "elements": [
           {
-           "id": "7fad700",
+           "id": "49bd300",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -734,7 +734,7 @@
            "elements": []
           },
           {
-           "id": "d4fbb00",
+           "id": "2a30700",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -779,11 +779,11 @@
            "elements": []
           },
           {
-           "id": "7eccf40",
+           "id": "58c2b00",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Helps adult learners earn nationally recognized certifications that employers look for — OSHA 30, ServSafe, and FAA Part 107.</p>",
+            "editor": "<p>Exam fees and test prep for OSHA 30, ServSafe, or FAA Part 107 — the one line on a résumé that gets it read instead of filtered.</p>",
             "text_color": "#6E6E73",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -812,7 +812,7 @@
        ]
       },
       {
-       "id": "7ea5200",
+       "id": "5967500",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -835,7 +835,7 @@
        },
        "elements": [
         {
-         "id": "5a93b00",
+         "id": "7244200",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -854,7 +854,7 @@
          },
          "elements": [
           {
-           "id": "b95bc00",
+           "id": "d104340",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -899,7 +899,7 @@
            "elements": []
           },
           {
-           "id": "6093c40",
+           "id": "7ea5200",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -944,11 +944,11 @@
            "elements": []
           },
           {
-           "id": "bca5700",
+           "id": "fc11a00",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Every dollar funds curriculum, equipment, and the people who make it all work — the tools that make hands-on training possible.</p>",
+            "editor": "<p>Printers, cameras, consoles, workstations. Our learners train on real equipment because nobody gets hired for practicing on a simulator.</p>",
             "text_color": "#6E6E73",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -977,7 +977,7 @@
        ]
       },
       {
-       "id": "fc11a00",
+       "id": "6b60100",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1000,7 +1000,7 @@
        },
        "elements": [
         {
-         "id": "58c2b00",
+         "id": "130a200",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1019,7 +1019,7 @@
          },
          "elements": [
           {
-           "id": "b084f00",
+           "id": "28c4a00",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1064,7 +1064,7 @@
            "elements": []
           },
           {
-           "id": "49bd300",
+           "id": "047b200",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1109,11 +1109,11 @@
            "elements": []
           },
           {
-           "id": "2a30700",
+           "id": "2c2fa00",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Expands access to technology, education, and creative opportunities across NJ, ATL, Newark, and Houston.</p>",
+            "editor": "<p>Keeps the mobile media labs on the road, reaching the blocks that do not have a Digi2U building on them yet.</p>",
             "text_color": "#6E6E73",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -1144,7 +1144,7 @@
      ]
     },
     {
-     "id": "047b200",
+     "id": "0130500",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1168,7 +1168,7 @@
      },
      "elements": [
       {
-       "id": "28c4a00",
+       "id": "df50900",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1223,7 +1223,7 @@
    ]
   },
   {
-   "id": "322f600",
+   "id": "f7f2e40",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1264,7 +1264,7 @@
    },
    "elements": [
     {
-     "id": "130a200",
+     "id": "183ad00",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1296,7 +1296,7 @@
      "elements": []
     },
     {
-     "id": "f112a00",
+     "id": "1c6d938",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1341,7 +1341,7 @@
      "elements": []
     },
     {
-     "id": "11b1240",
+     "id": "129bd00",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1370,7 +1370,7 @@
      "elements": []
     },
     {
-     "id": "5967500",
+     "id": "45ba900",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1383,7 +1383,7 @@
      "elements": []
     },
     {
-     "id": "e7a1e00",
+     "id": "e443600",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1407,7 +1407,7 @@
      },
      "elements": [
       {
-       "id": "a177ab8",
+       "id": "1620e00",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1430,7 +1430,7 @@
        },
        "elements": [
         {
-         "id": "19f5100",
+         "id": "13cb500",
          "elType": "widget",
          "widgetType": "price-table",
          "settings": {
@@ -1441,7 +1441,7 @@
           "period": "",
           "features_list": [
            {
-            "_id": "6b60100",
+            "_id": "e852500",
             "item_text": "Logo placement on Digi2U sponsors page",
             "selected_item_icon": {
              "value": "",
@@ -1449,7 +1449,7 @@
             }
            },
            {
-            "_id": "5cc9d00",
+            "_id": "df6f100",
             "item_text": "Recognition in event communications",
             "selected_item_icon": {
              "value": "",
@@ -1457,7 +1457,7 @@
             }
            },
            {
-            "_id": "df50900",
+            "_id": "592cd00",
             "item_text": "Quarterly impact updates",
             "selected_item_icon": {
              "value": "",
@@ -1465,7 +1465,7 @@
             }
            },
            {
-            "_id": "0130500",
+            "_id": "7f77900",
             "item_text": "Tax-deductible donation receipt",
             "selected_item_icon": {
              "value": "",
@@ -1488,7 +1488,7 @@
        ]
       },
       {
-       "id": "5b38080",
+       "id": "b042600",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1511,7 +1511,7 @@
        },
        "elements": [
         {
-         "id": "df6f100",
+         "id": "194e600",
          "elType": "widget",
          "widgetType": "price-table",
          "settings": {
@@ -1522,7 +1522,7 @@
           "period": "",
           "features_list": [
            {
-            "_id": "183ad00",
+            "_id": "3ff4100",
             "item_text": "All Community benefits",
             "selected_item_icon": {
              "value": "",
@@ -1530,7 +1530,7 @@
             }
            },
            {
-            "_id": "1c6d938",
+            "_id": "f7cdd40",
             "item_text": "Featured logo placement on home + event pages",
             "selected_item_icon": {
              "value": "",
@@ -1538,7 +1538,7 @@
             }
            },
            {
-            "_id": "129bd00",
+            "_id": "313e480",
             "item_text": "Co-branded program or workshop",
             "selected_item_icon": {
              "value": "",
@@ -1546,7 +1546,7 @@
             }
            },
            {
-            "_id": "45ba900",
+            "_id": "a177ab8",
             "item_text": "Speaking opportunity at a community event",
             "selected_item_icon": {
              "value": "",
@@ -1554,7 +1554,7 @@
             }
            },
            {
-            "_id": "e852500",
+            "_id": "5b38080",
             "item_text": "Direct staff access for engagement planning",
             "selected_item_icon": {
              "value": "",
@@ -1577,7 +1577,7 @@
        ]
       },
       {
-       "id": "194e600",
+       "id": "8585e00",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1600,7 +1600,7 @@
        },
        "elements": [
         {
-         "id": "313e480",
+         "id": "0669600",
          "elType": "widget",
          "widgetType": "price-table",
          "settings": {
@@ -1611,7 +1611,7 @@
           "period": "",
           "features_list": [
            {
-            "_id": "592cd00",
+            "_id": "e7a1e00",
             "item_text": "All Strategic benefits",
             "selected_item_icon": {
              "value": "",
@@ -1619,7 +1619,7 @@
             }
            },
            {
-            "_id": "7f77900",
+            "_id": "322f600",
             "item_text": "Premier branding across all Digi2U properties",
             "selected_item_icon": {
              "value": "",
@@ -1627,7 +1627,7 @@
             }
            },
            {
-            "_id": "13cb500",
+            "_id": "0d6ee00",
             "item_text": "Named program or studio space",
             "selected_item_icon": {
              "value": "",
@@ -1635,7 +1635,7 @@
             }
            },
            {
-            "_id": "3ff4100",
+            "_id": "c078600",
             "item_text": "Annual impact dinner with Digi2U leadership",
             "selected_item_icon": {
              "value": "",
@@ -1643,7 +1643,7 @@
             }
            },
            {
-            "_id": "f7cdd40",
+            "_id": "e083e00",
             "item_text": "Custom volunteer engagement for your team",
             "selected_item_icon": {
              "value": "",
@@ -1670,7 +1670,7 @@
    ]
   },
   {
-   "id": "3246900",
+   "id": "925f300",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1709,7 +1709,7 @@
    },
    "elements": [
     {
-     "id": "0d6ee00",
+     "id": "ebe6100",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1741,7 +1741,7 @@
      "elements": []
     },
     {
-     "id": "c078600",
+     "id": "e9d7d00",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1786,7 +1786,7 @@
      "elements": []
     },
     {
-     "id": "e083e00",
+     "id": "3246900",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1815,7 +1815,7 @@
      "elements": []
     },
     {
-     "id": "0669600",
+     "id": "47ee500",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1828,7 +1828,7 @@
      "elements": []
     },
     {
-     "id": "e9d7d00",
+     "id": "0e6ef00",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1852,7 +1852,7 @@
      },
      "elements": [
       {
-       "id": "e443600",
+       "id": "4257400",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1875,7 +1875,7 @@
        },
        "elements": [
         {
-         "id": "1620e00",
+         "id": "1cdb100",
          "elType": "widget",
          "widgetType": "icon-box",
          "settings": {
@@ -1909,7 +1909,7 @@
        ]
       },
       {
-       "id": "f7f2e40",
+       "id": "54a9400",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1932,7 +1932,7 @@
        },
        "elements": [
         {
-         "id": "b042600",
+         "id": "6828d40",
          "elType": "widget",
          "widgetType": "icon-box",
          "settings": {
@@ -1966,7 +1966,7 @@
        ]
       },
       {
-       "id": "ebe6100",
+       "id": "1d93440",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1989,7 +1989,7 @@
        },
        "elements": [
         {
-         "id": "8585e00",
+         "id": "c1fd400",
          "elType": "widget",
          "widgetType": "icon-box",
          "settings": {
@@ -2027,7 +2027,7 @@
    ]
   },
   {
-   "id": "f29f080",
+   "id": "f073000",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2068,7 +2068,7 @@
    },
    "elements": [
     {
-     "id": "47ee500",
+     "id": "732a700",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -2100,7 +2100,7 @@
      "elements": []
     },
     {
-     "id": "1cdb100",
+     "id": "9734b40",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -2145,7 +2145,7 @@
      "elements": []
     },
     {
-     "id": "6828d40",
+     "id": "a84ba00",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -2174,7 +2174,7 @@
      "elements": []
     },
     {
-     "id": "c1fd400",
+     "id": "72f6200",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2187,7 +2187,7 @@
      "elements": []
     },
     {
-     "id": "d339940",
+     "id": "ac30000",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2211,7 +2211,7 @@
      },
      "elements": [
       {
-       "id": "b08ea40",
+       "id": "60f6000",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2234,7 +2234,7 @@
        },
        "elements": [
         {
-         "id": "4257400",
+         "id": "b08ea40",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2263,7 +2263,7 @@
          "elements": []
         },
         {
-         "id": "54a9400",
+         "id": "7ab6d00",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2292,7 +2292,7 @@
          "elements": []
         },
         {
-         "id": "1d93440",
+         "id": "d339940",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2321,7 +2321,7 @@
          "elements": []
         },
         {
-         "id": "0e6ef00",
+         "id": "f29f080",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2352,7 +2352,7 @@
        ]
       },
       {
-       "id": "7ab6d00",
+       "id": "3cc1000",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2375,14 +2375,14 @@
        },
        "elements": [
         {
-         "id": "72f6200",
+         "id": "388c940",
          "elType": "widget",
          "widgetType": "form",
          "settings": {
           "form_name": "Digi2U Inquiry",
           "form_fields": [
            {
-            "_id": "925f300",
+            "_id": "f229600",
             "custom_id": "name",
             "field_type": "text",
             "field_label": "Full Name",
@@ -2391,7 +2391,7 @@
             "width": "100"
            },
            {
-            "_id": "732a700",
+            "_id": "f6e0e40",
             "custom_id": "email",
             "field_type": "email",
             "field_label": "Email",
@@ -2400,7 +2400,7 @@
             "width": "100"
            },
            {
-            "_id": "9734b40",
+            "_id": "fb3c100",
             "custom_id": "interest",
             "field_type": "select",
             "field_label": "I’m Interested In",
@@ -2408,7 +2408,7 @@
             "field_options": "Enrolling in a program\nVolunteering\nAn internship\nTeaching a track\nCorporate sponsorship\nCommunity partnership\nDonating\nSharing my story"
            },
            {
-            "_id": "a84ba00",
+            "_id": "a575d00",
             "custom_id": "message",
             "field_type": "textarea",
             "field_label": "Message",

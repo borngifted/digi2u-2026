@@ -145,7 +145,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Digi2U prepares adults for well-paid technology jobs and in-demand businesses through innovative, hands-on STEAM training — Science, Technology, Engineering, Arts, and Math — that excites, inspires, and delivers marketable skills.</p>",
+      "editor": "<p>The equipment that opens doors — the printers, the cameras, the consoles — has always been behind one. Digi2U opens it. Hands-on STEAM training built for working adults, where you learn by making something real and walk out still holding it.</p>",
       "text_color": "rgba(255,255,255,0.82)",
       "typography_typography": "custom",
       "typography_font_family": "Inter",
@@ -420,7 +420,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Digi2U is dedicated to providing hands-on training in technology, media, and creative industries to empower individuals and communities. The national workforce picture below is why that work matters.</p>",
+      "editor": "<p>Ninety-two percent of jobs now ask for digital skills. A third of the workforce has never been handed the chance to build them. That is not a talent gap — it is a door, and in our communities it has been closed a long time.</p>",
       "text_color": "#6E6E73",
       "typography_typography": "custom",
       "typography_font_family": "Inter",
@@ -1246,7 +1246,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Digi2U prepares adults for well-paid technology jobs and in-demand businesses through hands-on STEAM training with real-life application. We collaborate with local organizations, schools, government, and businesses to expand access to technology and opportunity.</p>",
+      "editor": "<p>We do not hand out certificates for sitting through slides. In the 3D track you assemble the printer, then print on the machine you built. On a live production night you are not watching the crew — you are the crew. The work is the teacher.</p>",
       "text_color": "rgba(255,255,255,0.66)",
       "typography_typography": "custom",
       "typography_font_family": "Inter",
@@ -1442,7 +1442,7 @@
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Industry professionals, educators, and creatives working directly alongside adult learners.</p>",
+            "editor": "<p>Somebody who has done the job, sitting next to somebody who wants it. That is the entire transaction.</p>",
             "text_color": "rgba(255,255,255,0.6)",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -1605,7 +1605,7 @@
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Hands-on experience on live productions and builds, applying classroom knowledge in a real-world setting.</p>",
+            "editor": "<p>Real productions, real deadlines, real consequences — classroom knowledge applied where it actually counts.</p>",
             "text_color": "rgba(255,255,255,0.6)",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -1768,7 +1768,7 @@
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Community members donating hours to support events, workshops, and training sessions.</p>",
+            "editor": "<p>Neighbours giving hours so a program can run. Most of them were on the other side of the table first.</p>",
             "text_color": "rgba(255,255,255,0.6)",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -1931,7 +1931,7 @@
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Companies and foundations whose generosity fuels our programs, training intensives, and community work.</p>",
+            "editor": "<p>Companies and foundations funding the curriculum, the equipment, and the people — so the learner is never the one billed.</p>",
             "text_color": "rgba(255,255,255,0.6)",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -2214,7 +2214,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>From 3D fabrication to live event staging — every program leaves adult learners with skills, portfolios, and real career paths. Tap any program to read the full course description, what you’ll learn, and how to enroll.</p>",
+      "editor": "<p>Twelve ways in. Whatever you already know how to do — a trade, a hustle, an eye for color, a good ear — one of these builds on it. Tap any program to read the full course description, what you’ll learn, and how to enroll.</p>",
       "text_color": "#6E6E73",
       "typography_typography": "custom",
       "typography_font_family": "Inter",
@@ -2362,7 +2362,7 @@
              "elType": "widget",
              "widgetType": "heading",
              "settings": {
-              "title": "Bring creative ideas to life",
+              "title": "Make something that exists",
               "header_size": "div",
               "title_color": "#FF0000",
               "typography_typography": "custom",
@@ -2439,7 +2439,7 @@
              "elType": "widget",
              "widgetType": "text-editor",
              "settings": {
-              "editor": "<p>Design software, prototyping, and production processes used in industries like manufacturing, engineering, and product design.</p>",
+              "editor": "<p>Model it on a screen, then hold it in your hand. Printing, prototyping, visual design, and garment construction — the same processes manufacturing and product design run on.</p>",
               "text_color": "#6E6E73",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -2565,7 +2565,7 @@
              "elType": "widget",
              "widgetType": "heading",
              "settings": {
-              "title": "Tell stories through media",
+              "title": "Get your name in the credits",
               "header_size": "div",
               "title_color": "#FF0000",
               "typography_typography": "custom",
@@ -2642,7 +2642,7 @@
              "elType": "widget",
              "widgetType": "text-editor",
              "settings": {
-              "editor": "<p>Hands-on training in technology, media, and creative industries — cameras, consoles, microphones, and live event staging.</p>",
+              "editor": "<p>Cameras, consoles, microphones, rigging. The tracks that put you on a real crew, on a real shoot, with an audience waiting.</p>",
               "text_color": "#6E6E73",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -2768,7 +2768,7 @@
              "elType": "widget",
              "widgetType": "heading",
              "settings": {
-              "title": "Grow your brand",
+              "title": "Own the thing you build",
               "header_size": "div",
               "title_color": "#FF0000",
               "typography_typography": "custom",
@@ -2845,7 +2845,7 @@
              "elType": "widget",
              "widgetType": "text-editor",
              "settings": {
-              "editor": "<p>Preparing adult learners for in-demand businesses — brand strategy, marketing, and the grant writing that funds community work.</p>",
+              "editor": "<p>For people who would rather run it than work it — brand strategy, marketing, and the grant writing that keeps community work funded.</p>",
               "text_color": "#6E6E73",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -2971,7 +2971,7 @@
              "elType": "widget",
              "widgetType": "heading",
              "settings": {
-              "title": "Industry credentials. Real job readiness.",
+              "title": "The line that gets you hired",
               "header_size": "div",
               "title_color": "#FF0000",
               "typography_typography": "custom",
@@ -3048,7 +3048,7 @@
              "elType": "widget",
              "widgetType": "text-editor",
              "settings": {
-              "editor": "<p>Earn nationally recognized certifications that employers look for — OSHA 30, ServSafe, and FAA Part 107, delivered hands-on by Digi2U instructors.</p>",
+              "editor": "<p>OSHA 30, ServSafe, FAA Part 107 — nationally recognized credentials employers screen for by name, taught hands-on and prepped until you pass.</p>",
               "text_color": "#6E6E73",
               "typography_typography": "custom",
               "typography_font_family": "Inter",
@@ -3212,7 +3212,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Theory matters — but doing the work is how skills stick. Instruction is paired with real-life projects so adult learners leave with marketable skills, finished products, and portfolios.</p>",
+      "editor": "<p>Theory matters. But nobody ever learned to run a four-camera shoot from a slide deck. Every track ends in something that exists — a printed prototype, a mastered track, a finished film, a licensed flight.</p>",
       "text_color": "#6E6E73",
       "typography_typography": "custom",
       "typography_font_family": "Inter",
@@ -3307,8 +3307,8 @@
            "source": "library"
           },
           "image_size": "full",
-          "title_text": "Hands-on training",
-          "description_text": "Hands-on training in technology, media, and creative industries — taught by industry professionals, educators, and creatives.",
+          "title_text": "You draw it",
+          "description_text": "Every track starts on paper, with an instructor in the chair beside you. Nobody gets handed a manual and left to figure it out alone.",
           "position": "top",
           "title_color": "#0A0A0A",
           "description_color": "#6E6E73",
@@ -3366,8 +3366,8 @@
            "source": "library"
           },
           "image_size": "full",
-          "title_text": "Real-life projects",
-          "description_text": "Pairing instruction with real-life projects, so what is learned in the classroom is applied in a professional, real-world setting.",
+          "title_text": "You model it",
+          "description_text": "The same software the industry runs on — learned by making something you actually want to exist, not by copying an exercise.",
           "position": "top",
           "title_color": "#0A0A0A",
           "description_color": "#6E6E73",
@@ -3425,8 +3425,8 @@
            "source": "library"
           },
           "image_size": "full",
-          "title_text": "Finished products",
-          "description_text": "Adult learners leave with marketable skills, finished products, and portfolios — real tools, real projects, real outcomes.",
+          "title_text": "You build it",
+          "description_text": "In the 3D track you assemble the printer, then print on the machine you built. The tool and the skill arrive at the same time.",
           "position": "top",
           "title_color": "#0A0A0A",
           "description_color": "#6E6E73",
@@ -3484,8 +3484,8 @@
            "source": "library"
           },
           "image_size": "full",
-          "title_text": "Real career paths",
-          "description_text": "From 3D fabrication to live event staging, every program leaves adult learners with skills, portfolios, and real career paths.",
+          "title_text": "You run it",
+          "description_text": "A live show. A real shoot. A community night with a room full of people. Not a simulation — an audience.",
           "position": "top",
           "title_color": "#0A0A0A",
           "description_color": "#6E6E73",
@@ -3514,7 +3514,342 @@
    ]
   },
   {
-   "id": "0d5a640",
+   "id": "46a2840",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "flex_direction": "column",
+    "flex_gap": {
+     "unit": "px",
+     "size": 0,
+     "column": "0",
+     "row": "0"
+    },
+    "padding": {
+     "unit": "px",
+     "top": "110",
+     "right": "24",
+     "bottom": "110",
+     "left": "24",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "76",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "72",
+     "right": "20",
+     "bottom": "72",
+     "left": "20",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#0A0A0A"
+   },
+   "elements": [
+    {
+     "id": "903be00",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Why This Matters",
+      "header_size": "div",
+      "title_color": "#FF0000",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 12,
+       "sizes": []
+      },
+      "typography_font_weight": "700",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
+      },
+      "typography_text_transform": "uppercase",
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "e7c1600",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "The neighborhood is being rewritten. Ours is learning to write.",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Archivo",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 42,
+       "sizes": []
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 30,
+       "sizes": []
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 24,
+       "sizes": []
+      },
+      "typography_font_weight": "800",
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.04
+      },
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.4
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "22",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "d898e00",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>Digi2U trains adults in Newark and Jersey City — the same blocks that <em>26 Blocks</em> is spending twenty years documenting.</p>",
+      "text_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 22,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "18",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0d5a640",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p>That documentary series is about gentrification: who gets pushed out, who gets to stay, and who gets to decide. Digi2U provides the technical expertise, the infrastructure, and the training in media production and documentary filmmaking that makes the work possible — through makerspaces in Jersey City, Newark, and Atlanta.</p>",
+      "text_color": "rgba(255,255,255,0.72)",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "16",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "91f7978",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p><strong>So the people whose neighborhoods are being rewritten are the ones learning to hold the camera.</strong> That is not a nice coincidence. It is the whole argument: skills are how a community stops being the subject of somebody else’s story and starts telling its own.</p>",
+      "text_color": "rgba(255,255,255,0.72)",
+      "typography_typography": "custom",
+      "typography_font_family": "Inter",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18,
+       "sizes": []
+      },
+      "typography_line_height": {
+       "unit": "em",
+       "size": 1.62
+      },
+      "_margin": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "c76d800",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_gap": {
+       "unit": "px",
+       "size": 14,
+       "column": "14",
+       "row": "14"
+      },
+      "padding": {
+       "unit": "px",
+       "top": "28",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "4397800",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "See The Films",
+        "link": {
+         "url": "/impact",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "align": "left",
+        "background_color": "#FF0000",
+        "button_text_color": "#FFFFFF",
+        "border_border": "",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(10,10,10,0.10)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "15",
+         "right": "30",
+         "bottom": "15",
+         "left": "30",
+         "isLinked": false
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "700"
+       },
+       "elements": []
+      },
+      {
+       "id": "f084800",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Train With Us",
+        "link": {
+         "url": "/programs",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "align": "left",
+        "background_color": "rgba(0,0,0,0)",
+        "button_text_color": "#0A0A0A",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": false
+        },
+        "border_color": "rgba(10,10,10,0.10)",
+        "border_radius": {
+         "unit": "px",
+         "top": "2",
+         "right": "2",
+         "bottom": "2",
+         "left": "2",
+         "isLinked": false
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "15",
+         "right": "30",
+         "bottom": "15",
+         "left": "30",
+         "isLinked": false
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Inter",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 14,
+         "sizes": []
+        },
+        "typography_font_weight": "700"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "64b0e00",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3574,7 +3909,7 @@
    },
    "elements": [
     {
-     "id": "903be00",
+     "id": "af6d380",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -3606,7 +3941,7 @@
      "elements": []
     },
     {
-     "id": "e7c1600",
+     "id": "4893e00",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -3651,7 +3986,7 @@
      "elements": []
     },
     {
-     "id": "d898e00",
+     "id": "3539600",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -3682,7 +4017,7 @@
    ]
   },
   {
-   "id": "68b0d00",
+   "id": "b215900",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3723,7 +4058,7 @@
    },
    "elements": [
     {
-     "id": "91f7978",
+     "id": "0392600",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -3755,7 +4090,7 @@
      "elements": []
     },
     {
-     "id": "4397800",
+     "id": "5e95e39",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -3800,11 +4135,11 @@
      "elements": []
     },
     {
-     "id": "f084800",
+     "id": "828ac00",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Two different things, kept deliberately apart. On the left is the national workforce picture. On the right is only what Digi2U has done.</p>",
+      "editor": "<p>Two different things, kept deliberately apart — because a nonprofit that blurs them is telling you something. On the left is the national picture. On the right is only what Digi2U has actually done.</p>",
       "text_color": "rgba(255,255,255,0.66)",
       "typography_typography": "custom",
       "typography_font_family": "Inter",
@@ -3829,7 +4164,7 @@
      "elements": []
     },
     {
-     "id": "c76d800",
+     "id": "5b96c00",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3842,7 +4177,7 @@
      "elements": []
     },
     {
-     "id": "2a83100",
+     "id": "5b82d00",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3866,7 +4201,7 @@
      },
      "elements": [
       {
-       "id": "8dae900",
+       "id": "f138500",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3889,7 +4224,7 @@
        },
        "elements": [
         {
-         "id": "46a2840",
+         "id": "6db2c00",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3934,7 +4269,7 @@
          "elements": []
         },
         {
-         "id": "af6d380",
+         "id": "ab9ec00",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3963,7 +4298,7 @@
          "elements": []
         },
         {
-         "id": "e354880",
+         "id": "4de3400",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -3987,7 +4322,7 @@
          },
          "elements": [
           {
-           "id": "167b500",
+           "id": "62ac578",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -4010,7 +4345,7 @@
            },
            "elements": [
             {
-             "id": "0392600",
+             "id": "b0a8780",
              "elType": "container",
              "isInner": true,
              "settings": {
@@ -4029,7 +4364,7 @@
              },
              "elements": [
               {
-               "id": "4893e00",
+               "id": "f11ac00",
                "elType": "widget",
                "widgetType": "heading",
                "settings": {
@@ -4074,7 +4409,7 @@
                "elements": []
               },
               {
-               "id": "3539600",
+               "id": "4ee6c00",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -4103,7 +4438,7 @@
                "elements": []
               },
               {
-               "id": "64b0e00",
+               "id": "66c2c40",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -4136,7 +4471,7 @@
            ]
           },
           {
-           "id": "04e4138",
+           "id": "b30d400",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -4159,7 +4494,7 @@
            },
            "elements": [
             {
-             "id": "6db2c00",
+             "id": "167b500",
              "elType": "container",
              "isInner": true,
              "settings": {
@@ -4178,7 +4513,7 @@
              },
              "elements": [
               {
-               "id": "5e95e39",
+               "id": "5c4e200",
                "elType": "widget",
                "widgetType": "heading",
                "settings": {
@@ -4223,7 +4558,7 @@
                "elements": []
               },
               {
-               "id": "828ac00",
+               "id": "db06a00",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -4252,7 +4587,7 @@
                "elements": []
               },
               {
-               "id": "5b96c00",
+               "id": "0695240",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -4285,7 +4620,7 @@
            ]
           },
           {
-           "id": "2810500",
+           "id": "c627400",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -4308,7 +4643,7 @@
            },
            "elements": [
             {
-             "id": "66c2c40",
+             "id": "e354880",
              "elType": "container",
              "isInner": true,
              "settings": {
@@ -4327,7 +4662,7 @@
              },
              "elements": [
               {
-               "id": "ab9ec00",
+               "id": "04e4138",
                "elType": "widget",
                "widgetType": "heading",
                "settings": {
@@ -4372,7 +4707,7 @@
                "elements": []
               },
               {
-               "id": "f11ac00",
+               "id": "2810500",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -4401,7 +4736,7 @@
                "elements": []
               },
               {
-               "id": "4ee6c00",
+               "id": "e755140",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -4434,7 +4769,7 @@
            ]
           },
           {
-           "id": "e755140",
+           "id": "d439400",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -4457,7 +4792,7 @@
            },
            "elements": [
             {
-             "id": "0695240",
+             "id": "10ea240",
              "elType": "container",
              "isInner": true,
              "settings": {
@@ -4476,7 +4811,7 @@
              },
              "elements": [
               {
-               "id": "b0a8780",
+               "id": "bc70e00",
                "elType": "widget",
                "widgetType": "heading",
                "settings": {
@@ -4521,7 +4856,7 @@
                "elements": []
               },
               {
-               "id": "5c4e200",
+               "id": "e052640",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -4550,7 +4885,7 @@
                "elements": []
               },
               {
-               "id": "db06a00",
+               "id": "f58fa00",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -4587,7 +4922,7 @@
        ]
       },
       {
-       "id": "e336500",
+       "id": "bd5d100",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4610,7 +4945,7 @@
        },
        "elements": [
         {
-         "id": "bc70e00",
+         "id": "e745400",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4655,7 +4990,7 @@
          "elements": []
         },
         {
-         "id": "e052640",
+         "id": "11ff440",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4684,7 +5019,7 @@
          "elements": []
         },
         {
-         "id": "71dfd00",
+         "id": "ea78900",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -4708,7 +5043,7 @@
          },
          "elements": [
           {
-           "id": "74eeb00",
+           "id": "8dae900",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -4731,7 +5066,7 @@
            },
            "elements": [
             {
-             "id": "b30d400",
+             "id": "6660b00",
              "elType": "container",
              "isInner": true,
              "settings": {
@@ -4750,7 +5085,7 @@
              },
              "elements": [
               {
-               "id": "f58fa00",
+               "id": "086af00",
                "elType": "widget",
                "widgetType": "heading",
                "settings": {
@@ -4795,7 +5130,7 @@
                "elements": []
               },
               {
-               "id": "10ea240",
+               "id": "caab300",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -4824,7 +5159,7 @@
                "elements": []
               },
               {
-               "id": "62ac578",
+               "id": "9386700",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -4857,7 +5192,7 @@
            ]
           },
           {
-           "id": "a343f00",
+           "id": "e336500",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -4880,7 +5215,7 @@
            },
            "elements": [
             {
-             "id": "e745400",
+             "id": "d45fb00",
              "elType": "container",
              "isInner": true,
              "settings": {
@@ -4899,7 +5234,7 @@
              },
              "elements": [
               {
-               "id": "c627400",
+               "id": "2ccdf00",
                "elType": "widget",
                "widgetType": "heading",
                "settings": {
@@ -4944,7 +5279,7 @@
                "elements": []
               },
               {
-               "id": "d439400",
+               "id": "72d2300",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -4973,7 +5308,7 @@
                "elements": []
               },
               {
-               "id": "4de3400",
+               "id": "0e21700",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5006,7 +5341,7 @@
            ]
           },
           {
-           "id": "d710300",
+           "id": "2a83100",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -5029,7 +5364,7 @@
            },
            "elements": [
             {
-             "id": "9386700",
+             "id": "a34eb00",
              "elType": "container",
              "isInner": true,
              "settings": {
@@ -5048,7 +5383,7 @@
              },
              "elements": [
               {
-               "id": "11ff440",
+               "id": "b460f00",
                "elType": "widget",
                "widgetType": "heading",
                "settings": {
@@ -5093,7 +5428,7 @@
                "elements": []
               },
               {
-               "id": "086af00",
+               "id": "f669300",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5122,7 +5457,7 @@
                "elements": []
               },
               {
-               "id": "caab300",
+               "id": "176c700",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5155,7 +5490,7 @@
            ]
           },
           {
-           "id": "a087700",
+           "id": "68b0d00",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -5178,7 +5513,7 @@
            },
            "elements": [
             {
-             "id": "0e21700",
+             "id": "f22db40",
              "elType": "container",
              "isInner": true,
              "settings": {
@@ -5207,7 +5542,7 @@
              },
              "elements": [
               {
-               "id": "6660b00",
+               "id": "a223f00",
                "elType": "widget",
                "widgetType": "heading",
                "settings": {
@@ -5252,7 +5587,7 @@
                "elements": []
               },
               {
-               "id": "2ccdf00",
+               "id": "9c70300",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5281,7 +5616,7 @@
                "elements": []
               },
               {
-               "id": "72d2300",
+               "id": "ea67700",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5314,7 +5649,7 @@
            ]
           },
           {
-           "id": "3dcdb40",
+           "id": "52ab900",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -5337,7 +5672,7 @@
            },
            "elements": [
             {
-             "id": "176c700",
+             "id": "96a9800",
              "elType": "container",
              "isInner": true,
              "settings": {
@@ -5366,7 +5701,7 @@
              },
              "elements": [
               {
-               "id": "d45fb00",
+               "id": "4250a00",
                "elType": "widget",
                "widgetType": "heading",
                "settings": {
@@ -5411,7 +5746,7 @@
                "elements": []
               },
               {
-               "id": "b460f00",
+               "id": "8d17240",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5440,7 +5775,7 @@
                "elements": []
               },
               {
-               "id": "f669300",
+               "id": "f7d5580",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5473,7 +5808,7 @@
            ]
           },
           {
-           "id": "3570a00",
+           "id": "d8ef500",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -5496,7 +5831,7 @@
            },
            "elements": [
             {
-             "id": "ea67700",
+             "id": "74eeb00",
              "elType": "container",
              "isInner": true,
              "settings": {
@@ -5525,7 +5860,7 @@
              },
              "elements": [
               {
-               "id": "a34eb00",
+               "id": "cb2e840",
                "elType": "widget",
                "widgetType": "heading",
                "settings": {
@@ -5570,7 +5905,7 @@
                "elements": []
               },
               {
-               "id": "a223f00",
+               "id": "c709300",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5599,7 +5934,7 @@
                "elements": []
               },
               {
-               "id": "9c70300",
+               "id": "ab8c700",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5632,7 +5967,7 @@
            ]
           },
           {
-           "id": "d1b7200",
+           "id": "2848100",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -5655,7 +5990,7 @@
            },
            "elements": [
             {
-             "id": "f7d5580",
+             "id": "3dcdb40",
              "elType": "container",
              "isInner": true,
              "settings": {
@@ -5684,7 +6019,7 @@
              },
              "elements": [
               {
-               "id": "f22db40",
+               "id": "a343f00",
                "elType": "widget",
                "widgetType": "heading",
                "settings": {
@@ -5729,7 +6064,7 @@
                "elements": []
               },
               {
-               "id": "4250a00",
+               "id": "d710300",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5758,7 +6093,7 @@
                "elements": []
               },
               {
-               "id": "8d17240",
+               "id": "a087700",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5791,7 +6126,7 @@
            ]
           },
           {
-           "id": "d6bba40",
+           "id": "7b91d00",
            "elType": "container",
            "isInner": true,
            "settings": {
@@ -5814,7 +6149,7 @@
            },
            "elements": [
             {
-             "id": "ab8c700",
+             "id": "71dfd00",
              "elType": "container",
              "isInner": true,
              "settings": {
@@ -5843,7 +6178,7 @@
              },
              "elements": [
               {
-               "id": "96a9800",
+               "id": "3570a00",
                "elType": "widget",
                "widgetType": "heading",
                "settings": {
@@ -5888,7 +6223,7 @@
                "elements": []
               },
               {
-               "id": "cb2e840",
+               "id": "d1b7200",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5917,7 +6252,7 @@
                "elements": []
               },
               {
-               "id": "c709300",
+               "id": "d6bba40",
                "elType": "widget",
                "widgetType": "text-editor",
                "settings": {
@@ -5958,7 +6293,7 @@
    ]
   },
   {
-   "id": "6d6b300",
+   "id": "5ba8900",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -5997,7 +6332,7 @@
    },
    "elements": [
     {
-     "id": "52ab900",
+     "id": "c511500",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -6029,11 +6364,11 @@
      "elements": []
     },
     {
-     "id": "d8ef500",
+     "id": "0ec2100",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Empowering communities through innovation.",
+      "title": "Access was never about ability.<br>It was about who gets a key.",
       "header_size": "h2",
       "title_color": "#0A0A0A",
       "typography_typography": "custom",
@@ -6074,11 +6409,11 @@
      "elements": []
     },
     {
-     "id": "2848100",
+     "id": "c983d00",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Digi2U is dedicated to providing hands-on training in technology, media, and creative industries to empower individuals and communities. Through innovative programs, we equip students with the skills, tools, and resources needed to succeed in the digital age — fostering growth, creativity, and career advancement.</p>",
+      "editor": "<p>The equipment that turns a skill into a living — the printers, the cameras, the consoles, the software — sits behind a paywall, a campus gate, or a job you cannot get without already having the skill. Digi2U put that equipment in the neighborhood and opened the door. No degree, no portfolio, no entrance test. Adults walk in, and they walk out holding something they made.</p>",
       "text_color": "#6E6E73",
       "typography_typography": "custom",
       "typography_font_family": "Inter",
@@ -6103,7 +6438,7 @@
      "elements": []
     },
     {
-     "id": "7b91d00",
+     "id": "d682900",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -6116,7 +6451,7 @@
      "elements": []
     },
     {
-     "id": "7e2af00",
+     "id": "4a62e78",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -6140,367 +6475,7 @@
      },
      "elements": [
       {
-       "id": "6df9400",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 50
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 100
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "bd5d100",
-         "elType": "container",
-         "isInner": true,
-         "settings": {
-          "content_width": "full",
-          "flex_direction": "column",
-          "background_background": "classic",
-          "background_color": "#FFFFFF",
-          "padding": {
-           "unit": "px",
-           "top": "26",
-           "right": "24",
-           "bottom": "28",
-           "left": "24",
-           "isLinked": false
-          }
-         },
-         "elements": [
-          {
-           "id": "ea78900",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "Mission",
-            "header_size": "h3",
-            "title_color": "#0A0A0A",
-            "typography_typography": "custom",
-            "typography_font_family": "Archivo",
-            "typography_font_size": {
-             "unit": "px",
-             "size": 20,
-             "sizes": []
-            },
-            "typography_font_size_tablet": {
-             "unit": "px",
-             "size": 14,
-             "sizes": []
-            },
-            "typography_font_size_mobile": {
-             "unit": "px",
-             "size": 12,
-             "sizes": []
-            },
-            "typography_font_weight": "800",
-            "typography_line_height": {
-             "unit": "em",
-             "size": 1.04
-            },
-            "typography_letter_spacing": {
-             "unit": "px",
-             "size": -1.4
-            },
-            "_margin": {
-             "unit": "px",
-             "top": "0",
-             "right": "0",
-             "bottom": "8",
-             "left": "0",
-             "isLinked": false
-            }
-           },
-           "elements": []
-          },
-          {
-           "id": "f138500",
-           "elType": "widget",
-           "widgetType": "text-editor",
-           "settings": {
-            "editor": "<p>To equip our communities with the tools, training, and opportunities to succeed.</p>",
-            "text_color": "#6E6E73",
-            "typography_typography": "custom",
-            "typography_font_family": "Inter",
-            "typography_font_size": {
-             "unit": "px",
-             "size": 15,
-             "sizes": []
-            },
-            "typography_line_height": {
-             "unit": "em",
-             "size": 1.62
-            },
-            "_margin": {
-             "unit": "px",
-             "top": "0",
-             "right": "0",
-             "bottom": "0",
-             "left": "0",
-             "isLinked": false
-            }
-           },
-           "elements": []
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "id": "44a3400",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 50
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 100
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "c511500",
-         "elType": "container",
-         "isInner": true,
-         "settings": {
-          "content_width": "full",
-          "flex_direction": "column",
-          "background_background": "classic",
-          "background_color": "#FFFFFF",
-          "padding": {
-           "unit": "px",
-           "top": "26",
-           "right": "24",
-           "bottom": "28",
-           "left": "24",
-           "isLinked": false
-          }
-         },
-         "elements": [
-          {
-           "id": "5b82d00",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "Vision",
-            "header_size": "h3",
-            "title_color": "#0A0A0A",
-            "typography_typography": "custom",
-            "typography_font_family": "Archivo",
-            "typography_font_size": {
-             "unit": "px",
-             "size": 20,
-             "sizes": []
-            },
-            "typography_font_size_tablet": {
-             "unit": "px",
-             "size": 14,
-             "sizes": []
-            },
-            "typography_font_size_mobile": {
-             "unit": "px",
-             "size": 12,
-             "sizes": []
-            },
-            "typography_font_weight": "800",
-            "typography_line_height": {
-             "unit": "em",
-             "size": 1.04
-            },
-            "typography_letter_spacing": {
-             "unit": "px",
-             "size": -1.4
-            },
-            "_margin": {
-             "unit": "px",
-             "top": "0",
-             "right": "0",
-             "bottom": "8",
-             "left": "0",
-             "isLinked": false
-            }
-           },
-           "elements": []
-          },
-          {
-           "id": "b215900",
-           "elType": "widget",
-           "widgetType": "text-editor",
-           "settings": {
-            "editor": "<p>A world where all individuals, regardless of background, have access to the resources needed to thrive in a technology-driven society.</p>",
-            "text_color": "#6E6E73",
-            "typography_typography": "custom",
-            "typography_font_family": "Inter",
-            "typography_font_size": {
-             "unit": "px",
-             "size": 15,
-             "sizes": []
-            },
-            "typography_line_height": {
-             "unit": "em",
-             "size": 1.62
-            },
-            "_margin": {
-             "unit": "px",
-             "top": "0",
-             "right": "0",
-             "bottom": "0",
-             "left": "0",
-             "isLinked": false
-            }
-           },
-           "elements": []
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "id": "7705400",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 50
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 100
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "d682900",
-         "elType": "container",
-         "isInner": true,
-         "settings": {
-          "content_width": "full",
-          "flex_direction": "column",
-          "background_background": "classic",
-          "background_color": "#FFFFFF",
-          "padding": {
-           "unit": "px",
-           "top": "26",
-           "right": "24",
-           "bottom": "28",
-           "left": "24",
-           "isLinked": false
-          }
-         },
-         "elements": [
-          {
-           "id": "0ec2100",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "Community",
-            "header_size": "h3",
-            "title_color": "#0A0A0A",
-            "typography_typography": "custom",
-            "typography_font_family": "Archivo",
-            "typography_font_size": {
-             "unit": "px",
-             "size": 20,
-             "sizes": []
-            },
-            "typography_font_size_tablet": {
-             "unit": "px",
-             "size": 14,
-             "sizes": []
-            },
-            "typography_font_size_mobile": {
-             "unit": "px",
-             "size": 12,
-             "sizes": []
-            },
-            "typography_font_weight": "800",
-            "typography_line_height": {
-             "unit": "em",
-             "size": 1.04
-            },
-            "typography_letter_spacing": {
-             "unit": "px",
-             "size": -1.4
-            },
-            "_margin": {
-             "unit": "px",
-             "top": "0",
-             "right": "0",
-             "bottom": "8",
-             "left": "0",
-             "isLinked": false
-            }
-           },
-           "elements": []
-          },
-          {
-           "id": "c983d00",
-           "elType": "widget",
-           "widgetType": "text-editor",
-           "settings": {
-            "editor": "<p>We build with the communities we serve, not for them. Local voices shape every program.</p>",
-            "text_color": "#6E6E73",
-            "typography_typography": "custom",
-            "typography_font_family": "Inter",
-            "typography_font_size": {
-             "unit": "px",
-             "size": 15,
-             "sizes": []
-            },
-            "typography_line_height": {
-             "unit": "em",
-             "size": 1.62
-            },
-            "_margin": {
-             "unit": "px",
-             "top": "0",
-             "right": "0",
-             "bottom": "0",
-             "left": "0",
-             "isLinked": false
-            }
-           },
-           "elements": []
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "id": "c6bf440",
+       "id": "8192300",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -6546,7 +6521,7 @@
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
-            "title": "Purpose",
+            "title": "Mission",
             "header_size": "h3",
             "title_color": "#0A0A0A",
             "typography_typography": "custom",
@@ -6591,7 +6566,367 @@
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>To unlock well-paid tech jobs and in-demand businesses for adult learners, creatives, and entrepreneurs.</p>",
+            "editor": "<p>To equip our communities with the tools, training, and opportunities to succeed.</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "d5e1700",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "7705400",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "padding": {
+           "unit": "px",
+           "top": "26",
+           "right": "24",
+           "bottom": "28",
+           "left": "24",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "6df9400",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Vision",
+            "header_size": "h3",
+            "title_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "8",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "44a3400",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>A world where all individuals, regardless of background, have access to the resources needed to thrive in a technology-driven society.</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "611fb00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "6d6b300",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "padding": {
+           "unit": "px",
+           "top": "26",
+           "right": "24",
+           "bottom": "28",
+           "left": "24",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "c6bf440",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Community",
+            "header_size": "h3",
+            "title_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "8",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "7e2af00",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>We build with the communities we serve, not for them. Local voices shape every program — and graduates come back to teach the next cohort.</p>",
+            "text_color": "#6E6E73",
+            "typography_typography": "custom",
+            "typography_font_family": "Inter",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15,
+             "sizes": []
+            },
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.62
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "0",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "2220f40",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 50
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "3e8df00",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "flex_direction": "column",
+          "background_background": "classic",
+          "background_color": "#FFFFFF",
+          "padding": {
+           "unit": "px",
+           "top": "26",
+           "right": "24",
+           "bottom": "28",
+           "left": "24",
+           "isLinked": false
+          }
+         },
+         "elements": [
+          {
+           "id": "5f46700",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Purpose",
+            "header_size": "h3",
+            "title_color": "#0A0A0A",
+            "typography_typography": "custom",
+            "typography_font_family": "Archivo",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 20,
+             "sizes": []
+            },
+            "typography_font_size_tablet": {
+             "unit": "px",
+             "size": 14,
+             "sizes": []
+            },
+            "typography_font_size_mobile": {
+             "unit": "px",
+             "size": 12,
+             "sizes": []
+            },
+            "typography_font_weight": "800",
+            "typography_line_height": {
+             "unit": "em",
+             "size": 1.04
+            },
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": -1.4
+            },
+            "_margin": {
+             "unit": "px",
+             "top": "0",
+             "right": "0",
+             "bottom": "8",
+             "left": "0",
+             "isLinked": false
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "a720b00",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p>So a community stops being the subject of somebody else's story and starts telling its own.</p>",
             "text_color": "#6E6E73",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -6624,7 +6959,7 @@
    ]
   },
   {
-   "id": "1e18000",
+   "id": "20d3000",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -6665,7 +7000,7 @@
    },
    "elements": [
     {
-     "id": "5f46700",
+     "id": "c2a8540",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -6697,7 +7032,7 @@
      "elements": []
     },
     {
-     "id": "a720b00",
+     "id": "2346c80",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -6742,11 +7077,11 @@
      "elements": []
     },
     {
-     "id": "3e8df00",
+     "id": "4616200",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Empowering communities through collaboration. We work hand-in-hand with grassroots foundations, cultural organizations, and community institutions across Newark, Jersey City, and Atlanta.</p>",
+      "editor": "<p>Students turned a police precinct into a haunted house. They turned a community center gym into a Christmas Wonderland for Newark families — tree assembly, sound, lighting, video walls, the whole room. Not as a class exercise. As the crew.</p>",
       "text_color": "#6E6E73",
       "typography_typography": "custom",
       "typography_font_family": "Inter",
@@ -6771,7 +7106,7 @@
      "elements": []
     },
     {
-     "id": "8192300",
+     "id": "552ea40",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -6784,7 +7119,7 @@
      "elements": []
     },
     {
-     "id": "2293600",
+     "id": "b8d9800",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -6808,7 +7143,7 @@
      },
      "elements": [
       {
-       "id": "552ea40",
+       "id": "e002e40",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -6831,7 +7166,7 @@
        },
        "elements": [
         {
-         "id": "d5e1700",
+         "id": "52d6d00",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -6856,7 +7191,7 @@
        ]
       },
       {
-       "id": "52d6d00",
+       "id": "9ab6180",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -6879,7 +7214,7 @@
        },
        "elements": [
         {
-         "id": "611fb00",
+         "id": "98d9940",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -6904,7 +7239,7 @@
        ]
       },
       {
-       "id": "98d9940",
+       "id": "eadb3c0",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -6927,7 +7262,7 @@
        },
        "elements": [
         {
-         "id": "2220f40",
+         "id": "d7bf000",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -6952,7 +7287,7 @@
        ]
       },
       {
-       "id": "d7bf000",
+       "id": "33a3900",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -6975,7 +7310,7 @@
        },
        "elements": [
         {
-         "id": "4a62e78",
+         "id": "0e56040",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -7000,7 +7335,7 @@
        ]
       },
       {
-       "id": "0e56040",
+       "id": "3287500",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -7023,7 +7358,7 @@
        },
        "elements": [
         {
-         "id": "5ba8900",
+         "id": "67dab00",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -7048,7 +7383,7 @@
        ]
       },
       {
-       "id": "67dab00",
+       "id": "9e00140",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -7071,7 +7406,7 @@
        },
        "elements": [
         {
-         "id": "c2a8540",
+         "id": "f9bff40",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -7096,7 +7431,7 @@
        ]
       },
       {
-       "id": "f9bff40",
+       "id": "c423800",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -7119,7 +7454,7 @@
        },
        "elements": [
         {
-         "id": "2346c80",
+         "id": "8b15e00",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -7144,7 +7479,7 @@
        ]
       },
       {
-       "id": "8b15e00",
+       "id": "5420800",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -7167,7 +7502,7 @@
        },
        "elements": [
         {
-         "id": "4616200",
+         "id": "2293600",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -7194,7 +7529,7 @@
      ]
     },
     {
-     "id": "e002e40",
+     "id": "f99e800",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -7207,7 +7542,7 @@
      "elements": []
     },
     {
-     "id": "9ab6180",
+     "id": "937f800",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -7239,7 +7574,7 @@
      "elements": []
     },
     {
-     "id": "55edd80",
+     "id": "e210000",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -7262,438 +7597,6 @@
       }
      },
      "elements": [
-      {
-       "id": "36cf300",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 25
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 48
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "eadb3c0",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-logo-26blocks.png",
-           "id": "",
-           "alt": "26 Blocks",
-           "source": "library"
-          },
-          "image_size": "full",
-          "_margin": {
-           "unit": "px",
-           "top": "0",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "96da738",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 25
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 48
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "33a3900",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-cherry-foundation.webp",
-           "id": "",
-           "alt": "C. Cherry Foundation",
-           "source": "library"
-          },
-          "image_size": "full",
-          "_margin": {
-           "unit": "px",
-           "top": "0",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "9f37300",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 25
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 48
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "3287500",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-art4change.webp",
-           "id": "",
-           "alt": "Art 4 Change",
-           "source": "library"
-          },
-          "image_size": "full",
-          "_margin": {
-           "unit": "px",
-           "top": "0",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "bb22700",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 25
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 48
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "9e00140",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-logo-nu-digitech.png",
-           "id": "",
-           "alt": "NU Digi.Tech",
-           "source": "library"
-          },
-          "image_size": "full",
-          "_margin": {
-           "unit": "px",
-           "top": "0",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "cbccb40",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 25
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 48
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "c423800",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-njit.webp",
-           "id": "",
-           "alt": "NJIT",
-           "source": "library"
-          },
-          "image_size": "full",
-          "_margin": {
-           "unit": "px",
-           "top": "0",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "5d03a00",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 25
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 48
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "5420800",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-barat.webp",
-           "id": "",
-           "alt": "Barat Foundation",
-           "source": "library"
-          },
-          "image_size": "full",
-          "_margin": {
-           "unit": "px",
-           "top": "0",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "754e200",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 25
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 48
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "b8d9800",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-newark-public-library.webp",
-           "id": "",
-           "alt": "Newark Public Library",
-           "source": "library"
-          },
-          "image_size": "full",
-          "_margin": {
-           "unit": "px",
-           "top": "0",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "8006a00",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 25
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 48
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "f99e800",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-nu-media.webp",
-           "id": "",
-           "alt": "Nu Media",
-           "source": "library"
-          },
-          "image_size": "full",
-          "_margin": {
-           "unit": "px",
-           "top": "0",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "4795200",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 25
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 48
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "937f800",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-wise-engineering.webp",
-           "id": "",
-           "alt": "Wise Engineering",
-           "source": "library"
-          },
-          "image_size": "full",
-          "_margin": {
-           "unit": "px",
-           "top": "0",
-           "right": "0",
-           "bottom": "0",
-           "left": "0",
-           "isLinked": false
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
       {
        "id": "aa41a40",
        "elType": "container",
@@ -7723,6 +7626,438 @@
          "widgetType": "image",
          "settings": {
           "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-logo-26blocks.png",
+           "id": "",
+           "alt": "26 Blocks",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "55edd80",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "36cf300",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-cherry-foundation.webp",
+           "id": "",
+           "alt": "C. Cherry Foundation",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "1e18000",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "96da738",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-art4change.webp",
+           "id": "",
+           "alt": "Art 4 Change",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "203b000",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "9f37300",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://borngifted.github.io/digi2u-2026/assets/deck/d2u-logo-nu-digitech.png",
+           "id": "",
+           "alt": "NU Digi.Tech",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "b322000",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "bb22700",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-njit.webp",
+           "id": "",
+           "alt": "NJIT",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "a17d000",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "cbccb40",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-barat.webp",
+           "id": "",
+           "alt": "Barat Foundation",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "d83c000",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "5d03a00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-newark-public-library.webp",
+           "id": "",
+           "alt": "Newark Public Library",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "598f040",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "754e200",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-nu-media.webp",
+           "id": "",
+           "alt": "Nu Media",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "cd1fb00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "8006a00",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-wise-engineering.webp",
+           "id": "",
+           "alt": "Wise Engineering",
+           "source": "library"
+          },
+          "image_size": "full",
+          "_margin": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "1e21000",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "4795200",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
            "url": "https://digi2u.org/wp-content/uploads/2026/05/d2u-logo-betterbutter.webp",
            "id": "",
            "alt": "Better Butter",
@@ -7747,7 +8082,7 @@
    ]
   },
   {
-   "id": "aefb400",
+   "id": "ecac300",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -7788,7 +8123,7 @@
    },
    "elements": [
     {
-     "id": "203b000",
+     "id": "43da000",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -7820,7 +8155,7 @@
      "elements": []
     },
     {
-     "id": "b322000",
+     "id": "4fd5040",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -7865,11 +8200,11 @@
      "elements": []
     },
     {
-     "id": "a17d000",
+     "id": "fcedb00",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Give once. Give monthly. Give stock. Every gift funds curriculum, tools, space, and the people who make it all work.</p>",
+      "editor": "<p>Give once. Give monthly. Give stock. Every gift funds curriculum, tools, space, and the people who make it all work — and somebody walks out with a portfolio and a credential who had neither when they walked in.</p>",
       "text_color": "rgba(255,255,255,0.66)",
       "typography_typography": "custom",
       "typography_font_family": "Inter",
@@ -7894,7 +8229,7 @@
      "elements": []
     },
     {
-     "id": "d83c000",
+     "id": "3cd6f00",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -7907,7 +8242,7 @@
      "elements": []
     },
     {
-     "id": "4b63400",
+     "id": "7ae5300",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -7931,7 +8266,7 @@
      },
      "elements": [
       {
-       "id": "7297800",
+       "id": "8e7d400",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -7954,7 +8289,7 @@
        },
        "elements": [
         {
-         "id": "e210000",
+         "id": "c1bcd00",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -7971,7 +8306,7 @@
          },
          "elements": [
           {
-           "id": "598f040",
+           "id": "04a7340",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -8016,7 +8351,7 @@
            "elements": []
           },
           {
-           "id": "cd1fb00",
+           "id": "250c200",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -8061,11 +8396,11 @@
            "elements": []
           },
           {
-           "id": "1e21000",
+           "id": "37eca40",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Puts skills into the hands of adults ready to build what's next — curriculum, tools, space, and the people who make it all work.</p>",
+            "editor": "<p>One adult, one full track, start to portfolio. Curriculum, materials, studio time, and the instructor hours that make it stick.</p>",
             "text_color": "rgba(255,255,255,0.6)",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -8094,7 +8429,7 @@
        ]
       },
       {
-       "id": "f384840",
+       "id": "54d7400",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -8117,7 +8452,7 @@
        },
        "elements": [
         {
-         "id": "fcedb00",
+         "id": "7297800",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -8134,7 +8469,7 @@
          },
          "elements": [
           {
-           "id": "20d3000",
+           "id": "e4c7900",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -8179,7 +8514,7 @@
            "elements": []
           },
           {
-           "id": "43da000",
+           "id": "96db500",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -8224,11 +8559,11 @@
            "elements": []
           },
           {
-           "id": "4fd5040",
+           "id": "edc4140",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Helps adult learners earn nationally recognized certifications that employers look for — OSHA 30, ServSafe, and FAA Part 107.</p>",
+            "editor": "<p>Exam fees and test prep for OSHA 30, ServSafe, or FAA Part 107 — the one line on a résumé that gets it read instead of filtered.</p>",
             "text_color": "rgba(255,255,255,0.6)",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -8257,7 +8592,7 @@
        ]
       },
       {
-       "id": "27a7400",
+       "id": "3529440",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -8280,7 +8615,7 @@
        },
        "elements": [
         {
-         "id": "37eca40",
+         "id": "4b63400",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -8297,7 +8632,7 @@
          },
          "elements": [
           {
-           "id": "3cd6f00",
+           "id": "f384840",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -8342,7 +8677,7 @@
            "elements": []
           },
           {
-           "id": "04a7340",
+           "id": "27a7400",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -8387,11 +8722,11 @@
            "elements": []
           },
           {
-           "id": "250c200",
+           "id": "57b9400",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Every dollar funds curriculum, equipment, and the people who make it all work — the tools that make hands-on training possible.</p>",
+            "editor": "<p>Printers, cameras, consoles, workstations. Our learners train on real equipment because nobody gets hired for practicing on a simulator.</p>",
             "text_color": "rgba(255,255,255,0.6)",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -8420,7 +8755,7 @@
        ]
       },
       {
-       "id": "57b9400",
+       "id": "cd4cf00",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -8443,7 +8778,7 @@
        },
        "elements": [
         {
-         "id": "edc4140",
+         "id": "aefb400",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -8460,7 +8795,7 @@
          },
          "elements": [
           {
-           "id": "c1bcd00",
+           "id": "d6c5400",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -8505,7 +8840,7 @@
            "elements": []
           },
           {
-           "id": "e4c7900",
+           "id": "0b7f400",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -8550,11 +8885,11 @@
            "elements": []
           },
           {
-           "id": "96db500",
+           "id": "2ab1400",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Expands access to technology, education, and creative opportunities across NJ, ATL, Newark, and Houston.</p>",
+            "editor": "<p>Keeps the mobile media labs on the road, reaching the blocks that do not have a Digi2U building on them yet.</p>",
             "text_color": "rgba(255,255,255,0.6)",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -8585,7 +8920,7 @@
      ]
     },
     {
-     "id": "2ab1400",
+     "id": "5dcff00",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -8609,7 +8944,7 @@
      },
      "elements": [
       {
-       "id": "d6c5400",
+       "id": "4838700",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -8660,7 +8995,7 @@
        "elements": []
       },
       {
-       "id": "0b7f400",
+       "id": "922ab00",
        "elType": "widget",
        "widgetType": "button",
        "settings": {

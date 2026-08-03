@@ -4,7 +4,7 @@
  "type": "page",
  "content": [
   {
-   "id": "922ab00",
+   "id": "9da4e40",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -64,7 +64,7 @@
    },
    "elements": [
     {
-     "id": "8e7d400",
+     "id": "5bf3740",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -96,7 +96,7 @@
      "elements": []
     },
     {
-     "id": "54d7400",
+     "id": "0c03600",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -141,7 +141,7 @@
      "elements": []
     },
     {
-     "id": "3529440",
+     "id": "64b2e00",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -170,7 +170,7 @@
      "elements": []
     },
     {
-     "id": "4838700",
+     "id": "a97d600",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -194,7 +194,7 @@
      },
      "elements": [
       {
-       "id": "cd4cf00",
+       "id": "a06c600",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -245,7 +245,7 @@
        "elements": []
       },
       {
-       "id": "7ae5300",
+       "id": "9367e00",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -300,7 +300,7 @@
    ]
   },
   {
-   "id": "a845100",
+   "id": "7f13340",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -339,7 +339,7 @@
    },
    "elements": [
     {
-     "id": "5dcff00",
+     "id": "b4b0100",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -371,7 +371,7 @@
      "elements": []
     },
     {
-     "id": "ecac300",
+     "id": "f3d9d00",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -416,7 +416,7 @@
      "elements": []
     },
     {
-     "id": "5bf3740",
+     "id": "1120900",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -445,7 +445,7 @@
      "elements": []
     },
     {
-     "id": "0c03600",
+     "id": "96c0500",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -458,7 +458,7 @@
      "elements": []
     },
     {
-     "id": "96c0500",
+     "id": "ad72f00",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -482,7 +482,7 @@
      },
      "elements": [
       {
-       "id": "f3d9d00",
+       "id": "2a2a939",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -505,7 +505,7 @@
        },
        "elements": [
         {
-         "id": "9367e00",
+         "id": "9b3d900",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -524,7 +524,7 @@
          },
          "elements": [
           {
-           "id": "64b2e00",
+           "id": "a845100",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -569,7 +569,7 @@
            "elements": []
           },
           {
-           "id": "a06c600",
+           "id": "104ad00",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -602,7 +602,7 @@
        ]
       },
       {
-       "id": "1120900",
+       "id": "9e79b00",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -625,7 +625,7 @@
        },
        "elements": [
         {
-         "id": "b4b0100",
+         "id": "02cbd00",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -644,7 +644,7 @@
          },
          "elements": [
           {
-           "id": "a97d600",
+           "id": "3b19500",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -689,7 +689,7 @@
            "elements": []
           },
           {
-           "id": "9da4e40",
+           "id": "c02a100",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -726,7 +726,7 @@
    ]
   },
   {
-   "id": "c9b1700",
+   "id": "01b7600",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -767,7 +767,7 @@
    },
    "elements": [
     {
-     "id": "104ad00",
+     "id": "2d08280",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -799,7 +799,7 @@
      "elements": []
     },
     {
-     "id": "9b3d900",
+     "id": "98ac000",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -844,7 +844,7 @@
      "elements": []
     },
     {
-     "id": "3b19500",
+     "id": "693f000",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -873,7 +873,7 @@
      "elements": []
     },
     {
-     "id": "c02a100",
+     "id": "01d6000",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -886,7 +886,7 @@
      "elements": []
     },
     {
-     "id": "a2a2300",
+     "id": "87f7740",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -910,7 +910,7 @@
      },
      "elements": [
       {
-       "id": "6c29d40",
+       "id": "5339300",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -933,7 +933,7 @@
        },
        "elements": [
         {
-         "id": "ad72f00",
+         "id": "5313b00",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -952,7 +952,7 @@
          },
          "elements": [
           {
-           "id": "02cbd00",
+           "id": "fc21000",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -997,7 +997,7 @@
            "elements": []
           },
           {
-           "id": "2a2a939",
+           "id": "6810000",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1042,11 +1042,11 @@
            "elements": []
           },
           {
-           "id": "9e79b00",
+           "id": "2ed3040",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Expanding access to technology and opportunity through makerspaces, mobile media labs, and the Studio Way flagship campus.</p>",
+            "editor": "<p>The equipment comes to the block. Makerspaces in Jersey City, Newark, and Atlanta, plus mobile labs for the neighborhoods without one.</p>",
             "text_color": "#6E6E73",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -1075,7 +1075,7 @@
        ]
       },
       {
-       "id": "c46a400",
+       "id": "fbfc700",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1098,7 +1098,7 @@
        },
        "elements": [
         {
-         "id": "693f000",
+         "id": "ca72a00",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1117,7 +1117,7 @@
          },
          "elements": [
           {
-           "id": "7f13340",
+           "id": "7f04f00",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1162,7 +1162,7 @@
            "elements": []
           },
           {
-           "id": "2d08280",
+           "id": "363d340",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1207,11 +1207,11 @@
            "elements": []
           },
           {
-           "id": "98ac000",
+           "id": "f5ea200",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Hands-on training in technology, media, and creative industries — twelve tracks in Science, Technology, Engineering, Arts, and Math.</p>",
+            "editor": "<p>Twelve tracks, taught by people who do the work for a living. You are in the room with a professional, not a video.</p>",
             "text_color": "#6E6E73",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -1240,7 +1240,7 @@
        ]
       },
       {
-       "id": "80c0400",
+       "id": "d49eb00",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1263,7 +1263,7 @@
        },
        "elements": [
         {
-         "id": "2ed3040",
+         "id": "6c29d40",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1282,7 +1282,7 @@
          },
          "elements": [
           {
-           "id": "01d6000",
+           "id": "df91240",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1327,7 +1327,7 @@
            "elements": []
           },
           {
-           "id": "fc21000",
+           "id": "41c7500",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1372,11 +1372,11 @@
            "elements": []
           },
           {
-           "id": "6810000",
+           "id": "9c40100",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Nationally recognized certifications that employers look for — OSHA 30, ServSafe, and FAA Part 107.</p>",
+            "editor": "<p>OSHA 30, ServSafe, FAA Part 107 — the credentials that get a résumé past the filter instead of into the pile.</p>",
             "text_color": "#6E6E73",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -1405,7 +1405,7 @@
        ]
       },
       {
-       "id": "e55e440",
+       "id": "0133f00",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1428,7 +1428,7 @@
        },
        "elements": [
         {
-         "id": "f5ea200",
+         "id": "f9ddf00",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1447,7 +1447,7 @@
          },
          "elements": [
           {
-           "id": "5313b00",
+           "id": "c46a400",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1492,7 +1492,7 @@
            "elements": []
           },
           {
-           "id": "7f04f00",
+           "id": "80c0400",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1537,11 +1537,11 @@
            "elements": []
           },
           {
-           "id": "363d340",
+           "id": "e55e440",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
-            "editor": "<p>Adult learners leave with marketable skills, finished products, and portfolios — and real career paths.</p>",
+            "editor": "<p>You leave holding proof. A portfolio, a printed prototype, a finished film, a licence — something you can put in front of someone.</p>",
             "text_color": "#6E6E73",
             "typography_typography": "custom",
             "typography_font_family": "Inter",
@@ -1570,7 +1570,7 @@
        ]
       },
       {
-       "id": "f9ddf00",
+       "id": "f640300",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1593,7 +1593,7 @@
        },
        "elements": [
         {
-         "id": "9c40100",
+         "id": "4270f00",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1612,7 +1612,7 @@
          },
          "elements": [
           {
-           "id": "ca72a00",
+           "id": "a2a2300",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1657,7 +1657,7 @@
            "elements": []
           },
           {
-           "id": "df91240",
+           "id": "c9b1700",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -1702,7 +1702,7 @@
            "elements": []
           },
           {
-           "id": "41c7500",
+           "id": "90afb00",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -1739,7 +1739,7 @@
    ]
   },
   {
-   "id": "8d80400",
+   "id": "182e400",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1780,7 +1780,7 @@
    },
    "elements": [
     {
-     "id": "90afb00",
+     "id": "da56e39",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1812,7 +1812,7 @@
      "elements": []
     },
     {
-     "id": "4270f00",
+     "id": "01b7c80",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1857,7 +1857,7 @@
      "elements": []
     },
     {
-     "id": "5339300",
+     "id": "6a332c0",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1886,7 +1886,7 @@
      "elements": []
     },
     {
-     "id": "fbfc700",
+     "id": "d734c00",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1899,7 +1899,7 @@
      "elements": []
     },
     {
-     "id": "0c2a400",
+     "id": "7cd0400",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1923,7 +1923,7 @@
      },
      "elements": [
       {
-       "id": "370f100",
+       "id": "75e8400",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1946,7 +1946,7 @@
        },
        "elements": [
         {
-         "id": "87f7740",
+         "id": "6c27a00",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -1963,7 +1963,7 @@
          },
          "elements": [
           {
-           "id": "d49eb00",
+           "id": "33f8c40",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2008,7 +2008,7 @@
            "elements": []
           },
           {
-           "id": "0133f00",
+           "id": "84a6700",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2053,7 +2053,7 @@
            "elements": []
           },
           {
-           "id": "f640300",
+           "id": "d100b40",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -2086,7 +2086,7 @@
        ]
       },
       {
-       "id": "684cd40",
+       "id": "7766400",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2109,7 +2109,7 @@
        },
        "elements": [
         {
-         "id": "6a332c0",
+         "id": "370f100",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2126,7 +2126,7 @@
          },
          "elements": [
           {
-           "id": "01b7600",
+           "id": "dfa2240",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2171,7 +2171,7 @@
            "elements": []
           },
           {
-           "id": "da56e39",
+           "id": "7704600",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2216,7 +2216,7 @@
            "elements": []
           },
           {
-           "id": "01b7c80",
+           "id": "421fe40",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -2249,7 +2249,7 @@
        ]
       },
       {
-       "id": "c951480",
+       "id": "7e0c400",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2272,7 +2272,7 @@
        },
        "elements": [
         {
-         "id": "d100b40",
+         "id": "0c2a400",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2289,7 +2289,7 @@
          },
          "elements": [
           {
-           "id": "d734c00",
+           "id": "684cd40",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2334,7 +2334,7 @@
            "elements": []
           },
           {
-           "id": "33f8c40",
+           "id": "c951480",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2379,7 +2379,7 @@
            "elements": []
           },
           {
-           "id": "84a6700",
+           "id": "2b8eac0",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -2412,7 +2412,7 @@
        ]
       },
       {
-       "id": "2b8eac0",
+       "id": "e6ba400",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2435,7 +2435,7 @@
        },
        "elements": [
         {
-         "id": "421fe40",
+         "id": "3532400",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -2452,7 +2452,7 @@
          },
          "elements": [
           {
-           "id": "6c27a00",
+           "id": "8d80400",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2497,7 +2497,7 @@
            "elements": []
           },
           {
-           "id": "dfa2240",
+           "id": "d31e400",
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
@@ -2542,7 +2542,7 @@
            "elements": []
           },
           {
-           "id": "7704600",
+           "id": "9b64400",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -2579,7 +2579,7 @@
    ]
   },
   {
-   "id": "3ebcd00",
+   "id": "986bb00",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2618,7 +2618,7 @@
    },
    "elements": [
     {
-     "id": "d31e400",
+     "id": "e334400",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -2650,7 +2650,7 @@
      "elements": []
     },
     {
-     "id": "9b64400",
+     "id": "28c2440",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -2695,7 +2695,7 @@
      "elements": []
     },
     {
-     "id": "3532400",
+     "id": "2371f80",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -2724,7 +2724,7 @@
      "elements": []
     },
     {
-     "id": "75e8400",
+     "id": "a119a00",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2737,7 +2737,7 @@
      "elements": []
     },
     {
-     "id": "a13f100",
+     "id": "528b040",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2761,7 +2761,7 @@
      },
      "elements": [
       {
-       "id": "a119a00",
+       "id": "3ebcd00",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2784,7 +2784,7 @@
        },
        "elements": [
         {
-         "id": "7766400",
+         "id": "26ac200",
          "elType": "widget",
          "widgetType": "image-box",
          "settings": {
@@ -2820,7 +2820,7 @@
        ]
       },
       {
-       "id": "26ac200",
+       "id": "1dc7900",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2843,7 +2843,7 @@
        },
        "elements": [
         {
-         "id": "7e0c400",
+         "id": "a90ca00",
          "elType": "widget",
          "widgetType": "image-box",
          "settings": {
@@ -2879,7 +2879,7 @@
        ]
       },
       {
-       "id": "a90ca00",
+       "id": "dbdb500",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2902,7 +2902,7 @@
        },
        "elements": [
         {
-         "id": "e6ba400",
+         "id": "9323200",
          "elType": "widget",
          "widgetType": "image-box",
          "settings": {
@@ -2938,7 +2938,7 @@
        ]
       },
       {
-       "id": "9323200",
+       "id": "4ec4000",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2961,7 +2961,7 @@
        },
        "elements": [
         {
-         "id": "7cd0400",
+         "id": "19b7a40",
          "elType": "widget",
          "widgetType": "image-box",
          "settings": {
@@ -2997,7 +2997,7 @@
        ]
       },
       {
-       "id": "19b7a40",
+       "id": "4177000",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3020,7 +3020,7 @@
        },
        "elements": [
         {
-         "id": "182e400",
+         "id": "bf2bd00",
          "elType": "widget",
          "widgetType": "image-box",
          "settings": {
@@ -3056,7 +3056,7 @@
        ]
       },
       {
-       "id": "bf2bd00",
+       "id": "21ae000",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3079,7 +3079,7 @@
        },
        "elements": [
         {
-         "id": "e334400",
+         "id": "9f0a900",
          "elType": "widget",
          "widgetType": "image-box",
          "settings": {
@@ -3115,7 +3115,7 @@
        ]
       },
       {
-       "id": "9f0a900",
+       "id": "5b19000",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3138,7 +3138,7 @@
        },
        "elements": [
         {
-         "id": "28c2440",
+         "id": "4f62500",
          "elType": "widget",
          "widgetType": "image-box",
          "settings": {
@@ -3174,7 +3174,7 @@
        ]
       },
       {
-       "id": "4f62500",
+       "id": "67a8000",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3197,7 +3197,7 @@
        },
        "elements": [
         {
-         "id": "2371f80",
+         "id": "a13f100",
          "elType": "widget",
          "widgetType": "image-box",
          "settings": {

@@ -127,14 +127,14 @@ const D2U_LOGOS = [
 
 /* Day-in-the-life strip. Copy assembled from the live digi2u.org wording. */
 const D2U_MOMENTS = [
-  { img: D2U_GIT_IMG + 'girls-in-tech-3d-sketching-01-rotated.jpg', when: '01', title: 'Hands-on training',
-    desc: 'Hands-on training in technology, media, and creative industries — taught by industry professionals, educators, and creatives.' },
-  { img: D2U_GIT_IMG + 'girls-in-tech-3d-tinkercad-01.jpg',         when: '02', title: 'Real-life projects',
-    desc: 'Pairing instruction with real-life projects, so what is learned in the classroom is applied in a professional, real-world setting.' },
-  { img: D2U_CDN + 'd2u-3d-jellybox-build.webp',                    when: '03', title: 'Finished products',
-    desc: 'Adult learners leave with marketable skills, finished products, and portfolios — real tools, real projects, real outcomes.' },
-  { img: D2U_CDN + 'd2u-spinoff-newark-07.webp',                    when: '04', title: 'Real career paths',
-    desc: 'From 3D fabrication to live event staging, every program leaves adult learners with skills, portfolios, and real career paths.' }
+  { img: D2U_GIT_IMG + 'girls-in-tech-3d-sketching-01-rotated.jpg', when: '01', title: 'You draw it',
+    desc: 'Every track starts on paper, with an instructor in the chair beside you. Nobody gets handed a manual and left to figure it out alone.' },
+  { img: D2U_GIT_IMG + 'girls-in-tech-3d-tinkercad-01.jpg',         when: '02', title: 'You model it',
+    desc: 'The same software the industry runs on — learned by making something you actually want to exist, not by copying an exercise.' },
+  { img: D2U_CDN + 'd2u-3d-jellybox-build.webp',                    when: '03', title: 'You build it',
+    desc: 'In the 3D track you assemble the printer, then print on the machine you built. The tool and the skill arrive at the same time.' },
+  { img: D2U_CDN + 'd2u-spinoff-newark-07.webp',                    when: '04', title: 'You run it',
+    desc: 'A live show. A real shoot. A community night with a room full of people. Not a simulation — an audience.' }
 ];
 
 /* Retained for reference only — not rendered on any page. The site uses the

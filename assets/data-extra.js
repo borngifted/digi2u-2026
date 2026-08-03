@@ -1,7 +1,7 @@
 /* Digi2U 2026 — partners, sponsors, media, events, roles, testimonials.
    All copy carried over verbatim from the live digi2u.org pages. */
 
-/* Descriptive facts about the organisation. Outcome figures live in
+/* Descriptive facts about the organization. Outcome figures live in
    D2U_IMPACT (data-phase2.js) and are not duplicated here — the two must never
    disagree. Digi2U supplied 51 graduates / 8,200 teaching hours / 35 streamed
    events, which supersede the older 5,000-training-hours and 40+-events
@@ -22,18 +22,18 @@ const D2U_MEDIA_STATS = [
 
 /* Theory of change — the spine funders look for. Built from existing site content. */
 const D2U_THEORY = [
-  { step: '01', title: 'Access',       desc: 'Expanding access to technology and opportunity through makerspaces, mobile media labs, and the Studio Way flagship campus.' },
-  { step: '02', title: 'Training',     desc: 'Hands-on training in technology, media, and creative industries — twelve tracks in Science, Technology, Engineering, Arts, and Math.' },
-  { step: '03', title: 'Certification',desc: 'Nationally recognized certifications that employers look for — OSHA 30, ServSafe, and FAA Part 107.' },
-  { step: '04', title: 'Career',       desc: 'Adult learners leave with marketable skills, finished products, and portfolios — and real career paths.' },
+  { step: '01', title: 'Access',       desc: 'The equipment comes to the block. Makerspaces in Jersey City, Newark, and Atlanta, plus mobile labs for the neighborhoods without one.' },
+  { step: '02', title: 'Training',     desc: 'Twelve tracks, taught by people who do the work for a living. You are in the room with a professional, not a video.' },
+  { step: '03', title: 'Certification',desc: 'OSHA 30, ServSafe, FAA Part 107 — the credentials that get a résumé past the filter instead of into the pile.' },
+  { step: '04', title: 'Career',       desc: 'You leave holding proof. A portfolio, a printed prototype, a finished film, a licence — something you can put in front of someone.' },
   { step: '05', title: 'Pay It Forward',desc: 'Mentorship, apprenticeship, volunteerism, sponsorship — everyone who\'s helped is asked to help next.' }
 ];
 
 const D2U_PILLARS = [
-  { n: '01', title: 'Mentorship',   desc: 'Industry professionals, educators, and creatives working directly alongside adult learners.' },
-  { n: '02', title: 'Apprenticeship',desc: 'Hands-on experience on live productions and builds, applying classroom knowledge in a real-world setting.' },
-  { n: '03', title: 'Volunteerism', desc: 'Community members donating hours to support events, workshops, and training sessions.' },
-  { n: '04', title: 'Sponsorship',  desc: 'Companies and foundations whose generosity fuels our programs, training intensives, and community work.' }
+  { n: '01', title: 'Mentorship',   desc: 'Somebody who has done the job, sitting next to somebody who wants it. That is the entire transaction.' },
+  { n: '02', title: 'Apprenticeship',desc: 'Real productions, real deadlines, real consequences — classroom knowledge applied where it actually counts.' },
+  { n: '03', title: 'Volunteerism', desc: 'Neighbours giving hours so a program can run. Most of them were on the other side of the table first.' },
+  { n: '04', title: 'Sponsorship',  desc: 'Companies and foundations funding the curriculum, the equipment, and the people — so the learner is never the one billed.' }
 ];
 
 const D2U_VALUES = [
