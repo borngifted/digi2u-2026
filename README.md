@@ -58,6 +58,25 @@ One caption needs confirmation: `Justice_Khemfest_IMG_6380.png` shows a Best Stu
 which does not match its filename. It is captioned neutrally as "Student film award" pending
 correct attribution.
 
+### Rotation-corrected images
+
+Four photographs in the digi2u.org media library are stored 90° out of true — portrait content
+written into a 1919×1080 landscape frame with no orientation flag, so every browser renders them
+sideways:
+
+- `d2u-ctap-training-1` — the Business & Enterprise category card ("Grow your brand") and gallery
+- `d2u-3d-morris-canal-2` — gallery
+- `d2u-audio-mixing-1` — gallery
+- `d2u-audio-mixing-3` — gallery
+
+Corrected copies (rotated clockwise, re-encoded WebP) live in `assets/fix/` and the demo points at
+those. **The originals on digi2u.org are still sideways and need fixing at the source** — anything
+else on the live WordPress site that uses them is still affected.
+
+The two `audio-mixing` frames are near-identical once upright, and show a broadcast booth
+(headphones, boom mic, control surface) rather than a mixing console — recategorised to
+Audio & DJ with captions to match. Consider dropping one as a near-duplicate.
+
 ### Wording
 
 All copy matches the live digi2u.org wording. Headlines, ledes, section kickers, values,

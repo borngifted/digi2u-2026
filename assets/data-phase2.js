@@ -84,7 +84,7 @@ const D2U_CATEGORIES = [
     title: 'Business & Enterprise',
     kicker: 'Grow your brand',
     desc: 'Preparing adult learners for in-demand businesses — brand strategy, marketing, and the grant writing that funds community work.',
-    img: 'https://digi2u.org/wp-content/uploads/2026/05/d2u-ctap-training-1.webp',
+    img: 'assets/fix/d2u-ctap-training-1.webp',
     programs: ['marketing', 'grants']
   },
   {

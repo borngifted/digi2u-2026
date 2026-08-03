@@ -7,6 +7,13 @@
 
 const D2U_CDN = 'https://digi2u.org/wp-content/uploads/2026/05/';
 const D2U_DECK = 'assets/deck/';
+
+/* Rotation-corrected copies. Four images in the digi2u.org media library are
+   stored 90° out of true — portrait content written into a 1919x1080 landscape
+   frame with no orientation flag, so every browser renders them sideways.
+   These are the same photographs rotated clockwise and re-encoded. The
+   originals on digi2u.org still need fixing at the source. */
+const D2U_FIX = 'assets/fix/';
 const D2U_GIT = 'https://borngifted.github.io/digi2u-review/assets/girls-in-tech/';
 const D2U_GIT_IMG = 'https://digi2u.org/wp-content/uploads/2026/07/';
 
@@ -67,13 +74,13 @@ const D2U_GALLERY = [
   { src: D2U_CDN + 'd2u-3d-jellybox-build.webp',     cat: '3D Design',        cap: 'Building a JellyBox printer from the frame up' },
   { src: D2U_CDN + 'd2u-newark-3d-1.webp',           cat: '3D Design',        cap: '3D program in Newark' },
   { src: D2U_CDN + 'd2u-newark-3d-6.webp',           cat: '3D Design',        cap: 'Newark cohort at the printers' },
-  { src: D2U_CDN + 'd2u-3d-morris-canal-2.webp',     cat: '3D Design',        cap: 'Morris Canal community session' },
+  { src: D2U_FIX + 'd2u-3d-morris-canal-2.webp',     cat: '3D Design',        cap: 'Morris Canal community session' },
 
   { src: D2U_CDN + 'd2u-spinoff-newark-2.webp',      cat: 'Live Production',  cap: 'The Spin-Off Open Deck — live showcase' },
   { src: D2U_CDN + 'd2u-spinoff-newark-07.webp',     cat: 'Live Production',  cap: 'Students running the show' },
   { src: D2U_CDN + 'd2u-spinoff-newark-3.webp',      cat: 'Live Production',  cap: 'Multi-camera production, student crew' },
-  { src: D2U_CDN + 'd2u-audio-mixing-1.webp',        cat: 'Live Production',  cap: 'On the mixing console' },
-  { src: D2U_CDN + 'd2u-audio-mixing-3.webp',        cat: 'Live Production',  cap: 'Sound and recording' },
+  { src: D2U_FIX + 'd2u-audio-mixing-1.webp',        cat: 'Audio & DJ',       cap: 'In the booth — headphones on, mic live' },
+  { src: D2U_FIX + 'd2u-audio-mixing-3.webp',        cat: 'Audio & DJ',       cap: 'At the broadcast desk' },
 
   { src: D2U_CDN + 'd2u-cherry-xmas-3.webp',         cat: 'Community',        cap: 'Newark Christmas Wonderland, with the C. Cherry Foundation' },
   { src: D2U_CDN + 'd2u-cherry-xmas-5.webp',         cat: 'Community',        cap: 'Families at the Christmas community event' },
@@ -83,7 +90,7 @@ const D2U_GALLERY = [
 
   { src: D2U_CDN + 'd2u-njit-makerspace-1.webp',     cat: 'Makerspace',       cap: 'In the NJIT makerspace' },
   { src: D2U_CDN + 'd2u-njit-makerspace-3.webp',     cat: 'Makerspace',       cap: 'Shop time' },
-  { src: D2U_CDN + 'd2u-ctap-training-1.webp',       cat: 'Training',         cap: 'CTAP training intensive' },
+  { src: D2U_FIX + 'd2u-ctap-training-1.webp',       cat: 'Training',         cap: 'CTAP training intensive' },
   { src: D2U_CDN + 'd2u-training-pacific-2.webp',    cat: 'Training',         cap: 'Training at the Pacific Avenue studio' },
   { src: D2U_CDN + 'd2u-pacific-extra-01.webp',      cat: 'Training',         cap: 'A session in progress' },
   { src: D2U_CDN + 'd2u-26training-outdoors-2.webp', cat: 'Training',         cap: 'Field production training' },
