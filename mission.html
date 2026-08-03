@@ -66,6 +66,29 @@
   </div>
 </section>
 
+<!-- ===== FOUNDER ===== -->
+<section class="sec-dark">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Our Founder</p>
+      <h2 class="h-section">Teaching tomorrow's<br>technology today.</h2>
+    </div>
+    <div id="founder"></div>
+  </div>
+</section>
+
+<!-- ===== WHERE WE WORK ===== -->
+<section>
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Where We Work</p>
+      <h2 class="h-section">We did not pick<br>easy ground.</h2>
+      <p class="lede" id="siteRationale"></p>
+    </div>
+    <div class="locs" id="sites"></div>
+  </div>
+</section>
+
 <!-- ===== THEORY OF CHANGE ===== -->
 <section class="sec-light">
   <div class="wrap">
@@ -97,7 +120,7 @@
       <div>
         <p class="kicker">Direction</p>
         <h2 class="h-section">Access. Training.<br><span class="rule-red">Opportunity.</span></h2>
-        <p class="lede">Digi2U is working to empower communities across four cities, with mobile media labs extending our reach and the Studio Way flagship campus anchoring production training in New Jersey and Atlanta.</p>
+        <p class="lede">Digi2U is working to empower communities across four cities, with mobile media labs extending our reach and the Studio Way flagship campus in Union City, Georgia anchoring production training.</p>
         <p class="lede">We collaborate with local organizations, schools, government, and businesses to expand access to technology and opportunity — putting skills into the hands of adults ready to build what's next.</p>
         <div class="btn-row"><a class="btn btn-dark" href="get-involved.html#donate">Donate Now</a></div>
       </div>
@@ -107,7 +130,7 @@
         </div>
         <div class="grid grid-2" id="cities" style="margin-top:2px"></div>
         <div class="transparency" style="margin-top:2px">
-          <div><strong>Flagship</strong>Studio Way — NJ &amp; ATL</div>
+          <div><strong>Flagship</strong>Studio Way — Union City, GA</div>
           <div><strong>Reach</strong>Mobile media labs</div>
         </div>
       </div>
@@ -192,6 +215,7 @@
 <script src="assets/data-core.js"></script>
 <script src="assets/data-extra.js"></script>
 <script src="assets/data-media.js"></script>
+<script src="assets/data-sites.js"></script>
 <script src="assets/render.js"></script>
 <script>
   var mh = document.getElementById('missionHero');
@@ -208,18 +232,22 @@
   });
   D2URender.gallery('missionGallery', missionPhotos, { limit: 8 });
 
+  D2URender.founder('founder', D2U_FOUNDER);
+  D2URender.sites('sites', D2U_SITES);
+  document.getElementById('siteRationale').textContent = D2U_SITE_RATIONALE;
   D2URender.theory('theory', D2U_THEORY);
   D2URender.numbered('pillars', D2U_PILLARS);
   D2URender.numbered('values', D2U_VALUES);
-  D2URender.people('team-grid', D2U_TEAM);
+  D2URender.people('team-grid', D2U_TEAM.concat(D2U_TEAM_EXTRA));
   document.getElementById('cities').innerHTML = D2U_CITIES.map(function (c) {
     return '<div class="tile is-static reveal"><div class="tile-icon">' + c.state + '</div><h3 class="h-card">' + c.city + '</h3></div>';
   }).join('');
 </script>
 <script src="assets/site.js"></script>
 <script>
+  var fullTeam = D2U_TEAM.concat(D2U_TEAM_EXTRA);
   var teamById = {};
-  D2U_TEAM.forEach(function (p) { teamById[p.id] = p; });
+  fullTeam.forEach(function (p) { teamById[p.id] = p; });
   D2U.register('person', teamById);
   D2U.register('photo', missionPhotos);
 </script>

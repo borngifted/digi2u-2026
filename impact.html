@@ -66,6 +66,22 @@
   </div>
 </section>
 
+<!-- ===== WHAT STUDENTS PRODUCED ===== -->
+<section class="sec-light">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Where Training Results In Real-World Products</p>
+      <h2 class="h-section">Our students<br>produced this.</h2>
+      <p class="lede">Not coursework. Objects, films, and events that left the building — including cosmetic packaging judged by L'Oreal.</p>
+    </div>
+    <div class="giving" id="outputs"></div>
+    <div style="margin-top:56px">
+      <p class="kicker">The 51 Graduates</p>
+      <div class="dash-grid" id="cohorts" style="grid-template-columns:repeat(4,minmax(0,1fr))"></div>
+    </div>
+  </div>
+</section>
+
 <!-- ===== DOCUMENTARIES ===== -->
 <section id="films">
   <div class="wrap">
@@ -245,8 +261,11 @@
 <script src="assets/data-extra.js"></script>
 <script src="assets/data-media.js"></script>
 <script src="assets/data-phase2.js"></script>
+<script src="assets/data-sites.js"></script>
 <script src="assets/render.js"></script>
 <script>
+  D2URender.giving('outputs', D2U_OUTPUTS);
+  D2URender.metrics('cohorts', D2U_COHORTS);
   D2URender.need('dashNeed', D2U_INDUSTRY);
   D2URender.metrics('dashOurs', D2U_IMPACT);
   D2URender.stories('stories', D2U_STORIES);

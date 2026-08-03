@@ -338,7 +338,41 @@
     }).join('');
   }
 
+  /* Physical locations, with the grant-eligibility evidence attached. */
+  function sites(targetId, arr) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = arr.map(function (s, i) {
+      var stats = (s.stats || []).map(function (m) {
+        return '<div><strong>' + esc(m[0]) + '</strong><span>' + esc(m[1]) + '</span></div>';
+      }).join('');
+      return '<div class="loc reveal"' + stagger(i) + '>' +
+        '<div class="loc-role">' + esc(s.role) + '</div>' +
+        '<h3>' + esc(s.name) + '</h3>' +
+        '<div class="loc-place">' + esc(s.place) + '</div>' +
+        '<p>' + esc(s.body) + '</p>' +
+        (stats ? '<div class="loc-stats">' + stats + '</div>' : '') +
+      '</div>';
+    }).join('');
+  }
+
+  /* Founder card. */
+  function founder(targetId, f) {
+    var host = el(targetId);
+    if (!host || !f) return;
+    host.innerHTML =
+      '<div class="founder reveal">' +
+        '<img class="founder-img" src="' + esc(f.img) + '" alt="' + esc(f.name) + '" loading="lazy">' +
+        '<div class="founder-body">' +
+          '<p class="founder-quote">“' + esc(f.quote) + '”</p>' +
+          '<p class="founder-story">' + esc(f.story) + '</p>' +
+          '<div class="founder-who"><strong>' + esc(f.name) + '</strong><span>' + esc(f.role) + '</span></div>' +
+        '</div>' +
+      '</div>';
+  }
+
   window.D2URender = {
+    sites: sites, founder: founder,
     cards: cards, people: people, tiles: tiles, events: events,
     tiers: tiers, stats: stats, numbered: numbered, theory: theory, marquee: marquee,
     gallery: gallery, moments: moments, logos: logos, charter: charter,
