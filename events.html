@@ -160,11 +160,14 @@
      fuller treatment; the rest still show date and place. */
   document.getElementById('cal-upcoming').innerHTML = D2U_CAL_UPCOMING.map(function (e) {
     return '<div class="tile is-static reveal">' +
+      (e.img ? '<img src="' + e.img + '" alt="' + e.title + ' event graphic" loading="lazy"' +
+               ' style="width:100%;height:auto;margin-bottom:16px;border:1px solid rgba(10,10,10,.10)">' : '') +
       '<div class="card-kicker">' + e.when + '</div>' +
       '<h3 class="h-card">' + e.title + '</h3>' +
       (e.blurb ? '<p class="tile-desc">' + e.blurb + '</p>' : '') +
       (e.where ? '<p class="tile-desc" style="opacity:.75">' + e.where + '</p>' : '') +
       (e.url ? '<a class="card-more" href="' + e.url + '" target="_blank" rel="noopener">Official site &rarr;</a>' : '') +
+      (e.credit ? '<p class="tile-desc" style="font-size:11px;opacity:.6;margin-top:10px">' + e.credit + '</p>' : '') +
     '</div>';
   }).join('');
 

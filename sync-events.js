@@ -47,6 +47,8 @@ const ENRICH = [
   {
     match: /khem\s*fest/i,
     url: 'https://khemfest.com/',
+    img: 'assets/event-khemfest-2026.webp',
+    credit: 'Artwork © Khem Fest / Black Star Creative Collective',
     venue: 'Express Newark, 54 Halsey St, Newark, NJ',
     blurb: 'The 12th Annual Khem Fest and Khem Animation Film Festival, presented by Black Star Creative Collective — an Afrofuturism festival celebrating Black animation, gaming and comic book creators. Animation film festival, marketplace, comic book workshops, panel discussions, screenings and a STEAM lab.',
     note: 'Official listing gives Saturday 26 September, 11:00–19:00, doors 10:45, free parking. The calendar also holds a 25 September entry — confirm whether Digi2U attends both days.'
@@ -54,6 +56,8 @@ const ENRICH = [
   {
     match: /comic\s*con/i,
     url: 'https://www.newyorkcomiccon.com/',
+    img: 'https://digi2u.org/wp-content/uploads/2026/08/event-nycc-2026.png',
+    credit: 'Artwork © ReedPop',
     venue: 'Jacob K. Javits Center, 429 11th Ave, New York, NY',
     blurb: "New York Comic Con's 20th anniversary edition. Four days of panels, exhibitors, creators, artist alley and cosplay — one of the largest pop-culture gatherings in the United States.",
     note: 'Official run is 8–11 October 2026 (four days). The calendar holds 8–10 — confirm whether Digi2U attends the Sunday.'
@@ -61,6 +65,8 @@ const ENRICH = [
   {
     match: /world\s*oddities/i,
     url: 'https://worldodditiesexpo.com/atlanta-ga/',
+    img: 'https://digi2u.org/wp-content/uploads/2026/08/event-world-oddities-expo-atlanta.png',
+    credit: 'Artwork © World Oddities Expo',
     venue: 'Atlanta Convention Center at AmericasMart, 225 Ted Turner Dr NW, Atlanta, GA',
     blurb: 'A two-day celebration of the strange and the beautifully odd — artists, vendors, performers, educators and speakers, the Lost Curio Marketplace and hands-on workshops.',
     note: 'Official run is 12–13 September 2026, 11:00–19:00. The calendar location reads "Building 2 Parking Garage" — that is the parking entrance, not the venue.'
@@ -95,6 +101,8 @@ function enrich(ev) {
     url: hit.url || ev.url || '',
     blurb: hit.blurb || '',
     note: hit.note || '',
+    img: hit.img || '',
+    credit: hit.credit || '',
     location: hit.venue || ev.location
   });
 }
@@ -200,6 +208,8 @@ function emit(name, list) {
     `    where: ${js(ev.venueOverride ? ev.location : shortLoc(ev.location))},\n` +
     `    url: ${js(ev.url || '')},\n` +
     `    blurb: ${js(ev.blurb || '')},\n` +
+    `    img: ${js(ev.img || '')},\n` +
+    `    credit: ${js(ev.credit || '')},\n` +
     `    iso: ${js(ev.date.toISOString().slice(0, 10))}\n` +
     '  }'
   ).join(',\n');

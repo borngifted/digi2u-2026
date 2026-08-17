@@ -17,6 +17,8 @@ const D2U_CAL_UPCOMING = [
     where: "Forest Park Senior Center, 5087 Park Avenue, Forest Park, GA",
     url: "",
     blurb: "A Digi2U session helping older adults get comfortable with the devices and services they already own — the same digital-skills gap the programmes address, at the other end of the age range.",
+    img: "",
+    credit: "",
     iso: "2026-08-18"
   },
   {
@@ -25,6 +27,8 @@ const D2U_CAL_UPCOMING = [
     where: "Mary McLeod Bethune Life Center, 140 Martin Luther King Dr, Jersey City, NJ",
     url: "",
     blurb: "The 6th Annual Hope Rising Gospel Celebration at the historic Bethune Center — the same venue that hosted the \"Fighting For Ward F\" screening.",
+    img: "",
+    credit: "",
     iso: "2026-08-22"
   },
   {
@@ -33,6 +37,8 @@ const D2U_CAL_UPCOMING = [
     where: "39 Kearney Ave, Jersey City, NJ 07305",
     url: "",
     blurb: "Community fair marking the start of the school year — resources, giveaways and hands-on activities for local families.",
+    img: "",
+    credit: "",
     iso: "2026-08-28"
   },
   {
@@ -41,6 +47,8 @@ const D2U_CAL_UPCOMING = [
     where: "Atlanta Convention Center at AmericasMart, 225 Ted Turner Dr NW, Atlanta, GA",
     url: "https://worldodditiesexpo.com/atlanta-ga/",
     blurb: "A two-day celebration of the strange and the beautifully odd — artists, vendors, performers, educators and speakers, the Lost Curio Marketplace and hands-on workshops.",
+    img: "https://digi2u.org/wp-content/uploads/2026/08/event-world-oddities-expo-atlanta.png",
+    credit: "Artwork © World Oddities Expo",
     iso: "2026-09-12"
   },
   {
@@ -49,6 +57,8 @@ const D2U_CAL_UPCOMING = [
     where: "Express Newark, 54 Halsey St, Newark, NJ",
     url: "https://khemfest.com/",
     blurb: "The 12th Annual Khem Fest and Khem Animation Film Festival, presented by Black Star Creative Collective — an Afrofuturism festival celebrating Black animation, gaming and comic book creators. Animation film festival, marketplace, comic book workshops, panel discussions, screenings and a STEAM lab.",
+    img: "assets/event-khemfest-2026.webp",
+    credit: "Artwork © Khem Fest / Black Star Creative Collective",
     iso: "2026-09-25"
   },
   {
@@ -57,6 +67,8 @@ const D2U_CAL_UPCOMING = [
     where: "Jacob K. Javits Center, 429 11th Ave, New York, NY",
     url: "https://www.newyorkcomiccon.com/",
     blurb: "New York Comic Con's 20th anniversary edition. Four days of panels, exhibitors, creators, artist alley and cosplay — one of the largest pop-culture gatherings in the United States.",
+    img: "https://digi2u.org/wp-content/uploads/2026/08/event-nycc-2026.png",
+    credit: "Artwork © ReedPop",
     iso: "2026-10-08"
   }
 ];
@@ -68,6 +80,8 @@ const D2U_CAL_PAST = [
     where: "Johnson STEM Activity Center, 275 Decatur St SE",
     url: "https://bsaacademy.com/",
     blurb: "A one-day intensive equipping independent artists and creative entrepreneurs with the business, financial and operational skills to build sustainable careers. The 2026 edition added a Youth Edition track for 9th–12th graders with Artportunity Knocks, plus mini labs on AI tools, digital branding and content monetisation.",
+    img: "",
+    credit: "",
     iso: "2026-08-15"
   },
   {
@@ -76,6 +90,8 @@ const D2U_CAL_PAST = [
     where: "•MONTICELLO AVE BTWN FAIRMONT AND BELMONT",
     url: "",
     blurb: "",
+    img: "",
+    credit: "",
     iso: "2026-05-31"
   },
   {
@@ -84,6 +100,8 @@ const D2U_CAL_PAST = [
     where: "51 Crescent Ave Jersey City 07305",
     url: "",
     blurb: "",
+    img: "",
+    credit: "",
     iso: "2026-02-21"
   },
   {
@@ -92,6 +110,8 @@ const D2U_CAL_PAST = [
     where: "704 Grand St, Jersey City",
     url: "",
     blurb: "",
+    img: "",
+    credit: "",
     iso: "2026-01-17"
   },
   {
@@ -100,6 +120,8 @@ const D2U_CAL_PAST = [
     where: "Miller Branch",
     url: "",
     blurb: "",
+    img: "",
+    credit: "",
     iso: "2026-01-15"
   },
   {
@@ -108,6 +130,8 @@ const D2U_CAL_PAST = [
     where: "Miller Branch",
     url: "",
     blurb: "",
+    img: "",
+    credit: "",
     iso: "2026-01-14"
   },
   {
@@ -116,6 +140,8 @@ const D2U_CAL_PAST = [
     where: "Miller Branch",
     url: "",
     blurb: "",
+    img: "",
+    credit: "",
     iso: "2026-01-12"
   },
   {
@@ -124,6 +150,8 @@ const D2U_CAL_PAST = [
     where: "201 Montgomery St, Jersey City",
     url: "",
     blurb: "",
+    img: "",
+    credit: "",
     iso: "2025-01-27"
   }
 ];
