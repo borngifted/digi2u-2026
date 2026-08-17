@@ -38,10 +38,16 @@ const EXCLUDE = [/team meeting/i, /\bstandup\b/i, /\binternal\b/i, /\bholiday\b/
    that is recorded in `note` rather than silently corrected: Digi2U may be
    attending one day of a longer event, and only Digi2U can say which.
 
-   No third-party event artwork is copied here. Copyright on festival and
-   convention imagery sits with the organisers; the pages link out instead and
-   use Digi2U's own photography. Add an `img` only for artwork Digi2U owns or
-   has written permission to use.
+   `img` carries the organiser's own promotional artwork — the image they
+   publish as og:image precisely so others can share the event. Every one is
+   credited on the card and linked back to the official site. Two rules:
+   mirror it (media library, or this repo) rather than hotlinking, so the card
+   does not break when they redesign and does not draw on their bandwidth; and
+   treat it as an event listing, not Digi2U marketing material. Confirm with
+   the organiser before using their artwork any more broadly than this.
+
+   Entries marked VERIFIED were checked against the organiser's own site on the
+   date given. Re-check before each season — venues and dates move.
    ------------------------------------------------------------------------- */
 const ENRICH = [
   {
@@ -50,26 +56,36 @@ const ENRICH = [
     img: 'assets/event-khemfest-2026.webp',
     credit: 'Artwork © Khem Fest / Black Star Creative Collective',
     venue: 'Express Newark, 54 Halsey St, Newark, NJ',
-    blurb: 'The 12th Annual Khem Fest and Khem Animation Film Festival, presented by Black Star Creative Collective — an Afrofuturism festival celebrating Black animation, gaming and comic book creators. Animation film festival, marketplace, comic book workshops, panel discussions, screenings and a STEAM lab.',
-    note: 'Official listing gives Saturday 26 September, 11:00–19:00, doors 10:45, free parking. The calendar also holds a 25 September entry — confirm whether Digi2U attends both days.'
+    blurb: 'The 12th Annual Khem Fest and Khem Animation Film Festival, presented by Black Star Creative Collective — an Afrofuturism festival celebrating Black animation, gaming and comic book creators. Over 14 animated shorts from creators worldwide, plus a marketplace, comic book workshops, panel discussions, screenings and a STEAM lab.',
+    detail: 'Main ticketed day is Saturday 26 September, 11:00–19:00. Doors 10:45, free parking.'
+    /* VERIFIED 17 Aug 2026: the festival genuinely runs 25–26 September. The
+       calendar entry is correct as it stands — no change needed. */
   },
   {
     match: /comic\s*con/i,
     url: 'https://www.newyorkcomiccon.com/',
     img: 'https://digi2u.org/wp-content/uploads/2026/08/event-nycc-2026.png',
     credit: 'Artwork © ReedPop',
-    venue: 'Jacob K. Javits Center, 429 11th Ave, New York, NY',
-    blurb: "New York Comic Con's 20th anniversary edition. Four days of panels, exhibitors, creators, artist alley and cosplay — one of the largest pop-culture gatherings in the United States.",
-    note: 'Official run is 8–11 October 2026 (four days). The calendar holds 8–10 — confirm whether Digi2U attends the Sunday.'
+    venue: 'Jacob K. Javits Center, 429 11th Ave, New York, NY 10001',
+    blurb: "New York Comic Con's 20th anniversary edition, themed around Coney Island. Four days of panels, exhibitors, creators, artist alley and cosplay — one of the largest pop-culture gatherings in the United States.",
+    /* VERIFIED 17 Aug 2026 against newyorkcomiccon.com, whose header reads
+       "NYCC Returns October 08 - 11, 2026". */
+    note: 'Official run is 8–11 October 2026, Thursday to Sunday. The calendar holds 8–10 — add the Sunday if Digi2U is there for it.'
   },
   {
     match: /world\s*oddities/i,
     url: 'https://worldodditiesexpo.com/atlanta-ga/',
     img: 'https://digi2u.org/wp-content/uploads/2026/08/event-world-oddities-expo-atlanta.png',
     credit: 'Artwork © World Oddities Expo',
-    venue: 'Atlanta Convention Center at AmericasMart, 225 Ted Turner Dr NW, Atlanta, GA',
-    blurb: 'A two-day celebration of the strange and the beautifully odd — artists, vendors, performers, educators and speakers, the Lost Curio Marketplace and hands-on workshops.',
-    note: 'Official run is 12–13 September 2026, 11:00–19:00. The calendar location reads "Building 2 Parking Garage" — that is the parking entrance, not the venue.'
+    /* VERIFIED 17 Aug 2026 against worldodditiesexpo.com/atlanta-ga/, which
+       gives the venue verbatim as "AmericasMart Building 2, 225 Ted Turner Dr
+       NW, Atlanta, GA 30303". Building 2 is correct; the calendar's errors are
+       the "Parking Garage" suffix and the street address — it reads 230 Ted
+       Turner Dr N, which is the wrong number and the wrong quadrant. */
+    venue: 'AmericasMart Building 2, 225 Ted Turner Dr NW, Atlanta, GA 30303',
+    blurb: 'A two-day celebration of the strange and the beautifully odd — artists, vendors, performers, educators and speakers, the Lost Curio Marketplace, hands-on workshops and the De•Formed Exhibit.',
+    detail: 'Saturday and Sunday 11:00–19:00, VIP early access from 10:00. General admission $20, VIP $25, under-12s free with an adult.',
+    note: 'Official run is 12–13 September 2026. The calendar holds only the 12th — add the 13th if Digi2U is there both days.'
   },
   {
     match: /biz\s*savvy\s*artist/i,
@@ -101,6 +117,7 @@ function enrich(ev) {
     url: hit.url || ev.url || '',
     blurb: hit.blurb || '',
     note: hit.note || '',
+    detail: hit.detail || '',
     img: hit.img || '',
     credit: hit.credit || '',
     location: hit.venue || ev.location
@@ -208,6 +225,7 @@ function emit(name, list) {
     `    where: ${js(ev.venueOverride ? ev.location : shortLoc(ev.location))},\n` +
     `    url: ${js(ev.url || '')},\n` +
     `    blurb: ${js(ev.blurb || '')},\n` +
+    `    detail: ${js(ev.detail || '')},\n` +
     `    img: ${js(ev.img || '')},\n` +
     `    credit: ${js(ev.credit || '')},\n` +
     `    iso: ${js(ev.date.toISOString().slice(0, 10))}\n` +
