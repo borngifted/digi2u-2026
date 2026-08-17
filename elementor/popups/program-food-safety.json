@@ -4,7 +4,7 @@
  "type": "popup",
  "content": [
   {
-   "id": "ee9c000",
+   "id": "ba7fb80",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -31,7 +31,7 @@
    },
    "elements": [
     {
-     "id": "d91ae00",
+     "id": "e20fe00",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -54,7 +54,7 @@
      "elements": []
     },
     {
-     "id": "e0b4600",
+     "id": "5705600",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -86,7 +86,7 @@
      "elements": []
     },
     {
-     "id": "e20fe00",
+     "id": "f08ce00",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -115,7 +115,7 @@
      "elements": []
     },
     {
-     "id": "5705600",
+     "id": "983e600",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -160,7 +160,7 @@
      "elements": []
     },
     {
-     "id": "f08ce00",
+     "id": "13d1e40",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -189,7 +189,7 @@
      "elements": []
     },
     {
-     "id": "811e900",
+     "id": "7cacc80",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -213,7 +213,7 @@
      },
      "elements": [
       {
-       "id": "78fe100",
+       "id": "811e900",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -236,7 +236,7 @@
        },
        "elements": [
         {
-         "id": "bbd9100",
+         "id": "aaf1900",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -255,7 +255,7 @@
          },
          "elements": [
           {
-           "id": "983e600",
+           "id": "bbd9100",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -284,7 +284,7 @@
            "elements": []
           },
           {
-           "id": "13d1e40",
+           "id": "7e4ed00",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -317,7 +317,7 @@
        ]
       },
       {
-       "id": "4d0fd00",
+       "id": "a9e6540",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -340,7 +340,7 @@
        },
        "elements": [
         {
-         "id": "c2bd500",
+         "id": "4d0fd00",
          "elType": "container",
          "isInner": true,
          "settings": {
@@ -359,7 +359,7 @@
          },
          "elements": [
           {
-           "id": "7e4ed00",
+           "id": "c2bd500",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -388,7 +388,7 @@
            "elements": []
           },
           {
-           "id": "aaf1900",
+           "id": "78fe100",
            "elType": "widget",
            "widgetType": "text-editor",
            "settings": {
@@ -423,7 +423,7 @@
      ]
     },
     {
-     "id": "a9e6540",
+     "id": "6a84280",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -436,7 +436,7 @@
      "elements": []
     },
     {
-     "id": "7cacc80",
+     "id": "8e78000",
      "elType": "widget",
      "widgetType": "divider",
      "settings": {
@@ -455,7 +455,7 @@
      "elements": []
     },
     {
-     "id": "6a84280",
+     "id": "391b000",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -500,7 +500,7 @@
      "elements": []
     },
     {
-     "id": "8e78000",
+     "id": "8a82000",
      "elType": "widget",
      "widgetType": "html",
      "settings": {
@@ -509,7 +509,7 @@
      "elements": []
     },
     {
-     "id": "955d000",
+     "id": "206f040",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -533,7 +533,7 @@
      },
      "elements": [
       {
-       "id": "391b000",
+       "id": "955d000",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -584,7 +584,7 @@
        "elements": []
       },
       {
-       "id": "8a82000",
+       "id": "ee9c000",
        "elType": "widget",
        "widgetType": "button",
        "settings": {

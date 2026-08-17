@@ -1,10 +1,10 @@
 {
  "version": "0.4",
- "title": "Digi2U Team — Pamela Timpson",
+ "title": "Digi2U Team — Pam Timpson",
  "type": "popup",
  "content": [
   {
-   "id": "3d63638",
+   "id": "49ace00",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -31,14 +31,14 @@
    },
    "elements": [
     {
-     "id": "da66600",
+     "id": "ee41100",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
       "image": {
-       "url": "https://digi2u.org/wp-content/uploads/2025/01/Pam-261x300.png",
+       "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-pam-timpson.webp",
        "id": "",
-       "alt": "Pamela Timpson",
+       "alt": "Pam Timpson",
        "source": "library"
       },
       "image_size": "full",
@@ -54,11 +54,11 @@
      "elements": []
     },
     {
-     "id": "6ed9e40",
+     "id": "a496d00",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Community Development",
+      "title": "Founder / Executive Director",
       "header_size": "div",
       "title_color": "#FF0000",
       "typography_typography": "custom",
@@ -86,11 +86,11 @@
      "elements": []
     },
     {
-     "id": "ee41100",
+     "id": "e799940",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Pamela Timpson",
+      "title": "Pam Timpson",
       "header_size": "h2",
       "title_color": "#0A0A0A",
       "typography_typography": "custom",
@@ -131,7 +131,7 @@
      "elements": []
     },
     {
-     "id": "a496d00",
+     "id": "df7f080",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -160,7 +160,7 @@
      "elements": []
     },
     {
-     "id": "e799940",
+     "id": "0d89600",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -189,7 +189,7 @@
      "elements": []
     },
     {
-     "id": "df7f080",
+     "id": "dec0e00",
      "elType": "widget",
      "widgetType": "divider",
      "settings": {
@@ -208,7 +208,7 @@
      "elements": []
     },
     {
-     "id": "0d89600",
+     "id": "dc62600",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -253,7 +253,7 @@
      "elements": []
     },
     {
-     "id": "dec0e00",
+     "id": "0f25e00",
      "elType": "widget",
      "widgetType": "html",
      "settings": {
@@ -262,7 +262,7 @@
      "elements": []
     },
     {
-     "id": "dc62600",
+     "id": "3d63638",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -307,7 +307,7 @@
      "elements": []
     },
     {
-     "id": "0f25e00",
+     "id": "e0a5600",
      "elType": "widget",
      "widgetType": "html",
      "settings": {

@@ -1,10 +1,10 @@
 {
  "version": "0.4",
- "title": "Digi2U Team — Tyqawn Headen",
+ "title": "Digi2U Team — TyQawn Headen",
  "type": "popup",
  "content": [
   {
-   "id": "4d8dc00",
+   "id": "7fedc00",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -31,14 +31,14 @@
    },
    "elements": [
     {
-     "id": "8b7aa80",
+     "id": "0735800",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
       "image": {
-       "url": "https://digi2u.org/wp-content/uploads/2025/01/Qawn-300x300.png",
+       "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-tyqawn-headen.webp",
        "id": "",
-       "alt": "Tyqawn Headen",
+       "alt": "TyQawn Headen",
        "source": "library"
       },
       "image_size": "full",
@@ -54,11 +54,11 @@
      "elements": []
     },
     {
-     "id": "b26c800",
+     "id": "5eca800",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Web Development",
+      "title": "Co-Founder / Lead Creative Technician",
       "header_size": "div",
       "title_color": "#FF0000",
       "typography_typography": "custom",
@@ -86,11 +86,11 @@
      "elements": []
     },
     {
-     "id": "0735800",
+     "id": "0f3b840",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Tyqawn Headen",
+      "title": "TyQawn Headen",
       "header_size": "h2",
       "title_color": "#0A0A0A",
       "typography_typography": "custom",
@@ -131,7 +131,7 @@
      "elements": []
     },
     {
-     "id": "5eca800",
+     "id": "b692380",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -160,7 +160,7 @@
      "elements": []
     },
     {
-     "id": "0f3b840",
+     "id": "9954d80",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -189,7 +189,7 @@
      "elements": []
     },
     {
-     "id": "b692380",
+     "id": "32f3000",
      "elType": "widget",
      "widgetType": "divider",
      "settings": {
@@ -208,7 +208,7 @@
      "elements": []
     },
     {
-     "id": "9954d80",
+     "id": "bb7a000",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -253,7 +253,7 @@
      "elements": []
     },
     {
-     "id": "32f3000",
+     "id": "fef5040",
      "elType": "widget",
      "widgetType": "html",
      "settings": {
@@ -262,7 +262,7 @@
      "elements": []
     },
     {
-     "id": "bb7a000",
+     "id": "4d8dc00",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -307,7 +307,7 @@
      "elements": []
     },
     {
-     "id": "fef5040",
+     "id": "b5ddc00",
      "elType": "widget",
      "widgetType": "html",
      "settings": {

@@ -1,10 +1,10 @@
 {
  "version": "0.4",
- "title": "Digi2U Team — Christopher Soko",
+ "title": "Digi2U Team — Dr. Queen Esther Marrero",
  "type": "popup",
  "content": [
   {
-   "id": "e59e200",
+   "id": "5c00b00",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -31,14 +31,14 @@
    },
    "elements": [
     {
-     "id": "b5ddc00",
+     "id": "0970a40",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
       "image": {
-       "url": "https://digi2u.org/wp-content/uploads/2025/01/IMG_1011-300x300.jpg",
+       "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-queen-marrero.webp",
        "id": "",
-       "alt": "Christopher Soko",
+       "alt": "Dr. Queen Esther Marrero",
        "source": "library"
       },
       "image_size": "full",
@@ -54,11 +54,11 @@
      "elements": []
     },
     {
-     "id": "7fedc00",
+     "id": "2ef0d80",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Video Production & Design",
+      "title": "VP of Grants & Contracts Administration",
       "header_size": "div",
       "title_color": "#FF0000",
       "typography_typography": "custom",
@@ -86,11 +86,11 @@
      "elements": []
     },
     {
-     "id": "68bdc40",
+     "id": "6e5f000",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Christopher Soko",
+      "title": "Dr. Queen Esther Marrero",
       "header_size": "h2",
       "title_color": "#0A0A0A",
       "typography_typography": "custom",
@@ -131,11 +131,11 @@
      "elements": []
     },
     {
-     "id": "0287700",
+     "id": "f076000",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Video Production & Design Lead | Digi2u.org</p>",
+      "editor": "<p>Grants & Funding Director | Digi2u.org</p>",
       "text_color": "#6E6E73",
       "typography_typography": "custom",
       "typography_font_family": "Inter",
@@ -160,11 +160,11 @@
      "elements": []
     },
     {
-     "id": "f7cdb00",
+     "id": "5641000",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Christopher Soko is a talented video producer and designer with a passion for visual storytelling. He brings ideas to life through compelling multimedia content that communicates Digi2u.org's mission with clarity, creativity, and lasting impact.</p>",
+      "editor": "<p>Dr. Queen Wright brings deep expertise and academic rigor to the world of grants and nonprofit funding. Her strategic approach to identifying and securing funding opportunities has been instrumental in advancing Digi2u.org's mission and expanding its impact across underserved communities.</p>",
       "text_color": "#6E6E73",
       "typography_typography": "custom",
       "typography_font_family": "Inter",
@@ -189,7 +189,7 @@
      "elements": []
     },
     {
-     "id": "4e36f00",
+     "id": "87b0000",
      "elType": "widget",
      "widgetType": "divider",
      "settings": {
@@ -208,7 +208,7 @@
      "elements": []
     },
     {
-     "id": "aa87300",
+     "id": "65f3000",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -253,16 +253,16 @@
      "elements": []
     },
     {
-     "id": "ec32700",
+     "id": "727a000",
      "elType": "widget",
      "widgetType": "html",
      "settings": {
-      "html": "<div class=\"d2u-exp\"><div class=\"d2u-exp-item\"><h4>Video Production & Design Lead · Digi2u.org</h4><div class=\"d2u-when\">2023 – Present</div><p>Christopher leads the creation of video and design assets that support Digi2u.org's programs, events, and communications — ensuring every piece of content reflects the organization's brand and values.</p></div></div>"
+      "html": "<div class=\"d2u-exp\"><div class=\"d2u-exp-item\"><h4>Grants & Funding Director · Digi2u.org</h4><div class=\"d2u-when\">2023 – Present</div><p>Dr. Wright oversees the full grants lifecycle — from research and writing to submission and compliance — ensuring the organization maintains a strong pipeline of funding to sustain and grow its programs.</p></div></div>"
      },
      "elements": []
     },
     {
-     "id": "8f9cb40",
+     "id": "e9f5000",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -307,11 +307,11 @@
      "elements": []
     },
     {
-     "id": "1c93a00",
+     "id": "4354040",
      "elType": "widget",
      "widgetType": "html",
      "settings": {
-      "html": "<ul class=\"d2u-chips\"><li>Video Production & Direction</li><li>Graphic & Motion Design</li><li>Post-Production & Editing</li><li>Visual Storytelling</li><li>Brand & Creative Strategy</li></ul>"
+      "html": "<ul class=\"d2u-chips\"><li>Grant Writing & Strategy</li><li>Nonprofit Funding & Compliance</li><li>Budget Development & Management</li><li>Federal & Foundation Grants</li><li>Program Evaluation & Reporting</li></ul>"
      },
      "elements": []
     }

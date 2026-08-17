@@ -1,10 +1,10 @@
 {
  "version": "0.4",
- "title": "Digi2U Team — Jamaal Carlos",
+ "title": "Digi2U Team — Jamaal Carlos Johnson Sr.",
  "type": "popup",
  "content": [
   {
-   "id": "5dbfb40",
+   "id": "b26c800",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -31,14 +31,14 @@
    },
    "elements": [
     {
-     "id": "a3bc100",
+     "id": "550c900",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
       "image": {
-       "url": "https://digi2u.org/wp-content/uploads/2025/01/Jamaal-288x300.png",
+       "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-jamaal-johnson.webp",
        "id": "",
-       "alt": "Jamaal Carlos",
+       "alt": "Jamaal Carlos Johnson Sr.",
        "source": "library"
       },
       "image_size": "full",
@@ -54,11 +54,11 @@
      "elements": []
     },
     {
-     "id": "63f5d00",
+     "id": "6a3c500",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Marketing",
+      "title": "Program Director (Atlanta)",
       "header_size": "div",
       "title_color": "#FF0000",
       "typography_typography": "custom",
@@ -86,11 +86,11 @@
      "elements": []
     },
     {
-     "id": "550c900",
+     "id": "7c11100",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Jamaal Carlos",
+      "title": "Jamaal Carlos Johnson Sr.",
       "header_size": "h2",
       "title_color": "#0A0A0A",
       "typography_typography": "custom",
@@ -131,7 +131,7 @@
      "elements": []
     },
     {
-     "id": "6a3c500",
+     "id": "6626d00",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -160,7 +160,7 @@
      "elements": []
     },
     {
-     "id": "7c11100",
+     "id": "31e9940",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -189,7 +189,7 @@
      "elements": []
     },
     {
-     "id": "6626d00",
+     "id": "e38f078",
      "elType": "widget",
      "widgetType": "divider",
      "settings": {
@@ -208,7 +208,7 @@
      "elements": []
     },
     {
-     "id": "31e9940",
+     "id": "c532300",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -253,7 +253,7 @@
      "elements": []
     },
     {
-     "id": "e38f078",
+     "id": "6101700",
      "elType": "widget",
      "widgetType": "html",
      "settings": {
@@ -262,7 +262,7 @@
      "elements": []
     },
     {
-     "id": "c532300",
+     "id": "5dbfb40",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -307,7 +307,7 @@
      "elements": []
     },
     {
-     "id": "6101700",
+     "id": "8b7aa80",
      "elType": "widget",
      "widgetType": "html",
      "settings": {

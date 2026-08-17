@@ -1,10 +1,10 @@
 {
  "version": "0.4",
- "title": "Digi2U Team — Jesse Cerami",
+ "title": "Digi2U Team — Jesse \"Justice\" Cerami",
  "type": "popup",
  "content": [
   {
-   "id": "7ecaf00",
+   "id": "fa20200",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -31,14 +31,14 @@
    },
    "elements": [
     {
-     "id": "e0a5600",
+     "id": "4ade640",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
       "image": {
-       "url": "https://digi2u.org/wp-content/uploads/2025/01/IMG_1010-300x300.jpg",
+       "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-jesse-cerami.webp",
        "id": "",
-       "alt": "Jesse Cerami",
+       "alt": "Jesse \"Justice\" Cerami",
        "source": "library"
       },
       "image_size": "full",
@@ -54,11 +54,11 @@
      "elements": []
     },
     {
-     "id": "49ace00",
+     "id": "fb2b900",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Professional Development",
+      "title": "Director of Programming & Professional Development",
       "header_size": "div",
       "title_color": "#FF0000",
       "typography_typography": "custom",
@@ -86,11 +86,11 @@
      "elements": []
     },
     {
-     "id": "4ade640",
+     "id": "976f540",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Jesse Cerami",
+      "title": "Jesse \"Justice\" Cerami",
       "header_size": "h2",
       "title_color": "#0A0A0A",
       "typography_typography": "custom",
@@ -131,7 +131,7 @@
      "elements": []
     },
     {
-     "id": "fb2b900",
+     "id": "5e01c00",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -160,7 +160,7 @@
      "elements": []
     },
     {
-     "id": "976f540",
+     "id": "0f41c00",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -189,7 +189,7 @@
      "elements": []
     },
     {
-     "id": "5e01c00",
+     "id": "0781c40",
      "elType": "widget",
      "widgetType": "divider",
      "settings": {
@@ -208,7 +208,7 @@
      "elements": []
     },
     {
-     "id": "0f41c00",
+     "id": "53fb700",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -253,7 +253,7 @@
      "elements": []
     },
     {
-     "id": "0781c40",
+     "id": "fe31b00",
      "elType": "widget",
      "widgetType": "html",
      "settings": {
@@ -262,7 +262,7 @@
      "elements": []
     },
     {
-     "id": "53fb700",
+     "id": "7ecaf00",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -307,7 +307,7 @@
      "elements": []
     },
     {
-     "id": "fe31b00",
+     "id": "718b340",
      "elType": "widget",
      "widgetType": "html",
      "settings": {

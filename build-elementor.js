@@ -763,9 +763,19 @@ function getInvolvedPage() {
 
 /* ---- write everything ---- */
 const OUT = 'elementor';
-fs.rmSync(OUT, { recursive: true, force: true });
-fs.mkdirSync(path.join(OUT, 'pages'), { recursive: true });
-fs.mkdirSync(path.join(OUT, 'popups'), { recursive: true });
+/* Clear the generated JSON only. An earlier version removed the whole
+   directory, which silently deleted elementor/README.md — the kit's import
+   instructions — every time the kit was rebuilt. Hand-written files here
+   are not build output and must survive. */
+for (const sub of ['pages', 'popups']) {
+  const dir = path.join(OUT, sub);
+  if (fs.existsSync(dir)) {
+    for (const f of fs.readdirSync(dir)) {
+      if (f.endsWith('.json')) fs.rmSync(path.join(dir, f));
+    }
+  }
+  fs.mkdirSync(dir, { recursive: true });
+}
 
 function write(dir, name, obj) {
   const file = path.join(OUT, dir, name + '.json');

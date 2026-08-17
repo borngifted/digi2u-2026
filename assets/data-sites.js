@@ -81,7 +81,7 @@ const D2U_TEAM_EXTRA = [
     "role": "Master Editor / Instructor",
     "name": "Peter Zielyk",
     "tagline": "Master Editor & Instructor · 26 Blocks / Digi2U",
-    "img": "assets/team/d2u-team-peter-zielyk.webp",
+    "img": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-peter-zielyk.webp",
     "bio": "An award-winning film and video editor, cameraperson, and producer bringing more than twenty years of storytelling to 26 Blocks and Digi2U. Peter oversees final editing of documentaries, training content, and contract projects, and coordinates creative teams across locations and platforms.",
     "experience": [
       {
@@ -112,7 +112,7 @@ const D2U_TEAM_EXTRA = [
     "role": "Morris Canal CDC / Program Partner",
     "name": "June Jones",
     "tagline": "Director · Digi2U Morris Canal Makerspace, Jersey City",
-    "img": "assets/team/d2u-team-june-jones.webp",
+    "img": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-june-jones.webp",
     "bio": "June leads the Digi2U Morris Canal Makerspace in Jersey City, guiding programs that merge innovation, community development, and hands-on learning — and coordinating partnerships with local organizations, schools, and residents.",
     "experience": [
       {

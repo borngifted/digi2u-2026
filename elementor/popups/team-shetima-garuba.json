@@ -1,10 +1,10 @@
 {
  "version": "0.4",
- "title": "Digi2U Team — Shetima Garuba",
+ "title": "Digi2U Team — Shetima Winner Garuba",
  "type": "popup",
  "content": [
   {
-   "id": "51f7000",
+   "id": "282e040",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -31,14 +31,14 @@
    },
    "elements": [
     {
-     "id": "b216a00",
+     "id": "7865200",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
       "image": {
-       "url": "https://digi2u.org/wp-content/uploads/2025/01/IMG_1014-300x300.jpg",
+       "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-shetima-garuba.webp",
        "id": "",
-       "alt": "Shetima Garuba",
+       "alt": "Shetima Winner Garuba",
        "source": "library"
       },
       "image_size": "full",
@@ -54,11 +54,11 @@
      "elements": []
     },
     {
-     "id": "7865200",
+     "id": "d2d1a00",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Video & Audio Production",
+      "title": "Content Creator",
       "header_size": "div",
       "title_color": "#FF0000",
       "typography_typography": "custom",
@@ -86,11 +86,11 @@
      "elements": []
     },
     {
-     "id": "d2d1a00",
+     "id": "6204200",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Shetima Garuba",
+      "title": "Shetima Winner Garuba",
       "header_size": "h2",
       "title_color": "#0A0A0A",
       "typography_typography": "custom",
@@ -131,7 +131,7 @@
      "elements": []
     },
     {
-     "id": "6204200",
+     "id": "bd84a00",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -160,7 +160,7 @@
      "elements": []
     },
     {
-     "id": "bd84a00",
+     "id": "da3b200",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -189,7 +189,7 @@
      "elements": []
     },
     {
-     "id": "da3b200",
+     "id": "aeefa40",
      "elType": "widget",
      "widgetType": "divider",
      "settings": {
@@ -208,7 +208,7 @@
      "elements": []
     },
     {
-     "id": "aeefa40",
+     "id": "5803d00",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -253,7 +253,7 @@
      "elements": []
     },
     {
-     "id": "5803d00",
+     "id": "8302900",
      "elType": "widget",
      "widgetType": "html",
      "settings": {
@@ -262,7 +262,7 @@
      "elements": []
     },
     {
-     "id": "8302900",
+     "id": "effa500",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -307,7 +307,7 @@
      "elements": []
     },
     {
-     "id": "effa500",
+     "id": "51f7000",
      "elType": "widget",
      "widgetType": "html",
      "settings": {

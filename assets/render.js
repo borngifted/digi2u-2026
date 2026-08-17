@@ -47,7 +47,7 @@
          the visible text block is suppressed to avoid showing each name twice.
          Name and role still travel in alt text — screen readers and search
          engines need them, and the card image alone gives them nothing. */
-      var labelled = /assets\/team\//.test(p.img || '');
+      var labelled = /d2u-team-/.test(p.img || '');
       return '<button class="card card-person' + (labelled ? ' card-person-art' : '') +
         ' reveal" type="button" data-lb="person:' + esc(p.id) + '"' +
         ' aria-label="' + esc(p.name) + ' — ' + esc(p.role) + '. Read bio">' +

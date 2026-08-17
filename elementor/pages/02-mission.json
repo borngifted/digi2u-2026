@@ -2579,7 +2579,7 @@
    ]
   },
   {
-   "id": "986bb00",
+   "id": "b08ee00",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2737,7 +2737,7 @@
      "elements": []
     },
     {
-     "id": "528b040",
+     "id": "d57cf40",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2761,7 +2761,7 @@
      },
      "elements": [
       {
-       "id": "3ebcd00",
+       "id": "1dc7900",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2789,72 +2789,13 @@
          "widgetType": "image-box",
          "settings": {
           "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2025/01/Pam-261x300.png",
+           "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-pam-timpson.webp",
            "id": "",
            "source": "library"
           },
           "image_size": "full",
-          "title_text": "Pamela Timpson",
-          "description_text": "Community Development",
-          "position": "top",
-          "title_color": "#0A0A0A",
-          "description_color": "#6E6E73",
-          "title_typography_typography": "custom",
-          "title_typography_font_family": "Archivo",
-          "title_typography_font_size": {
-           "unit": "px",
-           "size": 22,
-           "sizes": []
-          },
-          "title_typography_font_weight": "800",
-          "description_typography_typography": "custom",
-          "description_typography_font_family": "Inter",
-          "description_typography_font_size": {
-           "unit": "px",
-           "size": 15,
-           "sizes": []
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "1dc7900",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 25
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 48
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "a90ca00",
-         "elType": "widget",
-         "widgetType": "image-box",
-         "settings": {
-          "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2025/01/IMG_1010-300x300.jpg",
-           "id": "",
-           "source": "library"
-          },
-          "image_size": "full",
-          "title_text": "Jesse Cerami",
-          "description_text": "Professional Development",
+          "title_text": "Pam Timpson",
+          "description_text": "Founder / Executive Director",
           "position": "top",
           "title_color": "#0A0A0A",
           "description_color": "#6E6E73",
@@ -2902,18 +2843,18 @@
        },
        "elements": [
         {
-         "id": "9323200",
+         "id": "a90ca00",
          "elType": "widget",
          "widgetType": "image-box",
          "settings": {
           "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2025/02/IMG_773F357C9B3F-1-215x300.jpeg",
+           "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-jesse-cerami.webp",
            "id": "",
            "source": "library"
           },
           "image_size": "full",
-          "title_text": "Dr. Queen Wright",
-          "description_text": "Grants & Funding",
+          "title_text": "Jesse \"Justice\" Cerami",
+          "description_text": "Director of Programming & Professional Development",
           "position": "top",
           "title_color": "#0A0A0A",
           "description_color": "#6E6E73",
@@ -2939,6 +2880,65 @@
       },
       {
        "id": "4ec4000",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "9323200",
+         "elType": "widget",
+         "widgetType": "image-box",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-queen-marrero.webp",
+           "id": "",
+           "source": "library"
+          },
+          "image_size": "full",
+          "title_text": "Dr. Queen Esther Marrero",
+          "description_text": "VP of Grants & Contracts Administration",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 22,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "4177000",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2997,7 +2997,7 @@
        ]
       },
       {
-       "id": "4177000",
+       "id": "21ae000",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3025,72 +3025,13 @@
          "widgetType": "image-box",
          "settings": {
           "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2025/01/Jamaal-288x300.png",
+           "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-jamaal-johnson.webp",
            "id": "",
            "source": "library"
           },
           "image_size": "full",
-          "title_text": "Jamaal Carlos",
-          "description_text": "Marketing",
-          "position": "top",
-          "title_color": "#0A0A0A",
-          "description_color": "#6E6E73",
-          "title_typography_typography": "custom",
-          "title_typography_font_family": "Archivo",
-          "title_typography_font_size": {
-           "unit": "px",
-           "size": 22,
-           "sizes": []
-          },
-          "title_typography_font_weight": "800",
-          "description_typography_typography": "custom",
-          "description_typography_font_family": "Inter",
-          "description_typography_font_size": {
-           "unit": "px",
-           "size": 15,
-           "sizes": []
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "21ae000",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "flex_direction": "column",
-        "width": {
-         "unit": "%",
-         "size": 25
-        },
-        "width_tablet": {
-         "unit": "%",
-         "size": 48
-        },
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_grow": 0,
-        "flex_shrink": 0
-       },
-       "elements": [
-        {
-         "id": "9f0a900",
-         "elType": "widget",
-         "widgetType": "image-box",
-         "settings": {
-          "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2025/01/Qawn-300x300.png",
-           "id": "",
-           "source": "library"
-          },
-          "image_size": "full",
-          "title_text": "Tyqawn Headen",
-          "description_text": "Web Development",
+          "title_text": "Jamaal Carlos Johnson Sr.",
+          "description_text": "Program Director (Atlanta)",
           "position": "top",
           "title_color": "#0A0A0A",
           "description_color": "#6E6E73",
@@ -3138,18 +3079,18 @@
        },
        "elements": [
         {
-         "id": "4f62500",
+         "id": "9f0a900",
          "elType": "widget",
          "widgetType": "image-box",
          "settings": {
           "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2025/01/IMG_1011-300x300.jpg",
+           "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-tyqawn-headen.webp",
            "id": "",
            "source": "library"
           },
           "image_size": "full",
-          "title_text": "Christopher Soko",
-          "description_text": "Video Production & Design",
+          "title_text": "TyQawn Headen",
+          "description_text": "Co-Founder / Lead Creative Technician",
           "position": "top",
           "title_color": "#0A0A0A",
           "description_color": "#6E6E73",
@@ -3197,18 +3138,136 @@
        },
        "elements": [
         {
+         "id": "4f62500",
+         "elType": "widget",
+         "widgetType": "image-box",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-erica-walker.webp",
+           "id": "",
+           "source": "library"
+          },
+          "image_size": "full",
+          "title_text": "Erica Walker",
+          "description_text": "Chief Strategy & Development Officer",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 22,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "528b040",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
          "id": "a13f100",
          "elType": "widget",
          "widgetType": "image-box",
          "settings": {
           "image": {
-           "url": "https://digi2u.org/wp-content/uploads/2025/01/IMG_1014-300x300.jpg",
+           "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-robyn-gorman.webp",
            "id": "",
            "source": "library"
           },
           "image_size": "full",
-          "title_text": "Shetima Garuba",
-          "description_text": "Video & Audio Production",
+          "title_text": "Robyn Gorman",
+          "description_text": "Community Liaison",
+          "position": "top",
+          "title_color": "#0A0A0A",
+          "description_color": "#6E6E73",
+          "title_typography_typography": "custom",
+          "title_typography_font_family": "Archivo",
+          "title_typography_font_size": {
+           "unit": "px",
+           "size": 22,
+           "sizes": []
+          },
+          "title_typography_font_weight": "800",
+          "description_typography_typography": "custom",
+          "description_typography_font_family": "Inter",
+          "description_typography_font_size": {
+           "unit": "px",
+           "size": 15,
+           "sizes": []
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "986bb00",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "width": {
+         "unit": "%",
+         "size": 25
+        },
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_grow": 0,
+        "flex_shrink": 0
+       },
+       "elements": [
+        {
+         "id": "3ebcd00",
+         "elType": "widget",
+         "widgetType": "image-box",
+         "settings": {
+          "image": {
+           "url": "https://digi2u.org/wp-content/uploads/2026/08/d2u-team-shetima-garuba.webp",
+           "id": "",
+           "source": "library"
+          },
+          "image_size": "full",
+          "title_text": "Shetima Winner Garuba",
+          "description_text": "Content Creator",
           "position": "top",
           "title_color": "#0A0A0A",
           "description_color": "#6E6E73",
