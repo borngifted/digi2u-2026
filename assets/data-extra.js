@@ -201,3 +201,81 @@ const D2U_ORG = {
   phone: '+1 (201) 374-3553',
   address: '317 Pacific Avenue, Jersey City, NJ 07304'
 };
+
+/* ============================================================================
+   EVENTS — added 2026-08
+   D2U_UPDATES powers the "Latest Updates" feed on events.html.
+   D2U_PAST_EVENTS powers past-events.html; each entry pulls its photographs
+   from D2U_GALLERY by category, so adding a photo to the gallery adds it to
+   the matching past event automatically. `cats: []` renders the entry with a
+   "photography pending" note instead of an empty grid.
+   ========================================================================== */
+
+const D2U_UPDATES = [
+  {
+    when: 'August 2026',
+    title: 'Girls in Art & Tech cohort wraps its 3D design sessions',
+    desc: 'Twelve participants completed Tinkercad and 3D printing sessions, with painting and DJ production tracks running alongside.'
+  },
+  {
+    when: 'Spring 2026',
+    title: 'Four sites now running — Newark, Jersey City, Riverdale and Union City',
+    desc: 'King Road (Riverdale, GA), Morris Canal (Jersey City), Digi2U Mobile (Newark, two 18ft trailers) and Studio Way (Union City, GA) are all operating.'
+  },
+  {
+    when: 'February 2026',
+    title: '"Fighting For Ward F" screened at the Bethune Center',
+    desc: 'Film screening and panel discussion on Martin Luther King Drive in Jersey City, with the 26 Blocks documentary team.'
+  }
+];
+
+const D2U_PAST_EVENTS = [
+  {
+    title: 'Spin-Off Open Deck',
+    when: 'Newark, NJ',
+    desc: 'Community-produced live event with multi-camera coverage, lighting and full production run by Digi2U participants — part of the 200+ hours of community-produced events delivered to date.',
+    cats: ['Live Production']
+  },
+  {
+    title: 'Christmas Wonderland & The Haunted House',
+    when: 'Jersey City, NJ · With the Cherry Foundation',
+    desc: 'A former precinct turned into a community haunted house, and a Christmas Wonderland built end to end by students — design, fabrication, staging and lighting.',
+    cats: ['Community']
+  },
+  {
+    title: '3D Design & Prototyping Cohorts',
+    when: 'Newark · Jersey City · Morris Canal',
+    desc: 'The 3D bootcamp and youth 3D tracks — 25 bootcamp graduates and 12 youth participants. Printers, benches, and finished parts in hand.',
+    cats: ['3D Design']
+  },
+  {
+    title: 'Girls in Art & Tech',
+    when: '2026 Cohort',
+    desc: 'Tinkercad and 3D printing sessions, painting classes and DJ production, run as a dedicated cohort.',
+    cats: ['Girls in Art & Tech']
+  },
+  {
+    title: 'NJIT Makerspace',
+    when: 'Newark, NJ · Field Trip',
+    desc: 'Participants inside the NJIT makerspace — one of the field trips that puts people alongside working engineers and fabricators.',
+    cats: ['Makerspace']
+  },
+  {
+    title: 'Training Sessions & CTAP',
+    when: '317 Pacific Avenue, Jersey City',
+    desc: 'Day-to-day training at the Jersey City studio and the CTAP programme, indoors and out.',
+    cats: ['Training']
+  },
+  {
+    title: 'Studio & Broadcast Sessions',
+    when: 'Audio & Media Production',
+    desc: 'Broadcast booth, mixing and multi-camera work — the audio production and film tracks in session.',
+    cats: ['Audio & DJ', 'Media Production']
+  },
+  {
+    title: '"Fighting For Ward F" Screening',
+    when: 'Friday, 27 February 2026 · Jersey City',
+    desc: 'Film screening and panel discussion at the historic Bethune Center, 140 Martin Luther King Drive, held with the 26 Blocks documentary team.',
+    cats: []
+  }
+];
