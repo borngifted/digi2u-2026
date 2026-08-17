@@ -28,6 +28,77 @@ const ICS = `https://calendar.google.com/calendar/ical/${encodeURIComponent(CAL_
 /* Titles matching any of these never reach the site. Internal-only entries. */
 const EXCLUDE = [/team meeting/i, /\bstandup\b/i, /\binternal\b/i, /\bholiday\b/i];
 
+/* ---------------------------------------------------------------------------
+   Enrichment. The calendar is authoritative for WHEN Digi2U attends; it carries
+   no links and its locations are sometimes a parking entrance rather than the
+   venue. This map adds the public-facing detail, matched on title.
+
+   `venue` overrides the calendar's location string for display only — it does
+   not change the date. Where the official run differs from the calendar entry,
+   that is recorded in `note` rather than silently corrected: Digi2U may be
+   attending one day of a longer event, and only Digi2U can say which.
+
+   No third-party event artwork is copied here. Copyright on festival and
+   convention imagery sits with the organisers; the pages link out instead and
+   use Digi2U's own photography. Add an `img` only for artwork Digi2U owns or
+   has written permission to use.
+   ------------------------------------------------------------------------- */
+const ENRICH = [
+  {
+    match: /khem\s*fest/i,
+    url: 'https://khemfest.com/',
+    venue: 'Express Newark, 54 Halsey St, Newark, NJ',
+    blurb: 'The 12th Annual Khem Fest and Khem Animation Film Festival, presented by Black Star Creative Collective — an Afrofuturism festival celebrating Black animation, gaming and comic book creators. Animation film festival, marketplace, comic book workshops, panel discussions, screenings and a STEAM lab.',
+    note: 'Official listing gives Saturday 26 September, 11:00–19:00, doors 10:45, free parking. The calendar also holds a 25 September entry — confirm whether Digi2U attends both days.'
+  },
+  {
+    match: /comic\s*con/i,
+    url: 'https://www.newyorkcomiccon.com/',
+    venue: 'Jacob K. Javits Center, 429 11th Ave, New York, NY',
+    blurb: "New York Comic Con's 20th anniversary edition. Four days of panels, exhibitors, creators, artist alley and cosplay — one of the largest pop-culture gatherings in the United States.",
+    note: 'Official run is 8–11 October 2026 (four days). The calendar holds 8–10 — confirm whether Digi2U attends the Sunday.'
+  },
+  {
+    match: /world\s*oddities/i,
+    url: 'https://worldodditiesexpo.com/atlanta-ga/',
+    venue: 'Atlanta Convention Center at AmericasMart, 225 Ted Turner Dr NW, Atlanta, GA',
+    blurb: 'A two-day celebration of the strange and the beautifully odd — artists, vendors, performers, educators and speakers, the Lost Curio Marketplace and hands-on workshops.',
+    note: 'Official run is 12–13 September 2026, 11:00–19:00. The calendar location reads "Building 2 Parking Garage" — that is the parking entrance, not the venue.'
+  },
+  {
+    match: /biz\s*savvy\s*artist/i,
+    url: 'https://bsaacademy.com/',
+    venue: 'Johnson STEM Activity Center, 275 Decatur St SE, Atlanta, GA',
+    blurb: 'A one-day intensive equipping independent artists and creative entrepreneurs with the business, financial and operational skills to build sustainable careers. The 2026 edition added a Youth Edition track for 9th–12th graders with Artportunity Knocks, plus mini labs on AI tools, digital branding and content monetisation.'
+  },
+  {
+    match: /hope\s*rising/i,
+    venue: 'Mary McLeod Bethune Life Center, 140 Martin Luther King Dr, Jersey City, NJ',
+    blurb: 'The 6th Annual Hope Rising Gospel Celebration at the historic Bethune Center — the same venue that hosted the "Fighting For Ward F" screening.'
+  },
+  {
+    match: /back\s*to\s*school/i,
+    venue: '39 Kearney Ave, Jersey City, NJ 07305',
+    blurb: 'Community fair marking the start of the school year — resources, giveaways and hands-on activities for local families.'
+  },
+  {
+    match: /navigating\s*technology/i,
+    venue: 'Forest Park Senior Center, 5087 Park Avenue, Forest Park, GA',
+    blurb: 'A Digi2U session helping older adults get comfortable with the devices and services they already own — the same digital-skills gap the programmes address, at the other end of the age range.'
+  }
+];
+
+function enrich(ev) {
+  const hit = ENRICH.find(e => e.match.test(ev.title));
+  if (!hit) return ev;
+  return Object.assign({}, ev, {
+    url: hit.url || ev.url || '',
+    blurb: hit.blurb || '',
+    note: hit.note || '',
+    location: hit.venue || ev.location
+  });
+}
+
 const OUT = path.join(__dirname, 'assets', 'data-events.js');
 
 const MONTHS = ['January','February','March','April','May','June',
@@ -126,12 +197,21 @@ function emit(name, list) {
     '  {\n' +
     `    title: ${js(ev.title)},\n` +
     `    when: ${js(label(ev))},\n` +
-    `    where: ${js(shortLoc(ev.location))},\n` +
+    `    where: ${js(ev.venueOverride ? ev.location : shortLoc(ev.location))},\n` +
+    `    url: ${js(ev.url || '')},\n` +
+    `    blurb: ${js(ev.blurb || '')},\n` +
     `    iso: ${js(ev.date.toISOString().slice(0, 10))}\n` +
     '  }'
   ).join(',\n');
   return `const ${name} = [\n${rows}\n];\n`;
 }
+
+/* The public calendar, so visitors can subscribe rather than copy dates out. */
+const CAL_LINKS =
+  `const D2U_CAL = {\n` +
+  `  html: ${js('https://calendar.google.com/calendar/embed?src=' + encodeURIComponent(CAL_ID) + '&ctz=America/New_York')},\n` +
+  `  ics:  ${js('https://calendar.google.com/calendar/ical/' + encodeURIComponent(CAL_ID) + '/public/basic.ics')}\n` +
+  `};\n`;
 
 (async () => {
   let ics;
@@ -150,8 +230,14 @@ function emit(name, list) {
   const today = new Date();
   const cutoff = Date.UTC(today.getFullYear(), today.getMonth(), today.getDate());
 
-  const upcoming = collapse(kept.filter(e => e.date.getTime() >= cutoff));
-  const past = collapse(kept.filter(e => e.date.getTime() < cutoff)).reverse();
+  const upcoming = collapse(kept.filter(e => e.date.getTime() >= cutoff)).map(e => {
+    const x = enrich(e);
+    if (x.location !== e.location) x.venueOverride = true;
+    return x;
+  });
+  const past = collapse(kept.filter(e => e.date.getTime() < cutoff)).reverse().map(enrich);
+
+  const notes = upcoming.concat(past).filter(e => e.note);
 
   const header =
     '/* ============================================================================\n' +
@@ -161,14 +247,20 @@ function emit(name, list) {
     `   Last sync: ${new Date().toISOString().slice(0, 10)}\n` +
     '   ========================================================================== */\n\n';
 
-  fs.writeFileSync(OUT, header + emit('D2U_CAL_UPCOMING', upcoming) + '\n' + emit('D2U_CAL_PAST', past));
+  fs.writeFileSync(OUT, header + CAL_LINKS + '\n' +
+    emit('D2U_CAL_UPCOMING', upcoming) + '\n' + emit('D2U_CAL_PAST', past));
 
   console.log(`Parsed ${all.length} calendar entries.`);
   console.log(`Filtered out ${dropped} internal entr${dropped === 1 ? 'y' : 'ies'} (EXCLUDE rules).`);
   console.log(`Collapsed to ${upcoming.length} upcoming, ${past.length} past.`);
+  console.log(`Enriched ${upcoming.concat(past).filter(e => e.blurb).length} with links and detail.`);
   console.log(`Wrote ${path.relative(process.cwd(), OUT)}`);
   if (upcoming.length) {
     console.log('\nNext up:');
-    upcoming.slice(0, 5).forEach(e => console.log(`  ${label(e)} — ${e.title}`));
+    upcoming.slice(0, 6).forEach(e => console.log(`  ${label(e)} — ${e.title}${e.url ? '  ' + e.url : ''}`));
+  }
+  if (notes.length) {
+    console.log('\nCHECK THESE — the calendar disagrees with the official listing:');
+    notes.forEach(e => console.log(`  ${e.title}\n    ${e.note}`));
   }
 })();

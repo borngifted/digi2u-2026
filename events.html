@@ -64,6 +64,7 @@
       <p class="lede">Pulled from the Digi2U events calendar. Screenings, community programming and the industry events we bring people to.</p>
     </div>
     <div class="grid grid-3" id="cal-upcoming"></div>
+    <div class="btn-row" id="cal-subscribe" style="margin-top:2px"></div>
     <div class="sec-head" style="margin-top:2px">
       <p class="kicker">Register</p>
       <h2 class="h-section">Open for sign-up.</h2>
@@ -154,14 +155,26 @@
     '</div>';
   }).join('');
 
-  /* Upcoming, straight from the live calendar (see sync-events.js). */
+  /* Upcoming, straight from the live calendar (see sync-events.js). Where an
+     event has been enriched with an official link and description, it gets the
+     fuller treatment; the rest still show date and place. */
   document.getElementById('cal-upcoming').innerHTML = D2U_CAL_UPCOMING.map(function (e) {
     return '<div class="tile is-static reveal">' +
       '<div class="card-kicker">' + e.when + '</div>' +
       '<h3 class="h-card">' + e.title + '</h3>' +
-      (e.where ? '<p class="tile-desc">' + e.where + '</p>' : '') +
+      (e.blurb ? '<p class="tile-desc">' + e.blurb + '</p>' : '') +
+      (e.where ? '<p class="tile-desc" style="opacity:.75">' + e.where + '</p>' : '') +
+      (e.url ? '<a class="card-more" href="' + e.url + '" target="_blank" rel="noopener">Official site &rarr;</a>' : '') +
     '</div>';
   }).join('');
+
+  /* Subscribe links for the public Digi2U events calendar. */
+  var sub = document.getElementById('cal-subscribe');
+  if (sub) {
+    sub.innerHTML =
+      '<a class="btn btn-dark" href="' + D2U_CAL.html + '" target="_blank" rel="noopener">View The Full Calendar</a>' +
+      '<a class="card-more" href="' + D2U_CAL.ics + '" style="align-self:center">Subscribe in your calendar app &rarr;</a>';
+  }
 
   D2URender.events('events-grid', D2U_EVENTS);
 
