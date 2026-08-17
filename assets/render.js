@@ -43,15 +43,23 @@
     var host = el(targetId);
     if (!host) return;
     host.innerHTML = arr.map(function (p) {
-      return '<button class="card card-person reveal" type="button" data-lb="person:' + esc(p.id) + '">' +
+      /* The 2026 team cards carry the name and role baked into the artwork, so
+         the visible text block is suppressed to avoid showing each name twice.
+         Name and role still travel in alt text — screen readers and search
+         engines need them, and the card image alone gives them nothing. */
+      var labelled = /assets\/team\//.test(p.img || '');
+      return '<button class="card card-person' + (labelled ? ' card-person-art' : '') +
+        ' reveal" type="button" data-lb="person:' + esc(p.id) + '"' +
+        ' aria-label="' + esc(p.name) + ' — ' + esc(p.role) + '. Read bio">' +
         '<div class="card-media">' +
-          (p.img ? '<img src="' + esc(p.img) + '" alt="' + esc(p.name) + '" loading="lazy">' : '') +
+          (p.img ? '<img src="' + esc(p.img) + '" alt="' + esc(p.name) + ' — ' + esc(p.role) + '" loading="lazy">' : '') +
         '</div>' +
+        (labelled ? '' :
         '<div class="card-body">' +
           '<div class="card-kicker">' + esc(p.role) + '</div>' +
           '<h3 class="h-card">' + esc(p.name) + '</h3>' +
           '<span class="card-more">Read Bio</span>' +
-        '</div>' +
+        '</div>') +
       '</button>';
     }).join('');
   }

@@ -625,10 +625,10 @@ const D2U_TEAM = [
   {
     "id": "pamela-timpson",
     "group": "leadership",
-    "role": "Community Development",
-    "name": "Pamela Timpson",
+    "role": "Founder / Executive Director",
+    "name": "Pam Timpson",
     "tagline": "Community Development Lead | Digi2u.org",
-    "img": "https://digi2u.org/wp-content/uploads/2025/01/Pam-261x300.png",
+    "img": "assets/team/d2u-team-pam-timpson.webp",
     "bio": "Pamela Timpson is a dedicated community development professional with a passion for building stronger, more connected communities. Through strategic outreach and meaningful engagement, she works to bridge gaps and create lasting positive change for the people Digi2u.org serves.",
     "experience": [
       {
@@ -655,10 +655,10 @@ const D2U_TEAM = [
   {
     "id": "jesse-cerami",
     "group": "leadership",
-    "role": "Professional Development",
-    "name": "Jesse Cerami",
+    "role": "Director of Programming & Professional Development",
+    "name": "Jesse \"Justice\" Cerami",
     "tagline": "Professional Development Specialist | Digi2u.org",
-    "img": "https://digi2u.org/wp-content/uploads/2025/01/IMG_1010-300x300.jpg",
+    "img": "assets/team/d2u-team-jesse-cerami.webp",
     "bio": "Jesse Cerami is a professional development specialist committed to empowering individuals with the skills and knowledge needed to thrive in today's evolving workforce. His work focuses on creating meaningful learning experiences that translate directly into real-world opportunity.",
     "experience": [
       {
@@ -683,12 +683,12 @@ const D2U_TEAM = [
     ]
   },
   {
-    "id": "queen-wright",
+    "id": "queen-marrero",
     "group": "leadership",
-    "role": "Grants & Funding",
-    "name": "Dr. Queen Wright",
+    "role": "VP of Grants & Contracts Administration",
+    "name": "Dr. Queen Esther Marrero",
     "tagline": "Grants & Funding Director | Digi2u.org",
-    "img": "https://digi2u.org/wp-content/uploads/2025/02/IMG_773F357C9B3F-1-215x300.jpeg",
+    "img": "assets/team/d2u-team-queen-marrero.webp",
     "bio": "Dr. Queen Wright brings deep expertise and academic rigor to the world of grants and nonprofit funding. Her strategic approach to identifying and securing funding opportunities has been instrumental in advancing Digi2u.org's mission and expanding its impact across underserved communities.",
     "experience": [
       {
@@ -745,10 +745,10 @@ const D2U_TEAM = [
   {
     "id": "jamaal-carlos",
     "group": "leadership",
-    "role": "Marketing",
-    "name": "Jamaal Carlos",
+    "role": "Program Director (Atlanta)",
+    "name": "Jamaal Carlos Johnson Sr.",
     "tagline": "Marketing Director | Digi2u.org",
-    "img": "https://digi2u.org/wp-content/uploads/2025/01/Jamaal-288x300.png",
+    "img": "assets/team/d2u-team-jamaal-johnson.webp",
     "bio": "Jamaal Carlos is a creative and strategic marketing professional with a talent for crafting compelling brand stories and building meaningful connections with audiences. He drives Digi2u.org's visibility and reach through innovative campaigns that resonate with the communities the organization serves.",
     "experience": [
       {
@@ -775,10 +775,10 @@ const D2U_TEAM = [
   {
     "id": "tyqawn-headen",
     "group": "leadership",
-    "role": "Web Development",
-    "name": "Tyqawn Headen",
+    "role": "Co-Founder / Lead Creative Technician",
+    "name": "TyQawn Headen",
     "tagline": "Tech & VFX Specialist | Levl Studio | Founder of Work Official LLC",
-    "img": "https://digi2u.org/wp-content/uploads/2025/01/Qawn-300x300.png",
+    "img": "assets/team/d2u-team-tyqawn-headen.webp",
     "bio": "Tyqawn Headen is a visionary Tech and VFX Specialist with a passion for merging technology and creativity to shape compelling visual experiences. As a leader in the entertainment and digital media industries, he consistently pushes the boundaries of storytelling through innovative solutions, cutting-edge technology, and collaborative leadership.",
     "experience": [
       {
@@ -815,42 +815,32 @@ const D2U_TEAM = [
     ]
   },
   {
-    "id": "christopher-soko",
+    "id": "erica-walker",
     "group": "leadership",
-    "role": "Video Production & Design",
-    "name": "Christopher Soko",
-    "tagline": "Video Production & Design Lead | Digi2u.org",
-    "img": "https://digi2u.org/wp-content/uploads/2025/01/IMG_1011-300x300.jpg",
-    "bio": "Christopher Soko is a talented video producer and designer with a passion for visual storytelling. He brings ideas to life through compelling multimedia content that communicates Digi2u.org's mission with clarity, creativity, and lasting impact.",
-    "experience": [
-      {
-        "role": "Video Production & Design Lead",
-        "company": "Digi2u.org",
-        "dates": "2023 – Present",
-        "desc": "Christopher leads the creation of video and design assets that support Digi2u.org's programs, events, and communications — ensuring every piece of content reflects the organization's brand and values."
-      }
-    ],
-    "expertise": [
-      "Video Production & Direction",
-      "Graphic & Motion Design",
-      "Post-Production & Editing",
-      "Visual Storytelling",
-      "Brand & Creative Strategy"
-    ],
-    "links": [
-      {
-        "label": "Email",
-        "href": "mailto:support@digi2u.org"
-      }
-    ]
+    "role": "Chief Strategy & Development Officer",
+    "name": "Erica Walker",
+    "tagline": "Chief Strategy & Development Officer | Digi2u.org",
+    "img": "assets/team/d2u-team-erica-walker.webp",
+    "bio": "",
+    "experience": []
+  },
+  {
+    "id": "robyn-gorman",
+    "group": "leadership",
+    "role": "Community Liaison",
+    "name": "Robyn Gorman",
+    "tagline": "Community Liaison | Digi2u.org",
+    "img": "assets/team/d2u-team-robyn-gorman.webp",
+    "bio": "",
+    "experience": []
   },
   {
     "id": "shetima-garuba",
     "group": "leadership",
-    "role": "Video & Audio Production",
-    "name": "Shetima Garuba",
+    "role": "Content Creator",
+    "name": "Shetima Winner Garuba",
     "tagline": "Video & Audio Production Specialist | Digi2u.org",
-    "img": "https://digi2u.org/wp-content/uploads/2025/01/IMG_1014-300x300.jpg",
+    "img": "assets/team/d2u-team-shetima-garuba.webp",
     "bio": "Shetima Garuba is a versatile media professional specializing in both video and audio production. Her ability to craft rich, immersive audiovisual experiences makes her an invaluable contributor to Digi2u.org's content and storytelling efforts.",
     "experience": [
       {

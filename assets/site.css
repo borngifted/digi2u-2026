@@ -981,3 +981,19 @@ footer.site a:hover { color: #fff; }
 @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; transition: none; } }
 
 body.lb-locked { overflow: hidden; }
+
+/* ===== 2026 team art cards =========================================
+   The supplied team cards are 4:5 artwork with the name and role already
+   set into the image, so these cards drop the text body and show the
+   artwork whole. object-fit is `contain` rather than `cover` — cropping
+   a card would cut off the person's name.
+   April Marrero has no art card yet and keeps the standard square
+   headshot treatment above; the two styles are meant to coexist. */
+.card-person-art .card-media {
+  aspect-ratio: 4 / 5;
+  background: #0A0A0A;
+}
+.card-person-art .card-media img {
+  object-fit: contain;
+}
+.card-person-art:hover .card-media img { transform: scale(1.03); }

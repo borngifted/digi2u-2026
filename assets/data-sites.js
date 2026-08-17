@@ -76,36 +76,59 @@ const D2U_FOUNDER = {
 /* Team members documented in the business plan but missing from the site. */
 const D2U_TEAM_EXTRA = [
   {
-    id: 'peter-zielyk',
-    group: 'leadership',
-    role: 'Master Editor & Instructor',
-    name: 'Peter Zielyk',
-    tagline: 'Master Editor & Instructor · 26 Blocks / Digi2U',
-    img: 'https://digi2u.org/wp-content/uploads/2026/05/d2u-team-peter-zielyk.jpg',
-    bio: 'An award-winning film and video editor, cameraperson, and producer bringing more than twenty years of storytelling to 26 Blocks and Digi2U. Peter oversees final editing of documentaries, training content, and contract projects, and coordinates creative teams across locations and platforms.',
-    experience: [
-      { role: 'Master Editor & Instructor', company: '26 Blocks / Digi2U', dates: 'Present',
-        desc: 'Teaches professional editing workflows, guides collaborative production teams, and mentors the next generation of digital storytellers.' },
-      { role: 'Editor & Producer', company: 'Global brands and media leaders', dates: '20+ years',
-        desc: 'Work for META Platforms, IBM, Verizon/Yahoo!, SAP, Pfizer, CNN Films, National Geographic, and ESPN. His work on The Orange Chronicles earned an International Documentary nomination and Best International Documentary at the Garden State Film Festival.' }
+    "id": "peter-zielyk",
+    "group": "leadership",
+    "role": "Master Editor / Instructor",
+    "name": "Peter Zielyk",
+    "tagline": "Master Editor & Instructor · 26 Blocks / Digi2U",
+    "img": "assets/team/d2u-team-peter-zielyk.webp",
+    "bio": "An award-winning film and video editor, cameraperson, and producer bringing more than twenty years of storytelling to 26 Blocks and Digi2U. Peter oversees final editing of documentaries, training content, and contract projects, and coordinates creative teams across locations and platforms.",
+    "experience": [
+      {
+        "role": "Master Editor & Instructor",
+        "company": "26 Blocks / Digi2U",
+        "dates": "Present",
+        "desc": "Teaches professional editing workflows, guides collaborative production teams, and mentors the next generation of digital storytellers."
+      },
+      {
+        "role": "Editor & Producer",
+        "company": "Global brands and media leaders",
+        "dates": "20+ years",
+        "desc": "Work for META Platforms, IBM, Verizon/Yahoo!, SAP, Pfizer, CNN Films, National Geographic, and ESPN. His work on The Orange Chronicles earned an International Documentary nomination and Best International Documentary at the Garden State Film Festival."
+      }
     ],
-    expertise: ['Documentary Editing', 'AVID Certified', 'Production Team Leadership', 'Cinematography', 'Post-Production Workflow'],
-    links: []
+    "expertise": [
+      "Documentary Editing",
+      "AVID Certified",
+      "Production Team Leadership",
+      "Cinematography",
+      "Post-Production Workflow"
+    ],
+    "links": []
   },
   {
-    id: 'june-jones',
-    group: 'leadership',
-    role: 'Director, Morris Canal Makerspace',
-    name: 'June Jones',
-    tagline: 'Director · Digi2U Morris Canal Makerspace, Jersey City',
-    img: 'https://digi2u.org/wp-content/uploads/2026/05/d2u-team-june-jones.jpg',
-    bio: 'June leads the Digi2U Morris Canal Makerspace in Jersey City, guiding programs that merge innovation, community development, and hands-on learning — and coordinating partnerships with local organizations, schools, and residents.',
-    experience: [
-      { role: 'Director', company: 'Digi2U Morris Canal Makerspace', dates: 'Present',
-        desc: 'Transformed the Morris Canal site into a hub for 3D design, media production, fabrication, and digital storytelling. A lifelong advocate for community empowerment, she connects technology education to neighborhood revitalization.' }
+    "id": "june-jones",
+    "group": "leadership",
+    "role": "Morris Canal CDC / Program Partner",
+    "name": "June Jones",
+    "tagline": "Director · Digi2U Morris Canal Makerspace, Jersey City",
+    "img": "assets/team/d2u-team-june-jones.webp",
+    "bio": "June leads the Digi2U Morris Canal Makerspace in Jersey City, guiding programs that merge innovation, community development, and hands-on learning — and coordinating partnerships with local organizations, schools, and residents.",
+    "experience": [
+      {
+        "role": "Director",
+        "company": "Digi2U Morris Canal Makerspace",
+        "dates": "Present",
+        "desc": "Transformed the Morris Canal site into a hub for 3D design, media production, fabrication, and digital storytelling. A lifelong advocate for community empowerment, she connects technology education to neighborhood revitalization."
+      }
     ],
-    expertise: ['Community Development', 'Program Coordination', 'Partnership Building', 'Civic Engagement'],
-    links: []
+    "expertise": [
+      "Community Development",
+      "Program Coordination",
+      "Partnership Building",
+      "Civic Engagement"
+    ],
+    "links": []
   }
 ];
 
