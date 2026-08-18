@@ -1,0 +1,134 @@
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://borngifted.github.io/digi2u-2026/assets/site-wp.css">
+<nav class="nav">
+  <div class="nav-in">
+    <a class="nav-logo" href="/">DIGI<span>2</span>U</a>
+    <div class="nav-links" id="navLinks">
+      <a href="/">Home</a>
+      <a href="/mission/">Mission</a>
+      <a href="/programs-2026/">Programs</a>
+      <a href="/impact/">Impact</a>
+      <a href="/events-2026/">Events</a>
+      <a href="/blog-2026/" aria-current="page">Blog</a>
+      <a href="/get-involved/">Get Involved</a>
+    </div>
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="/get-involved/#donate">Donate</a>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<header class="vhero">
+  <div class="vhero-bg" id="blogHero"></div>
+  <div class="wrap">
+    <div class="hero-eyebrow"><span class="dot"></span> Field Notes · Programme News · Podcast</div>
+    <h1 class="display">What's coming out<br>of the <span class="rule-red">rooms.</span></h1>
+    <p class="lede">Workshop write-ups, cohort news, and what the people training here are actually making. Published as we go — subscribe by email or pull the feed straight into your reader.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="#subscribe">Subscribe</a>
+      <a class="btn btn-ghost" href="#posts">Read The Latest</a>
+    </div>
+  </div>
+</header>
+
+<!-- ===== POSTS ===== -->
+<section id="posts">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Latest</p>
+      <h2 class="h-section">From the makerspaces.</h2>
+      <p class="lede">Everything published on digi2u.org, newest first. Filter by programme.</p>
+    </div>
+    <div class="gal-filters" id="blogFilters"></div>
+    <div class="grid grid-3" id="blogGrid"></div>
+    <div class="btn-row" id="blogMore" style="margin-top:2px"></div>
+  </div>
+</section>
+
+<!-- ===== BAND ===== -->
+<section class="band">
+  <div class="band-bg">
+    <img src="https://borngifted.github.io/digi2u-2026/assets/deck/d2u-deck-music-mixing.webp" alt="A Digi2U audio session" loading="lazy">
+  </div>
+  <div class="band-credit">Audio Production</div>
+  <div class="wrap">
+    <p class="kicker">In Production</p>
+    <h2>The podcast is<br>being built here.</h2>
+    <p>Recorded and produced in the Digi2U studios — by the same people learning to run the desk.</p>
+  </div>
+</section>
+
+<!-- ===== SUBSCRIBE ===== -->
+<section class="sec-dark" id="subscribe">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="kicker">Subscribe</p>
+      <h2 class="h-section">Two ways to<br>keep up.</h2>
+      <p class="lede">Take the newsletter if you want it in your inbox, or the feed if you'd rather it came to your reader — or to a mail tool that turns the feed into a newsletter for you.</p>
+    </div>
+    <div class="split">
+      <div class="form-card">
+        <p class="kicker kicker--plain" style="color:var(--d2u-gray)">Newsletter</p>
+        <h3 class="h-card" style="margin-bottom:6px">Get it by email</h3>
+        <p style="font-size:.9rem;color:var(--d2u-gray);margin:0 0 24px">Programme news, new cohorts and event announcements. No more than twice a month.</p>
+        <form id="newsletterForm">
+          <div class="field"><label for="n-name">Name</label><input id="n-name" name="name" autocomplete="name"></div>
+          <div class="field"><label for="n-email">Email</label><input id="n-email" name="email" type="email" autocomplete="email" required></div>
+          <div class="field"><label for="n-city">Nearest site</label>
+            <select id="n-city" name="city">
+              <option>Newark, NJ</option>
+              <option>Jersey City, NJ</option>
+              <option>Riverdale, GA</option>
+              <option>Union City, GA</option>
+              <option>Houston, TX</option>
+              <option>Anywhere — just send it</option>
+            </select>
+          </div>
+          <button class="btn btn-primary" type="submit" style="width:100%;justify-content:center">Subscribe</button>
+          <p id="n-note" style="font-size:.82rem;color:var(--d2u-gray);margin:16px 0 0"></p>
+        </form>
+      </div>
+      <div>
+        <p class="kicker kicker--plain">Feeds</p>
+        <h3 class="h-card" style="margin-bottom:14px">Pull it into your reader</h3>
+        <p class="lede" style="margin-top:0">These are live RSS feeds. Point a reader at them, or point a mail tool at them and it will send the newsletter for you.</p>
+        <div class="numbered" id="feedList"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA ===== -->
+<section class="sec-tight">
+  <div class="wrap">
+    <p class="kicker">Write With Us</p>
+    <h2 class="h-section">Trained here? <span class="rule-red">Tell it.</span></h2>
+    <p class="lede">Graduates, instructors and partners write for this blog. If you have something to say about the work, we will help you get it published.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="/get-involved/#contact">Pitch A Post</a>
+      <a class="btn btn-dark" href="/programs-2026/">Explore Programs</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-top">
+      <a class="nav-logo" href="/" style="color:#fff">DIGI<span>2</span>U</a>
+      <div class="foot-nav">
+        <a href="/mission/">Mission</a><a href="/programs-2026/">Programs</a>
+        <a href="/impact/">Impact</a><a href="/events-2026/">Events</a><a href="/blog-2026/">Blog</a><a href="/get-involved/">Get Involved</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 Digi2U · 501(c)(3) · EIN 88-3213984</span>
+      <span><a href="mailto:support@digi2u.org">support@digi2u.org</a> · <a href="tel:+12013743553">+1 (201) 374-3553</a></span>
+    </div>
+  </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-hidden="true"><div class="lb-panel"></div></div>
+
+<script src="https://borngifted.github.io/digi2u-2026/assets/bundle-blog.js"></script>

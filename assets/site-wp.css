@@ -1031,3 +1031,18 @@
   .entry-content .promo-band .split > :last-child { text-align: center; }
   .entry-content .promo-band .lede { margin-left: auto; margin-right: auto; }
 }
+
+/* ---------- Blog post cards ----------
+   A tile that is itself the link, so the whole card is one target rather than
+   a card containing a small "read more" hit area. */
+.entry-content .post-card { display: flex; flex-direction: column; text-decoration: none; color: inherit; }
+.entry-content .post-card .card-more { margin-top: auto; padding-top: 14px; }
+.entry-content .post-media {
+  margin: -34px -30px 20px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--d2u-light);
+}
+.entry-content .post-media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s ease; }
+.entry-content .post-card:hover .post-media img { transform: scale(1.04); }
+.entry-content .sec-dark .post-card { background: rgba(255,255,255,.04); }

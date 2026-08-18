@@ -1030,3 +1030,18 @@ body.lb-locked { overflow: hidden; }
   .promo-band .split > :last-child { text-align: center; }
   .promo-band .lede { margin-left: auto; margin-right: auto; }
 }
+
+/* ---------- Blog post cards ----------
+   A tile that is itself the link, so the whole card is one target rather than
+   a card containing a small "read more" hit area. */
+.post-card { display: flex; flex-direction: column; text-decoration: none; color: inherit; }
+.post-card .card-more { margin-top: auto; padding-top: 14px; }
+.post-media {
+  margin: -34px -30px 20px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--d2u-light);
+}
+.post-media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s ease; }
+.post-card:hover .post-media img { transform: scale(1.04); }
+.sec-dark .post-card { background: rgba(255,255,255,.04); }

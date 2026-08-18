@@ -23,6 +23,7 @@ const PAGES = {
   'events':       { id: 25504, slug: '/events-2026/' },
   'past-events':  { id: 25505, slug: '/past-events/' },
   'get-involved': { id: 25492, slug: '/get-involved/' },
+  'blog':         { id: null,  slug: '/blog-2026/' },
 };
 
 const HEAD = [
