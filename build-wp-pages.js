@@ -27,8 +27,8 @@ const PAGES = {
      attachment page sits there, so WordPress assigned donate-2. Free that
      slug and this becomes '/donate/'. */
   'donate':       { id: 25626, slug: '/donate-2/' },
-  'blog':         { id: null,  slug: '/blog-2026/' },
-  'rico-rich':    { id: null,  slug: '/rico-rich/' },
+  'blog':         { id: 25606, slug: '/blog-2026/' },
+  'rico-rich':    { id: 25623, slug: '/rico-rich/' },
 };
 
 const HEAD = [
