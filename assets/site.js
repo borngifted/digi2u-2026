@@ -83,6 +83,61 @@
     host.appendChild(v);
   });
 
+  /* ---------- Autoplaying portrait promo ----------
+     Same viewport and connection policy as the hero backgrounds: the poster
+     paints immediately and the video only upgrades in where it is welcome, so
+     a phone on cellular is not handed several megabytes unasked. Autoplay must
+     be muted, so the clip carries its own sound toggle. */
+  document.querySelectorAll('.vportrait[data-autoplay]').forEach(function (host) {
+    var src = host.getAttribute('data-src');
+    var poster = host.getAttribute('data-poster');
+    var label = host.getAttribute('data-label') || '';
+    if (!poster || !src) return;
+
+    var img = document.createElement('img');
+    img.src = poster;
+    img.alt = label;
+    host.insertBefore(img, host.firstChild);
+
+    if (!videoIsWelcome()) return;      // poster stands in
+
+    var v = document.createElement('video');
+    v.muted = true; v.loop = true; v.autoplay = true;
+    v.playsInline = true; v.setAttribute('playsinline', '');
+    v.preload = 'auto';
+    v.poster = poster;
+    v.src = src;
+    v.style.opacity = '0';
+    v.style.transition = 'opacity .8s ease';
+
+    v.addEventListener('canplay', function () {
+      var p = v.play();
+      if (p && p.catch) p.catch(function () { /* autoplay blocked — poster stands in */ });
+      v.style.opacity = '1';
+      img.style.display = 'none';
+      btn.style.display = 'flex';
+    }, { once: true });
+
+    v.addEventListener('error', function () { v.remove(); btn.remove(); });
+    host.insertBefore(v, host.firstChild);
+
+    var btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'vsound';
+    btn.style.display = 'none';
+    btn.setAttribute('aria-label', 'Turn sound on');
+    btn.innerHTML =
+      '<svg class="off" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z" opacity=".45"/><path d="M19 5 5 19" stroke="currentColor" stroke-width="2"/></svg>' +
+      '<svg class="on"  viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 1.2v2.06a8.5 8.5 0 0 1 0 17.48v2.06a10.5 10.5 0 0 0 0-21.6z"/></svg>';
+    btn.addEventListener('click', function () {
+      v.muted = !v.muted;
+      btn.classList.toggle('is-on', !v.muted);
+      btn.setAttribute('aria-label', v.muted ? 'Turn sound on' : 'Turn sound off');
+      if (!v.muted) { var p = v.play(); if (p && p.catch) p.catch(function () {}); }
+    });
+    host.appendChild(btn);
+  });
+
   /* ---------- Click-to-play portrait video ----------
      This clip is 13 MB. It loads only when someone asks for it — poster frame
      until then, so the section costs nothing to scroll past.

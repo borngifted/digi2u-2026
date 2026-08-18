@@ -997,3 +997,36 @@ body.lb-locked { overflow: hidden; }
   object-fit: contain;
 }
 .card-person-art:hover .card-media img { transform: scale(1.03); }
+
+/* ---------- Autoplaying portrait promo ----------
+   A 9:16 clip given a full-width band of its own. The video keeps its real
+   aspect ratio in a fixed column rather than being cropped into a wide frame,
+   with the copy taking the remaining space. */
+.promo-band { background: var(--d2u-black); color: rgba(255,255,255,.72); }
+.promo-band .split { grid-template-columns: minmax(240px, 320px) 1fr; align-items: center; }
+.promo-band h2 { color: #fff; }
+.promo-band .lede { color: rgba(255,255,255,.62); }
+.promo-band .vportrait { max-width: none; width: 100%; }
+
+/* Sound toggle. The clip has speech, and autoplay forces muted, so without
+   this control the audio is unreachable. */
+.vsound {
+  position: absolute; z-index: 3; right: 12px; bottom: 12px;
+  width: 42px; height: 42px; border-radius: 50%; border: 0; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(10,10,10,.62); color: #fff;
+  backdrop-filter: blur(6px);
+  transition: background .2s ease, transform .2s ease;
+}
+.vsound:hover { background: var(--d2u-red); transform: scale(1.06); }
+.vsound svg { width: 18px; height: 18px; fill: currentColor; }
+.vsound .on { display: none; }
+.vsound.is-on .on  { display: block; }
+.vsound.is-on .off { display: none; }
+
+@media (max-width: 940px) {
+  .promo-band .split { grid-template-columns: 1fr; justify-items: center; }
+  .promo-band .vportrait { max-width: 300px; }
+  .promo-band .split > :last-child { text-align: center; }
+  .promo-band .lede { margin-left: auto; margin-right: auto; }
+}

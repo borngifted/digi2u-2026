@@ -70,7 +70,9 @@ const D2U_VIDEOS = {
 /* Portrait phone footage — usable in a vertical frame, not a wide hero. */
 const D2U_VIDEOS_PORTRAIT = {
   girlsInTech:   { src: D2U_GIT + 'girls-in-tech-3d-design.mp4',      poster: D2U_GIT_IMG + 'girls-in-tech-3d-lab-wide.jpg', label: 'Girls in Art & Tech — 3D design session' },
-  printingPromo: { src: D2U_GIT + 'rico-rich-3d-printing-promo.mp4',  poster: D2U_CDN + 'd2u-3d-jellybox-build.webp',        label: '3D printing and prototyping at Digi2U' }
+  /* Re-encoded from the 12.45 MB original to 4.64 MB (SSIM 0.976) because this
+     one autoplays on the home page. Poster is a frame from the clip itself. */
+  printingPromo: { src: D2U_MEDIA + 'rico-rich-3d-printing.mp4',      poster: D2U_MEDIA + 'rico-rich-3d-printing-poster.jpg', label: 'Rico Rich on 3D printing and prototyping at Digi2U' }
 };
 
 /* Activity photography, grouped by the program or event it came from. */
