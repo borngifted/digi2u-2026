@@ -1045,3 +1045,20 @@ body.lb-locked { overflow: hidden; }
 .post-media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s ease; }
 .post-card:hover .post-media img { transform: scale(1.04); }
 .sec-dark .post-card { background: rgba(255,255,255,.04); }
+
+/* ---------- Audio player ----------
+   Used by the podcast preview. Native <audio> controls: they are accessible,
+   keyboard-operable and familiar, which a hand-built player rarely manages. */
+.audio-card {
+  background: rgba(255,255,255,.05);
+  border: 1px solid rgba(255,255,255,.12);
+  padding: 26px 28px 22px;
+  display: flex; flex-direction: column; gap: 16px;
+}
+.audio-meta { display: flex; flex-direction: column; gap: 4px; }
+.audio-meta strong {
+  font-family: var(--font-display); font-weight: 800; font-size: 1.16rem;
+  letter-spacing: -.02em; color: #fff;
+}
+.audio-meta span { font-size: .8rem; color: rgba(255,255,255,.55); letter-spacing: .04em; }
+.audio-card audio { width: 100%; display: block; }

@@ -20,6 +20,7 @@ const PAGES = {
   'past-events':  [...COMMON_HEAD, 'data-sites', 'data-events', 'render', 'page-past-events'],
   'get-involved': [...COMMON_HEAD, 'data-phase2', 'data-sites', 'render', 'page-get-involved'],
   'blog':         [...COMMON_HEAD, 'data-sites', 'render', 'page-blog'],
+  'rico-rich':    [...COMMON_HEAD, 'data-sites', 'render', 'page-rico-rich'],
 };
 
 /*

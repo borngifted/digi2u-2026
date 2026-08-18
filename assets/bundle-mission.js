@@ -1152,6 +1152,33 @@ const D2U_PAST_EVENTS = [
   }
 ];
 
+/* ---------------------------------------------------------------------------
+   Rico Rich — the puppet who fronts the 3D and media tracks.
+   Only what is actually on record: the tracks he introduces, and the promo
+   filmed in the Digi2U studio. No invented backstory.
+   --------------------------------------------------------------------------- */
+const D2U_RICO_TRACKS = [
+  { n: '01', title: '3D Design & Fabrication',
+    desc: 'Design software, prototyping, and the production processes used in manufacturing, engineering and product design. Assemble the printer, then print on the machine you built.' },
+  { n: '02', title: 'Podcast & Streaming Production',
+    desc: 'Recording, live broadcasting and digital storytelling. Professional microphones, recording software and the workflow behind a published episode.' },
+  { n: '03', title: 'Audio Production',
+    desc: 'Sound recording, editing and mixing for music, podcasts and media production, on industry-standard software and hardware.' },
+  { n: '04', title: 'Film & Television Production',
+    desc: 'Camera, lighting and post — the crew skills students use on real Digi2U shoots and community events.' }
+];
+
+/* The King Road podcast preview. `audio` stays empty until an episode is
+   uploaded; the section does not render at all while it is empty, so the page
+   never shows a player with nothing behind it. */
+const D2U_PODCAST = {
+  title: 'The King Road preview',
+  blurb: 'A first listen ahead of the King Road Innovation Center podcast studio opening its doors to community producers.',
+  site: 'King Road Innovation Center · Riverdale, GA',
+  audio: '',
+  duration: ''
+};
+
 /* ===== data-media.js ===== */
 /* ==========================================================================
    Digi2U 2026 — video + photography
