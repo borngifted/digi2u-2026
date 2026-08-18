@@ -1240,3 +1240,8 @@
   .entry-content .keep-in-touch { grid-template-columns: 1fr; }
   .entry-content .keep-in-touch input { min-width: 0; flex: 1 1 200px; }
 }
+
+
+/* Theme chrome — see the note in build-wp-css.js */
+.elementor-location-header,
+.elementor-location-footer { display: none !important; }
