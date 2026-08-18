@@ -64,7 +64,12 @@
 /* ---------- Typography scale ---------- */
 .entry-content .display { font-size: clamp(2.9rem, 7.5vw, 6.2rem); }
 .entry-content .h-section { font-size: clamp(2.1rem, 4.6vw, 3.6rem); }
-.entry-content .h-card { font-size: clamp(1.15rem, 1.9vw, 1.5rem); letter-spacing: -.02em; }
+/* Carries the full heading treatment rather than only the size, so it reads the
+   same on a <span> as on an <h3>. Tiles that are links have to use spans — see
+   the note in get-involved.html — and would otherwise fall back to body type. */
+.entry-content .h-card { font-family: var(--font-display); font-weight: 800; line-height: 1.02;
+             color: var(--d2u-black); font-size: clamp(1.15rem, 1.9vw, 1.5rem); letter-spacing: -.02em; }
+.entry-content .sec-dark .h-card { color: var(--d2u-white); }
 
 .entry-content .kicker {
   font-family: var(--font-body);

@@ -62,10 +62,16 @@
         </div>
       </div>
       <div class="grid grid-2">
-        <a class="tile reveal" href="donate.html#zeffy"><div class="tile-icon">1×</div><h3 class="h-card">One-Time</h3><p class="tile-desc">A single gift, applied directly to active program costs.</p><span class="card-more">Give once</span></a>
-        <a class="tile reveal" href="donate.html#zeffy"><div class="tile-icon">↻</div><h3 class="h-card">Monthly</h3><p class="tile-desc">Recurring support — the most useful kind, because it lets us plan cohorts.</p><span class="card-more">Give monthly</span></a>
-        <a class="tile reveal" href="donate.html#stock"><div class="tile-icon">$</div><h3 class="h-card">Stock</h3><p class="tile-desc">Appreciated securities, transferred through DonateStock in a couple of minutes.</p><span class="card-more">Donate stock</span></a>
-        <a class="tile reveal" href="#sponsor"><div class="tile-icon">◆</div><h3 class="h-card">Sponsor A Seat</h3><p class="tile-desc">Fund one learner through one full program track, start to portfolio.</p><span class="card-more">See tiers</span></a>
+        <!-- Spans, not div/h3/p: WordPress runs wpautop over this content, which
+             closes its paragraph the moment a block element appears. Inside an
+             anchor that leaves </p> straight after the opening tag, and the HTML
+             parser then re-opens the <a> around every following block — one empty
+             clone per block, rendered as a blank white tile. An anchor holding
+             only inline content gives wpautop nothing to break. -->
+        <a class="tile reveal" href="donate.html#zeffy"><span class="tile-icon">1×</span><span class="h-card">One-Time</span><span class="tile-desc">A single gift, applied directly to active program costs.</span><span class="card-more">Give once</span></a>
+        <a class="tile reveal" href="donate.html#zeffy"><span class="tile-icon">↻</span><span class="h-card">Monthly</span><span class="tile-desc">Recurring support — the most useful kind, because it lets us plan cohorts.</span><span class="card-more">Give monthly</span></a>
+        <a class="tile reveal" href="donate.html#stock"><span class="tile-icon">$</span><span class="h-card">Stock</span><span class="tile-desc">Appreciated securities, transferred through DonateStock in a couple of minutes.</span><span class="card-more">Donate stock</span></a>
+        <a class="tile reveal" href="#sponsor"><span class="tile-icon">◆</span><span class="h-card">Sponsor A Seat</span><span class="tile-desc">Fund one learner through one full program track, start to portfolio.</span><span class="card-more">See tiers</span></a>
       </div>
     </div>
   </div>
