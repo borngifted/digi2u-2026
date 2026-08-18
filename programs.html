@@ -150,25 +150,7 @@
 <script src="assets/data-extra.js"></script>
 <script src="assets/data-media.js"></script>
 <script src="assets/render.js"></script>
-<script>
-  var ph = document.getElementById('programsHero');
-  ph.setAttribute('data-poster', D2U_GIT_IMG + 'girls-in-tech-3d-lab-wide.jpg');
-  ph.setAttribute('data-label', 'A Digi2U cohort at work in the studio');
-
-  D2URender.gallery('programGallery', D2U_GALLERY, { limit: 8, feature: true });
-
-  D2URender.stats('statBar', D2U_STATS);
-  D2URender.theory('theory', D2U_THEORY);
-  D2URender.cards('programGrid', D2U_PROGRAMS, 'program');
-  D2URender.cards('certGrid', D2U_CERTS, 'program', { cta: 'Certification Details' });
-</script>
+<script src="assets/page-programs.js"></script>
 <script src="assets/site.js"></script>
-<script>
-  var all = {};
-  Object.keys(D2U_PROGRAMS).forEach(function (k) { all[k] = D2U_PROGRAMS[k]; });
-  Object.keys(D2U_CERTS).forEach(function (k) { all[k] = D2U_CERTS[k]; });
-  D2U.register('program', all);
-  D2U.register('photo', D2U_GALLERY);
-</script>
 </body>
 </html>

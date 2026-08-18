@@ -433,3 +433,11 @@
     open(a);
   });
 })();
+
+/* Page bootstraps (assets/page-*.js) render their content before this file runs,
+   then leave any lightbox registration here — D2U.register only exists once the
+   IIFE above has executed. */
+if (typeof window.__D2U_INIT === 'function') {
+  window.__D2U_INIT();
+  delete window.__D2U_INIT;
+}

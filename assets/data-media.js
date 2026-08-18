@@ -6,14 +6,31 @@
    ========================================================================== */
 
 const D2U_CDN = 'https://digi2u.org/wp-content/uploads/2026/05/';
-const D2U_DECK = 'assets/deck/';
+
+/* Repo-relative assets (deck stills, rotation fixes, hero footage) resolve
+   against wherever this file was served from, not against the page URL. On the
+   demo that is the repo root; embedded in a WordPress page at /events-2026/ a
+   bare 'assets/...' path would resolve to /events-2026/assets/... and 404 —
+   which is why the hero videos never appeared on the live site. */
+const D2U_BASE = (function () {
+  var s = document.currentScript;
+  if (!s) {
+    var all = document.getElementsByTagName('script');
+    for (var i = 0; i < all.length; i++) {
+      if (/data-media\.js/.test(all[i].src)) { s = all[i]; break; }
+    }
+  }
+  return s && s.src ? s.src.replace(/assets\/data-media\.js.*$/, '') : '';
+}());
+
+const D2U_DECK = D2U_BASE + 'assets/deck/';
 
 /* Rotation-corrected copies. Four images in the digi2u.org media library are
    stored 90° out of true — portrait content written into a 1919x1080 landscape
    frame with no orientation flag, so every browser renders them sideways.
    These are the same photographs rotated clockwise and re-encoded. The
    originals on digi2u.org still need fixing at the source. */
-const D2U_FIX = 'assets/fix/';
+const D2U_FIX = D2U_BASE + 'assets/fix/';
 const D2U_GIT = 'https://borngifted.github.io/digi2u-review/assets/girls-in-tech/';
 const D2U_GIT_IMG = 'https://digi2u.org/wp-content/uploads/2026/07/';
 
@@ -26,18 +43,18 @@ const D2U_GIT_IMG = 'https://digi2u.org/wp-content/uploads/2026/07/';
    Gated to wide screens at runtime; phones get the poster image. */
 const D2U_VIDEOS = {
   mentorship: {
-    src: 'assets/video/hero-mentorship.mp4',
-    poster: 'assets/video/hero-mentorship.jpg',
+    src: D2U_BASE + 'assets/video/hero-mentorship.mp4',
+    poster: D2U_BASE + 'assets/video/hero-mentorship.jpg',
     label: 'A Digi2U instructor working alongside an adult learner'
   },
   design: {
-    src: 'assets/video/hero-3d-design.mp4',
-    poster: 'assets/video/hero-3d-design.jpg',
+    src: D2U_BASE + 'assets/video/hero-3d-design.mp4',
+    poster: D2U_BASE + 'assets/video/hero-3d-design.jpg',
     label: 'An adult learner modelling a design in the Digi2U studio'
   },
   studio: {
-    src: 'assets/video/studio-wide.mp4',
-    poster: 'assets/video/studio-wide.jpg',
+    src: D2U_BASE + 'assets/video/studio-wide.mp4',
+    poster: D2U_BASE + 'assets/video/studio-wide.jpg',
     label: 'A working session in the Digi2U studio'
   }
 };
