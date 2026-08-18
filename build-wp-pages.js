@@ -26,10 +26,11 @@ const PAGES = {
 };
 
 const HEAD = [
-  // The stylesheet below is the first thing that needs the GitHub Pages origin,
-  // and it sits in the body — after ~200KB of WordPress <head>. Opening the
-  // connection up front takes DNS, TCP and TLS off the critical path.
-  '<link rel="preconnect" href="https://borngifted.github.io" crossorigin>',
+  // fonts.gstatic.com is a third origin the browser cannot discover until it has
+  // fetched and parsed the fonts.googleapis.com stylesheet below — preconnecting
+  // saves a full DNS/TCP/TLS handshake on the critical font path.
+  // (No hint for borngifted.github.io: the link that needs it is the very next
+  // line, so the preload scanner reaches both together and a hint buys nothing.)
   '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>',
   '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap">',
   `<link rel="stylesheet" href="${CDN}assets/site-wp.css">`,
