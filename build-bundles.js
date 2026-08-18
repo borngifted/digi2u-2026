@@ -10,7 +10,9 @@
  */
 const fs = require('fs');
 
-const COMMON_HEAD = ['data-core', 'data-extra', 'data-media'];
+/* forms.js sits in the common head, not next to site.js: the page bootstraps
+   call D2UForms.bind, so it has to be defined before they run. */
+const COMMON_HEAD = ['data-core', 'data-extra', 'data-media', 'forms'];
 const PAGES = {
   'index':        [...COMMON_HEAD, 'data-phase2', 'data-sites', 'render', 'page-index'],
   'mission':      [...COMMON_HEAD, 'data-sites', 'render', 'page-mission'],

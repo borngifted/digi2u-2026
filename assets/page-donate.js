@@ -41,6 +41,24 @@
   frame('zeffyForm',   D2U_DONATE.zeffyEmbed,  'Donation form powered by Zeffy', true);
   frame('zeffyThermo', D2U_DONATE.zeffyThermo, 'Fundraising progress powered by Zeffy', false);
 
+  /* ---------- Keep-in-touch capture ----------
+     For the visitor who read the page and did not give today. Tagged as coming
+     from the donate page so the sheet shows which addresses came from someone
+     who got as far as considering a gift. */
+  D2UForms.bind({
+    form: 'donateSignup',
+    note: 'ds-note',
+    success: 'Thank you — we will write when there is something worth reporting.',
+    collect: function () {
+      return {
+        name: '', phone: '', message: 'Donate page signup',
+        email: document.getElementById('ds-email').value.trim(),
+        subject: 'Newsletter signup',
+        page: 'Donate'
+      };
+    }
+  });
+
   /* ---------- DonateStock Easy Button ----------
      The loader is DonateStock's own snippet. It is kept verbatim so that a
      future version of their script behaves here exactly as it does on every

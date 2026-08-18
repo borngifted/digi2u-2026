@@ -433,7 +433,9 @@
    nothing on pages nobody donates from. Scroll is locked while open, Esc and
    the backdrop close it, and focus returns to the button that opened it.
    Any link pointing at #donate or at zeffy.com is intercepted, so the nav
-   button, the hero CTAs and the giving section all behave the same.
+   button, the hero CTAs and the giving section all behave the same. Two
+   exceptions: a link that asked for target="_blank", and any page that already
+   embeds the form itself (the donate page).
    ========================================================================= */
 (function () {
   var ZEFFY = 'https://www.zeffy.com/embed/donation-form/donate-to-change-lives-3894';
@@ -489,12 +491,43 @@
   document.addEventListener('click', function (e) {
     var a = e.target.closest && e.target.closest('a[href]');
     if (!a) return;
+    /* An author who wrote target="_blank" asked for a new tab and meant it —
+       overriding that turns a stated promise into a lie. */
+    if (a.target === '_blank') return;
+    /* And the donate page embeds this very form in the document, so opening a
+       second copy of it over the first would be pure noise. */
+    if (document.getElementById('zeffyForm')) return;
     var href = a.getAttribute('href') || '';
     if (href.indexOf('#donate') === -1 && href.indexOf('zeffy.com') === -1) return;
     e.preventDefault();
     open(a);
   });
 })();
+
+/* ===========================================================================
+   Footer signup
+   The one form that appears on every page, so it is bound here rather than in
+   each page bootstrap. Google needs a Subject on every row; "Newsletter
+   signup" is what makes these separable from enquiries in the sheet, and Page
+   records which page earned the address.
+   ========================================================================= */
+(function () {
+  if (!window.D2UForms) return;
+  D2UForms.bind({
+    form: 'footSignup',
+    note: 'fs-note',
+    success: 'You are on the list. Watch for the next one.',
+    collect: function () {
+      var page = (document.title.split('—')[0] || '').trim() || location.pathname;
+      return {
+        name: '', phone: '', message: 'Footer signup',
+        email: document.getElementById('fs-email').value.trim(),
+        subject: 'Newsletter signup',
+        page: page + ' (footer)'
+      };
+    }
+  });
+}());
 
 /* Page bootstraps (assets/page-*.js) render their content before this file runs,
    then leave any lightbox registration here — D2U.register only exists once the

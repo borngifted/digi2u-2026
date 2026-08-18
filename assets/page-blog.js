@@ -45,20 +45,25 @@
   /* ---- Newsletter ---------------------------------------------------- */
   /* No mail service is wired up yet, so rather than swallow a signup the form
      composes it and hands it to the sender's own mail client. */
-  var nf = document.getElementById('newsletterForm');
-  nf.addEventListener('submit', function (e) {
-    e.preventDefault();
-    var val = function (id) { var el = document.getElementById(id); return el ? el.value.trim() : ''; };
-    var body = 'Please add me to the Digi2U newsletter.\n\n' +
-               'Name: ' + (val('n-name') || '(not given)') + '\n' +
-               'Email: ' + val('n-email') + '\n' +
-               'Nearest site: ' + val('n-city');
-    window.location.href = 'mailto:support@digi2u.org' +
-      '?subject=' + encodeURIComponent('Newsletter signup') +
-      '&body=' + encodeURIComponent(body);
-    document.getElementById('n-note').textContent =
-      'Opening your email app with the signup ready to send. Prefer not to email? ' +
-      'Use one of the feeds instead — they need no signup at all.';
+  /* Signups land in the same Digi2U Website Inquiries sheet as everything
+     else; the Subject column is what separates a subscriber from an enquiry,
+     and the nearest site travels in the message so the list can be segmented
+     by city later without a second form. */
+  D2UForms.bind({
+    form: 'newsletterForm',
+    note: 'n-note',
+    success: 'You are on the list. Prefer no email at all? The feeds below need no signup.',
+    collect: function () {
+      var v = function (id) { var el = document.getElementById(id); return el ? el.value.trim() : ''; };
+      return {
+        name: v('n-name'),
+        email: v('n-email'),
+        phone: '',
+        subject: 'Newsletter signup',
+        message: 'Nearest site: ' + v('n-city'),
+        page: 'Blog'
+      };
+    }
   });
 
   /* ---- Posts --------------------------------------------------------- */
