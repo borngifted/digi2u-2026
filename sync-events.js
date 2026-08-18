@@ -53,7 +53,7 @@ const ENRICH = [
   {
     match: /khem\s*fest/i,
     url: 'https://khemfest.com/',
-    img: 'assets/event-khemfest-2026.webp',
+    img: 'https://digi2u.org/wp-content/uploads/2026/08/event-khemfest-2026.webp',
     credit: 'Artwork © Khem Fest / Black Star Creative Collective',
     venue: 'Express Newark, 54 Halsey St, Newark, NJ',
     blurb: 'The 12th Annual Khem Fest and Khem Animation Film Festival, presented by Black Star Creative Collective — an Afrofuturism festival celebrating Black animation, gaming and comic book creators. Over 14 animated shorts from creators worldwide, plus a marketplace, comic book workshops, panel discussions, screenings and a STEAM lab.',

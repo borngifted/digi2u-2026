@@ -2,7 +2,7 @@
    GENERATED FILE — do not edit by hand.
    Source: the live "D2U Events" Google Calendar.
    Regenerate with:  node sync-events.js
-   Last sync: 2026-08-17
+   Last sync: 2026-08-18
    ========================================================================== */
 
 const D2U_CAL = {
@@ -62,7 +62,7 @@ const D2U_CAL_UPCOMING = [
     url: "https://khemfest.com/",
     blurb: "The 12th Annual Khem Fest and Khem Animation Film Festival, presented by Black Star Creative Collective — an Afrofuturism festival celebrating Black animation, gaming and comic book creators. Over 14 animated shorts from creators worldwide, plus a marketplace, comic book workshops, panel discussions, screenings and a STEAM lab.",
     detail: "Main ticketed day is Saturday 26 September, 11:00–19:00. Doors 10:45, free parking.",
-    img: "assets/event-khemfest-2026.webp",
+    img: "https://digi2u.org/wp-content/uploads/2026/08/event-khemfest-2026.webp",
     credit: "Artwork © Khem Fest / Black Star Creative Collective",
     iso: "2026-09-25"
   },

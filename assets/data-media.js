@@ -41,20 +41,25 @@ const D2U_GIT_IMG = 'https://digi2u.org/wp-content/uploads/2026/07/';
    phone-shot portrait (720x1280 and 540x960) and crop badly in a wide hero, so
    they are kept below for portrait contexts only.
    Gated to wide screens at runtime; phones get the poster image. */
+/* Hero footage now lives in the digi2u.org media library rather than the repo,
+   so the live site serves its own video instead of depending on GitHub Pages.
+   Media IDs 25576-25581. */
+const D2U_MEDIA = 'https://digi2u.org/wp-content/uploads/2026/08/';
+
 const D2U_VIDEOS = {
   mentorship: {
-    src: D2U_BASE + 'assets/video/hero-mentorship.mp4',
-    poster: D2U_BASE + 'assets/video/hero-mentorship.jpg',
+    src: D2U_MEDIA + 'd2u-hero-mentorship.mp4',
+    poster: D2U_MEDIA + 'd2u-hero-mentorship-poster.jpg',
     label: 'A Digi2U instructor working alongside an adult learner'
   },
   design: {
-    src: D2U_BASE + 'assets/video/hero-3d-design.mp4',
-    poster: D2U_BASE + 'assets/video/hero-3d-design.jpg',
+    src: D2U_MEDIA + 'd2u-hero-3d-design.mp4',
+    poster: D2U_MEDIA + 'd2u-hero-3d-design-poster.jpg',
     label: 'An adult learner modelling a design in the Digi2U studio'
   },
   studio: {
-    src: D2U_BASE + 'assets/video/studio-wide.mp4',
-    poster: D2U_BASE + 'assets/video/studio-wide.jpg',
+    src: D2U_MEDIA + 'd2u-studio-wide.mp4',
+    poster: D2U_MEDIA + 'd2u-studio-wide-poster.jpg',
     label: 'A working session in the Digi2U studio'
   }
 };
