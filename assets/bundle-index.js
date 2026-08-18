@@ -2068,14 +2068,6 @@ const D2U_WHY_GIVE = [
   hv.setAttribute('data-poster', D2U_VIDEOS.mentorship.poster);
   hv.setAttribute('data-label',  'A Digi2U instructor working alongside an adult learner');
 
-  /* Rico Rich, in its own band directly under the hero. Autoplays muted and
-     loops; site.js gates it on viewport and connection and adds the sound
-     toggle, since autoplay forces muted and the clip has speech. */
-  var rico = document.getElementById('ricoPromo');
-  rico.setAttribute('data-src',    D2U_VIDEOS_PORTRAIT.printingPromo.src);
-  rico.setAttribute('data-poster', D2U_VIDEOS_PORTRAIT.printingPromo.poster);
-  rico.setAttribute('data-label',  D2U_VIDEOS_PORTRAIT.printingPromo.label);
-
   // Portrait promo — phone-shot 9:16, click to load.
   var promo = document.getElementById('promoVideo');
   promo.setAttribute('data-src',    D2U_VIDEOS_PORTRAIT.printingPromo.src);
