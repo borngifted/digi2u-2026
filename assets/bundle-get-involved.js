@@ -2138,9 +2138,12 @@ const D2U_WHY_GIVE = [
   }
 
   /* ---------- Video backgrounds ----------
-     The hero clips are 8–13 MB. Autoplaying that on a phone or a metered
-     connection is hostile, so the poster image is always painted first and the
-     video only upgrades in when the connection and viewport can carry it.
+     The poster image is always painted first; the video only upgrades in when
+     the connection and viewport can carry it. The hero clips are 0.9-2.9 MB
+     (they were far heavier when this was first written, hence the old 900px
+     cut-off, which withheld video from any desktop window under 900px wide —
+     a laptop at 860px got a still image). The gate is now about phones and
+     metered connections, which is what it was always meant to be about.
      Elementor equivalent: Section → Background → Video, with a Background
      Fallback image set and "Play on mobile" left off. */
   function videoIsWelcome() {
@@ -2149,7 +2152,7 @@ const D2U_WHY_GIVE = [
        measured yet" rather than "very small screen" — fall back to the
        documentElement before deciding the viewport is too narrow for video. */
     var w = window.innerWidth || document.documentElement.clientWidth || 0;
-    if (w && w < 900) return false;
+    if (w && w < 640) return false;
     var c = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
     if (c) {
       if (c.saveData) return false;
