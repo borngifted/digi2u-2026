@@ -2062,8 +2062,8 @@ const D2U_WHY_GIVE = [
   'use strict';
 
   var hv = document.getElementById('heroVideo');
-  hv.setAttribute('data-video',  'assets/video/hero-mentorship.mp4');
-  hv.setAttribute('data-poster', 'assets/video/hero-mentorship.jpg');
+  hv.setAttribute('data-video',  D2U_VIDEOS.mentorship.src);
+  hv.setAttribute('data-poster', D2U_VIDEOS.mentorship.poster);
   hv.setAttribute('data-label',  'A Digi2U instructor working alongside an adult learner');
 
   // Portrait promo — phone-shot 9:16, click to load.
@@ -2073,8 +2073,8 @@ const D2U_WHY_GIVE = [
   promo.setAttribute('data-label',  D2U_VIDEOS_PORTRAIT.printingPromo.label);
 
   var rv = document.getElementById('responseVideo');
-  rv.setAttribute('data-video',  'assets/video/hero-3d-design.mp4');
-  rv.setAttribute('data-poster', 'assets/video/hero-3d-design.jpg');
+  rv.setAttribute('data-video',  D2U_VIDEOS.design.src);
+  rv.setAttribute('data-poster', D2U_VIDEOS.design.poster);
   rv.setAttribute('data-label',  'An adult learner modelling a design in the Digi2U studio');
 
   var allPrograms = {};

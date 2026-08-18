@@ -21,6 +21,30 @@ const PAGES = {
   'get-involved': [...COMMON_HEAD, 'data-phase2', 'data-sites', 'render', 'page-get-involved'],
 };
 
+/*
+ * Guard: a bare 'assets/...' string literal is repo-relative, so inside a
+ * WordPress page at /events-2026/ it resolves to /events-2026/assets/... and
+ * 404s. That is exactly how the home page lost its hero video. Asset paths must
+ * go through D2U_BASE, D2U_FIX or one of the data maps.
+ */
+// Legitimate uses are concatenated onto a base (D2U_BASE + 'assets/deck/'),
+// so only flag a literal that is not preceded by one.
+const BARE = /(?<!D2U_(?:BASE|FIX)\s*\+\s*)(['"])assets\/[^'"]*\1/g;
+let violations = 0;
+for (const f of fs.readdirSync('assets').filter(f => f.endsWith('.js') && !f.startsWith('bundle-'))) {
+  const src = fs.readFileSync(`assets/${f}`, 'utf8')
+    .replace(/\/\*[\s\S]*?\*\//g, '')          // strip block comments
+    .replace(/(^|[^:])\/\/.*$/gm, '$1');        // strip line comments
+  for (const m of src.matchAll(BARE)) {
+    console.error(`  BARE ASSET PATH  assets/${f}: ${m[0]}`);
+    violations++;
+  }
+}
+if (violations) {
+  console.error(`\n${violations} repo-relative asset path(s) would 404 on WordPress. Aborting.`);
+  process.exit(1);
+}
+
 for (const [page, parts] of Object.entries(PAGES)) {
   const files = [...parts, 'site'];                     // site.js always last
   const body = files.map(f => {
