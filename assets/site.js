@@ -360,3 +360,76 @@
   }
   window.addEventListener('load', fromHash);
 })();
+
+/* ===========================================================================
+   Donate lightbox
+   Donating used to send people to Zeffy on another domain, which loses the
+   context they were reading in and, on mobile, usually loses them entirely.
+   The form now opens over the page.
+
+   The iframe src is only set when the overlay opens, so the Zeffy embed costs
+   nothing on pages nobody donates from. Scroll is locked while open, Esc and
+   the backdrop close it, and focus returns to the button that opened it.
+   Any link pointing at #donate or at zeffy.com is intercepted, so the nav
+   button, the hero CTAs and the giving section all behave the same.
+   ========================================================================= */
+(function () {
+  var ZEFFY = 'https://www.zeffy.com/embed/donation-form/donate-to-change-lives-3894';
+  var ov, frame, opener;
+
+  function build() {
+    if (ov) return ov;
+    ov = document.createElement('div');
+    ov.className = 'd2u-donate-ov';
+    ov.setAttribute('role', 'dialog');
+    ov.setAttribute('aria-modal', 'true');
+    ov.setAttribute('aria-label', 'Donate to Digi2U');
+    ov.innerHTML =
+      '<div class="d2u-donate-box">' +
+        '<div class="d2u-donate-head">' +
+          '<strong>Donate to Digi2U</strong>' +
+          '<button type="button" class="d2u-donate-close" aria-label="Close">&times;</button>' +
+        '</div>' +
+        '<iframe title="Donation form powered by Zeffy" allowpaymentrequest allowtransparency="true" loading="lazy"></iframe>' +
+        '<div class="d2u-donate-foot">Digi2U is a 501(c)(3) — EIN 88-3213984. All gifts are tax-deductible. ' +
+        'Trouble loading? <a href="https://www.zeffy.com/donation-form/donate-to-change-lives-3894" target="_blank" rel="noopener">Open the form in a new tab</a>.</div>' +
+      '</div>';
+    document.body.appendChild(ov);
+    frame = ov.querySelector('iframe');
+    ov.querySelector('.d2u-donate-close').addEventListener('click', close);
+    ov.addEventListener('mousedown', function (e) { if (e.target === ov) close(); });
+    return ov;
+  }
+
+  function open(from) {
+    build();
+    opener = from || null;
+    if (!frame.getAttribute('src')) frame.setAttribute('src', ZEFFY);
+    ov.classList.add('is-open');
+    document.documentElement.style.overflow = 'hidden';
+    document.body.style.overflow = 'hidden';
+    var btn = ov.querySelector('.d2u-donate-close');
+    if (btn) btn.focus();
+  }
+
+  function close() {
+    if (!ov) return;
+    ov.classList.remove('is-open');
+    document.documentElement.style.overflow = '';
+    document.body.style.overflow = '';
+    if (opener && opener.focus) opener.focus();
+  }
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && ov && ov.classList.contains('is-open')) close();
+  });
+
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.getAttribute('href') || '';
+    if (href.indexOf('#donate') === -1 && href.indexOf('zeffy.com') === -1) return;
+    e.preventDefault();
+    open(a);
+  });
+})();
