@@ -2089,13 +2089,90 @@ const D2U_CAL_PAST = [
     }).join('');
   }
 
+  /* ---------- Donate page ---------- */
+
+  /* An external destination gets the security attributes; an in-page jump must
+     not, because rel/target on a "#stock" link is meaningless noise. */
+  function linkAttrs(d) {
+    return ' href="' + esc(d.href) + '"' +
+      (d.external ? ' target="_blank" rel="noopener"' : '');
+  }
+
+  /* The three ways to give. Each card is a real link, not a lightbox trigger —
+     the whole point of the page is that the button completes a donation. */
+  function ways(targetId, arr) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = arr.map(function (w, i) {
+      return '<div class="way reveal"' + stagger(i) + '>' +
+        '<div class="tile-icon">' + esc(w.icon) + '</div>' +
+        '<div class="card-kicker">' + esc(w.tag) + '</div>' +
+        '<h3 class="h-card">' + esc(w.title) + '</h3>' +
+        '<p class="tile-desc">' + esc(w.desc) + '</p>' +
+        '<a class="btn btn-primary way-cta"' + linkAttrs(w) + '>' + esc(w.cta) + '</a>' +
+      '</div>';
+    }).join('');
+  }
+
+  /* Campaign cards with the progress bar the previous site carried. The bar is
+     decorative, so the accessible name lives on the wrapper and the fill is
+     driven by a custom property rather than an inline width. */
+  function causes(targetId, arr) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = arr.map(function (c, i) {
+      var pct = Math.max(0, Math.min(100, Number(c.pct) || 0));
+      return '<div class="cause reveal"' + stagger(i) + '>' +
+        '<div class="cause-media"><img src="' + esc(c.img) + '" alt="' + esc(c.title) + '" loading="lazy"></div>' +
+        '<div class="cause-body">' +
+          '<div class="card-kicker">' + esc(c.kicker) + '</div>' +
+          '<h3 class="h-card">' + esc(c.title) + '</h3>' +
+          '<p class="cause-head">' + esc(c.head) + '</p>' +
+          '<p class="cause-desc">' + esc(c.desc) + '</p>' +
+          '<div class="cause-nums"><span>Raised ' + esc(c.raised) + '</span><span>Goal ' + esc(c.goal) + '</span></div>' +
+          '<div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="' + pct +
+            '" aria-label="' + esc(c.title) + ' progress toward ' + esc(c.goal) + '">' +
+            '<span style="--pct:' + pct + '%"></span>' +
+          '</div>' +
+          '<a class="btn btn-dark cause-cta"' + linkAttrs(c) + '>' + esc(c.cta) + '</a>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  /* Titled bullet list — the stock-giving rationale and caveats. */
+  function points(targetId, arr) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = arr.map(function (p, i) {
+      return '<div class="point reveal"' + stagger(i) + '>' +
+        '<h3>' + esc(p.title) + '</h3>' +
+        '<p>' + esc(p.desc) + '</p>' +
+      '</div>';
+    }).join('');
+  }
+
+  /* FAQ. Native <details> so it opens without JavaScript and Ctrl-F still
+     finds text inside a closed answer in browsers that support it. */
+  function faq(targetId, arr) {
+    var host = el(targetId);
+    if (!host) return;
+    host.innerHTML = arr.map(function (f) {
+      return '<details class="faq-item">' +
+        '<summary>' + esc(f.q) + '</summary>' +
+        '<p>' + esc(f.a) + '</p>' +
+      '</details>';
+    }).join('');
+  }
+
   window.D2URender = {
     sites: sites, founder: founder, funder: funder,
     cards: cards, people: people, tiles: tiles, events: events,
     tiers: tiers, stats: stats, numbered: numbered, theory: theory, marquee: marquee,
     gallery: gallery, moments: moments, logos: logos, charter: charter,
     need: need, metrics: metrics, categories: categories, giving: giving,
-    stories: stories, pillars: pillars
+    stories: stories, pillars: pillars,
+    ways: ways, causes: causes, points: points, faq: faq
   };
 })();
 

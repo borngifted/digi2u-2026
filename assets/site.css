@@ -770,7 +770,7 @@ section { padding: clamp(72px, 9vw, 132px) 0; }
   display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .card-more { margin-top: auto; padding-top: 20px; font-size: .78rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--d2u-black); display: flex; align-items: center; gap: 8px; }
 .card-more::after { content: '→'; color: var(--d2u-red); transition: transform .25s; }
-.card:hover .card-more::after { transform: translateX(5px); }
+.card:hover .card-more::after, .tile:hover .card-more::after { transform: translateX(5px); }
 
 /* Team card */
 .card-person .card-media { aspect-ratio: 1 / 1; }
@@ -780,6 +780,7 @@ section { padding: clamp(72px, 9vw, 132px) 0; }
 .tile {
   background: #fff; padding: 34px 30px 38px; text-align: left;
   border: 0; font: inherit; color: inherit; cursor: pointer; width: 100%;
+  text-decoration: none;
   display: flex; flex-direction: column;
   transition: transform .3s ease, box-shadow .3s ease;
 }
@@ -1062,3 +1063,108 @@ body.lb-locked { overflow: hidden; }
 }
 .audio-meta span { font-size: .8rem; color: rgba(255,255,255,.55); letter-spacing: .04em; }
 .audio-card audio { width: 100%; display: block; }
+
+/* ===== Donate page ==================================================
+   Three donation channels, the campaign cards carried over from the
+   previous site, and the two third-party payment frames. Everything here
+   reuses the tile/card vocabulary above — only the progress bar, the
+   embed wrappers and the FAQ disclosure are new shapes.
+   ================================================================== */
+.ways { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--d2u-line-soft); }
+.way {
+  background: #fff; padding: 38px 30px 34px;
+  display: flex; flex-direction: column; align-items: flex-start;
+  transition: transform .35s ease, box-shadow .35s ease;
+}
+.sec-dark .ways { background: rgba(255,255,255,.12); }
+.sec-dark .way { background: var(--d2u-black); }
+.way:hover { transform: translateY(-5px); box-shadow: var(--shadow-lift); z-index: 2; }
+.way .card-kicker { margin: 18px 0 6px; }
+.way .tile-desc { flex: 1; }
+.way-cta { margin-top: 26px; }
+
+.causes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; background: var(--d2u-line-soft); }
+.sec-dark .causes { background: rgba(255,255,255,.12); }
+.cause { background: #fff; display: flex; flex-direction: column; }
+.sec-dark .cause { background: var(--d2u-black); }
+.cause-media { aspect-ratio: 16 / 10; overflow: hidden; background: var(--d2u-light); }
+.cause-media img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .6s ease; }
+.cause:hover .cause-media img { transform: scale(1.04); }
+.cause-body { padding: 28px 26px 32px; display: flex; flex-direction: column; flex: 1; }
+.cause-head { font-family: var(--font-display); font-weight: 700; font-size: .98rem; margin: 4px 0 10px; }
+.sec-dark .cause-head { color: #fff; }
+.cause-desc { font-size: .88rem; color: var(--d2u-gray); line-height: 1.6; margin: 0 0 22px; flex: 1; }
+.sec-dark .cause-desc { color: rgba(255,255,255,.6); }
+.cause-nums {
+  display: flex; justify-content: space-between; gap: 12px;
+  font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--d2u-gray); margin-bottom: 9px;
+}
+.sec-dark .cause-nums { color: rgba(255,255,255,.55); }
+.cause-cta { margin-top: 24px; align-self: flex-start; }
+.sec-dark .cause-cta { background: var(--d2u-red); }
+.sec-dark .cause-cta:hover { background: var(--d2u-red-dark); }
+
+.bar { height: 7px; background: var(--d2u-light); overflow: hidden; }
+.sec-dark .bar { background: rgba(255,255,255,.14); }
+.bar span { display: block; height: 100%; width: var(--pct, 0%); background: var(--d2u-red); }
+
+.points { display: grid; gap: 2px; background: var(--d2u-line-soft); grid-template-columns: repeat(2, 1fr); }
+.sec-dark .points { background: rgba(255,255,255,.12); }
+.point { background: #fff; padding: 28px 26px 30px; border-left: 3px solid var(--d2u-red); }
+.sec-dark .point { background: var(--d2u-black); }
+.point h3 { font-size: 1.04rem; margin: 0 0 8px; }
+.point p { font-size: .88rem; color: var(--d2u-gray); line-height: 1.6; margin: 0; }
+/* An odd number of points would otherwise leave a bare cell in the two-column
+   grid — the last one takes the full row instead. */
+.point:last-child:nth-child(odd) { grid-column: 1 / -1; }
+.sec-dark .point p { color: rgba(255,255,255,.6); }
+
+/* Payment frames. The height is reserved before the iframe loads so the page
+   does not jump when a third-party form paints. */
+.embed { position: relative; width: 100%; background: var(--d2u-off-white); }
+.sec-dark .embed { background: rgba(255,255,255,.05); }
+.embed iframe { display: block; width: 100%; height: 100%; border: 0; }
+/* Zeffy lays its form out against the frame's own width and collapses to a
+   thin column below roughly 600px, so the frame is given a comfortable
+   measure and centred rather than dropped into a half-width split. */
+.embed-form { height: 760px; max-width: 760px; margin: 0 auto; }
+.embed-thermo { height: 128px; max-width: 760px; margin: 0 auto 22px; }
+@media (max-width: 640px) { .embed-form { height: 880px; } }
+
+.embed-note { font-size: .84rem; color: var(--d2u-gray); margin: 16px 0 0; }
+#zeffy .embed-note { max-width: 760px; margin-left: auto; margin-right: auto; text-align: center; }
+.sec-dark .embed-note { color: rgba(255,255,255,.55); }
+.embed-note a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.embed-note a:hover { color: var(--d2u-red); }
+
+/* The Easy Button is drawn by DonateStock's own script — the container only
+   reserves room so the section does not reflow around it. */
+.ds-button { min-height: 62px; margin-top: 8px; }
+.ds-button > div { max-width: 340px; }
+/* DonateStock renders its own advisor link with browser-default styling; this
+   pulls it into the page's type without touching their markup. */
+.ds-button a { font-size: .8rem; color: var(--d2u-gray); text-underline-offset: 3px; }
+.ds-button a:hover { color: var(--d2u-red); }
+
+.faq { border-top: 1px solid var(--d2u-line); }
+.sec-dark .faq { border-top-color: rgba(255,255,255,.16); }
+.faq-item { border-bottom: 1px solid var(--d2u-line); }
+.sec-dark .faq-item { border-bottom-color: rgba(255,255,255,.16); }
+.faq-item summary {
+  cursor: pointer; list-style: none; padding: 22px 44px 22px 0; position: relative;
+  font-family: var(--font-display); font-weight: 700; font-size: 1.02rem; color: var(--d2u-black);
+}
+.sec-dark .faq-item summary { color: #fff; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: '+'; position: absolute; right: 8px; top: 50%; transform: translateY(-50%);
+  font-size: 1.4rem; font-weight: 400; color: var(--d2u-red); line-height: 1;
+}
+.faq-item[open] summary::after { content: '\2013'; }
+.faq-item summary:focus-visible { outline: 3px solid var(--d2u-red); outline-offset: 2px; }
+.faq-item p { margin: 0 0 24px; padding-right: 44px; font-size: .92rem; line-height: 1.7; color: var(--d2u-gray); }
+.sec-dark .faq-item p { color: rgba(255,255,255,.62); }
+
+@media (max-width: 1000px) { .ways, .causes { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px)  { .ways, .causes, .points { grid-template-columns: 1fr; } }
