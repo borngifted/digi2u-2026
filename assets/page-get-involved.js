@@ -25,11 +25,27 @@
   }).join('') +
   '<div class="tile is-static reveal" style="grid-column:1/-1"><div class="tile-icon">+</div><h3 class="h-card">Your logo here</h3><p class="tile-desc">Reach out to support@digi2u.org to discuss a sponsorship.</p></div>';
 
-  function d2uSubmit(e) {
-    e.preventDefault();
-    document.getElementById('f-note').textContent =
-      'Demo build — this form is not wired to a mail handler yet. In the Elementor version this is the Form widget, routed to support@digi2u.org.';
-    return false;
+  /* The inquiry form has no server behind it, so rather than accept a
+     submission and silently drop it, it composes the message and hands it to
+     the sender's own mail client. Bound here rather than through an onsubmit
+     attribute: the handler lives in this closure, and inline handlers are the
+     first thing a content security policy removes. */
+  var form = document.querySelector('#apply form');
+  if (form) {
+    form.removeAttribute('onsubmit');
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var v = function (id) { var el = document.getElementById(id); return el ? el.value.trim() : ''; };
+      var name = v('f-name'), email = v('f-email'), interest = v('f-int'), message = v('f-msg');
+      var body = 'Name: ' + name + '\nEmail: ' + email + '\nInterested in: ' + interest +
+                 '\n\n' + (message || '(no message)');
+      window.location.href = 'mailto:support@digi2u.org' +
+        '?subject=' + encodeURIComponent('Digi2U enquiry — ' + interest) +
+        '&body=' + encodeURIComponent(body);
+      document.getElementById('f-note').textContent =
+        'Opening your email app with this enquiry ready to send. If nothing happens, ' +
+        'email support@digi2u.org directly and we will reply within one business day.';
+    });
   }
 
   window.__D2U_INIT = function () {
