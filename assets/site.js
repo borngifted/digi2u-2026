@@ -31,7 +31,11 @@
      Fallback image set and "Play on mobile" left off. */
   function videoIsWelcome() {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return false;
-    if (window.innerWidth < 900) return false;
+    /* A backgrounded or prerendered tab can report 0 here, which is "not
+       measured yet" rather than "very small screen" — fall back to the
+       documentElement before deciding the viewport is too narrow for video. */
+    var w = window.innerWidth || document.documentElement.clientWidth || 0;
+    if (w && w < 900) return false;
     var c = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
     if (c) {
       if (c.saveData) return false;

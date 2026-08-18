@@ -13,14 +13,17 @@ const D2U_CDN = 'https://digi2u.org/wp-content/uploads/2026/05/';
    bare 'assets/...' path would resolve to /events-2026/assets/... and 404 —
    which is why the hero videos never appeared on the live site. */
 const D2U_BASE = (function () {
+  /* Matches any of our asset filenames, not data-media.js specifically, so this
+     keeps working when the files are concatenated into a single bundle. */
+  var strip = /assets\/[^/?#]+\.js(?:[?#].*)?$/;
   var s = document.currentScript;
-  if (!s) {
+  if (!s || !strip.test(s.src || '')) {
     var all = document.getElementsByTagName('script');
-    for (var i = 0; i < all.length; i++) {
-      if (/data-media\.js/.test(all[i].src)) { s = all[i]; break; }
+    for (var i = all.length - 1; i >= 0; i--) {
+      if (strip.test(all[i].src || '')) { s = all[i]; break; }
     }
   }
-  return s && s.src ? s.src.replace(/assets\/data-media\.js.*$/, '') : '';
+  return s && strip.test(s.src || '') ? s.src.replace(strip, '') : '';
 }());
 
 const D2U_DECK = D2U_BASE + 'assets/deck/';

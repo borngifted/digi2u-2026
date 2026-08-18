@@ -26,6 +26,11 @@ const PAGES = {
 };
 
 const HEAD = [
+  // The stylesheet below is the first thing that needs the GitHub Pages origin,
+  // and it sits in the body — after ~200KB of WordPress <head>. Opening the
+  // connection up front takes DNS, TCP and TLS off the critical path.
+  '<link rel="preconnect" href="https://borngifted.github.io" crossorigin>',
+  '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>',
   '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap">',
   `<link rel="stylesheet" href="${CDN}assets/site-wp.css">`,
 ].join('\n');
@@ -49,6 +54,10 @@ for (const [name, meta] of Object.entries(PAGES)) {
   body = body.replace(/(src|href)="assets\//g, `$1="${CDN}assets/`)
              .replace(/(src|href)='assets\//g, `$1='${CDN}assets/`)
              .replace(/'assets\//g, `'${CDN}assets/`);
+
+  // One bundle per page instead of the eight separate files the demo loads.
+  body = body.replace(/<script src="[^"]*"><\/script>(\n<script src="[^"]*"><\/script>)*/,
+                      `<script src="${CDN}assets/bundle-${name}.js"></script>`);
 
   const out = HEAD + '\n' + body + '\n';
   fs.writeFileSync(`build/wp/${name}.html`, out);
